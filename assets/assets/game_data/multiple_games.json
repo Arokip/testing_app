@@ -1,0 +1,96 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "question": "Which of these is the largest planet in our solar system?",
+            "answers": [
+                {
+                    "label": "Earth",
+                    "explanation": "Earth is the third planet from the sun, but it is much smaller than Jupiter."
+                },
+                {
+                    "label": "Mars",
+                    "explanation": "Mars is known as the Red Planet, but it is one of the smallest planets."
+                },
+                {
+                    "label": "Jupiter",
+                    "explanation": "Jupiter is the largest planet in the solar system, with a massive size and thick atmosphere."
+                },
+                {
+                    "label": "Venus",
+                    "explanation": "Venus is similar in size to Earth, but it is not the largest planet."
+                }
+            ],
+            "correctAnswerIndex": 2
+        },
+        {
+            "id": 2,
+            "question": "Which language is primarily used for web development?",
+            "answers": [
+                {
+                    "label": "Python",
+                    "explanation": "Python is a versatile language used in many fields, but it is not the primary web development language."
+                },
+                {
+                    "label": "JavaScript",
+                    "explanation": "JavaScript is the most commonly used language for web development, powering both frontend and backend applications."
+                },
+                {
+                    "label": "C++",
+                    "explanation": "C++ is mainly used for system programming, game development, and performance-critical applications."
+                }
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "id": 3,
+            "question": "Which of these is a mammal?",
+            "answers": [
+                {
+                    "label": "Shark",
+                    "explanation": "Sharks are fish, not mammals. They breathe through gills and lay eggs or give live birth without nursing."
+                },
+                {
+                    "label": "Eagle",
+                    "explanation": "Eagles are birds, not mammals. They lay eggs and have feathers."
+                },
+                {
+                    "label": "Dolphin",
+                    "explanation": "Dolphins are mammals because they breathe air, give birth to live young, and nurse them with milk."
+                },
+                {
+                    "label": "Crocodile",
+                    "explanation": "Crocodiles are reptiles, not mammals. They lay eggs and have scaly skin."
+                }
+            ],
+            "correctAnswerIndex": 2
+        },
+        {
+            "id": 4,
+            "question": "Which continent has the most countries?",
+            "answers": [
+                {
+                    "label": "Asia",
+                    "explanation": "Asia is the largest continent, but it does not have the most countries."
+                },
+                {
+                    "label": "Africa",
+                    "explanation": "Africa has the most countries, with a total of 54 recognized sovereign nations."
+                },
+                {
+                    "label": "Europe",
+                    "explanation": "Europe has many countries, but fewer than Africa."
+                },
+                {
+                    "label": "South America",
+                    "explanation": "South America has only 12 independent countries."
+                },
+                {
+                    "label": "North America",
+                    "explanation": "North America consists of 23 countries, but it is not the continent with the most."
+                }
+            ],
+            "correctAnswerIndex": 1
+        }
+    ]
+}
