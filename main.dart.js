@@ -69045,7 +69045,7 @@ $2(a,b){return new A.pU(null)},
 $S:471}
 A.p2.prototype={
 L(a){var s=null
-return A.a2Z(s,B.zw,A.eU(A.iC(A.b([A.cn("Tactelligence dashboard",s,s,s),B.b2,A.pV(A.cn("binary game",s,s,s),new A.SL(a)),B.b2,A.pV(A.cn("quiz game",s,s,s),new A.SM(a)),B.b2,A.pV(A.cn("order game",s,s,s),new A.SN(a))],t.E),B.c_,B.b6,0),s,s))}}
+return A.a2Z(s,B.zw,A.eU(A.iC(A.b([A.cn("Snaxe dashboard",s,s,s),B.b2,A.pV(A.cn("binary game",s,s,s),new A.SL(a)),B.b2,A.pV(A.cn("quiz game",s,s,s),new A.SM(a)),B.b2,A.pV(A.cn("order game",s,s,s),new A.SN(a))],t.E),B.c_,B.b6,0),s,s))}}
 A.SL.prototype={
 $0(){return A.afX(this.a,"binary_game",t.X)},
 $S:0}
