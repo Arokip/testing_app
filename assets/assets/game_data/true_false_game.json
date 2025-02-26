@@ -1,8 +1,11 @@
 {
-    "games": [
+    "gameType": "trueFalse",
+    "prompt": "Prompt here",
+    "steps": [
         {
             "id": 1,
             "question": "Which planet is known as the Red Planet?",
+            "correctAnswerIndex": 0,
             "answers": [
                 {
                     "label": "Mars",
@@ -12,12 +15,12 @@
                     "label": "Venus",
                     "explanation": "Venus is often called Earth's twin, but it has a thick, toxic atmosphere and is not red."
                 }
-            ],
-            "correctAnswerIndex": 0
+            ]
         },
         {
             "id": 2,
             "question": "Which programming language is used to build Flutter apps?",
+            "correctAnswerIndex": 0,
             "answers": [
                 {
                     "label": "Dart",
@@ -27,12 +30,12 @@
                     "label": "Kotlin",
                     "explanation": "Kotlin is mainly used for Android development, but Flutter apps are built using Dart."
                 }
-            ],
-            "correctAnswerIndex": 0
+            ]
         },
         {
             "id": 3,
             "question": "Which ocean is the largest on Earth?",
+            "correctAnswerIndex": 1,
             "answers": [
                 {
                     "label": "Atlantic Ocean",
@@ -42,12 +45,12 @@
                     "label": "Pacific Ocean",
                     "explanation": "The Pacific Ocean is the largest ocean, covering more than 63 million square miles."
                 }
-            ],
-            "correctAnswerIndex": 1
+            ]
         },
         {
             "id": 4,
             "question": "Which element is necessary for humans to breathe?",
+            "correctAnswerIndex": 0,
             "answers": [
                 {
                     "label": "Oxygen",
@@ -57,8 +60,7 @@
                     "label": "Carbon Dioxide",
                     "explanation": "Carbon dioxide is a waste product of respiration and is expelled from the body."
                 }
-            ],
-            "correctAnswerIndex": 0
+            ]
         }
     ]
 }

@@ -1,5 +1,7 @@
 {
-    "games": [
+    "gameType": "multipleChoice",
+    "prompt": "Prompt here",
+    "steps": [
         {
             "id": 1,
             "question": "Which of these is the largest planet in our solar system?",
