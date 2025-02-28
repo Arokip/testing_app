@@ -1,64 +1,154 @@
 {
     "gameType": "trueFalse",
-    "prompt": "Prompt here",
+    "prompt": "Recognize signals that a discussion is unproductive and it's time to disengage to prevent further damage to the relationship and your emotions.\n\nRead each situation carefully and choose whether you should Engage or Disengage.",
     "steps": [
         {
             "id": 1,
-            "question": "Which planet is known as the Red Planet?",
+            "question": "Your colleague says, 'I'm upset you forgot our plans. It makes me feel unimportant. Why?! Can we talk about how to avoid this?'",
             "correctAnswerIndex": 0,
             "answers": [
                 {
-                    "label": "Mars",
-                    "explanation": "Mars is known as the Red Planet due to its reddish appearance caused by iron oxide on its surface."
+                    "label": "Engage",
+                    "explanation": "Yes! They're owning their feelings and inviting collaboration. This is how healthy conflict may lead to stronger relationships."
                 },
                 {
-                    "label": "Venus",
-                    "explanation": "Venus is often called Earth's twin, but it has a thick, toxic atmosphere and is not red."
+                    "label": "Disengage",
+                    "explanation": "They're expressing hurt and inviting problem-solving. This is vulnerability, not attack."
                 }
             ]
         },
         {
             "id": 2,
-            "question": "Which programming language is used to build Flutter apps?",
-            "correctAnswerIndex": 0,
+            "question": "Your report shuts down completely, giving one-word answers and avoiding eye contact.",
+            "correctAnswerIndex": 1,
             "answers": [
                 {
-                    "label": "Dart",
-                    "explanation": "Flutter uses the Dart programming language, which was developed by Google."
+                    "label": "Engage",
+                    "explanation": "Pushing further could worsen tension. Emotional withdrawal halts meaningful dialogue."
                 },
                 {
-                    "label": "Kotlin",
-                    "explanation": "Kotlin is mainly used for Android development, but Flutter apps are built using Dart."
+                    "label": "Disengage",
+                    "explanation": "Smart move. Forcing dialogue when someone's shut down rarely works. Give them space—you can revisit later with cooler heads."
                 }
             ]
         },
         {
             "id": 3,
-            "question": "Which ocean is the largest on Earth?",
+            "question": "Your boss interrupts your presentation to say, 'Wow, you actually prepared slides? I didn't think you cared enough to try.' His tone drips with mock surprise.",
             "correctAnswerIndex": 1,
             "answers": [
                 {
-                    "label": "Atlantic Ocean",
-                    "explanation": "The Atlantic Ocean is the second-largest ocean, but it is significantly smaller than the Pacific."
+                    "label": "Engage",
+                    "explanation": "The sarcasm is designed to humiliate, not critique. Engaging validates their tactic."
                 },
                 {
-                    "label": "Pacific Ocean",
-                    "explanation": "The Pacific Ocean is the largest ocean, covering more than 63 million square miles."
+                    "label": "Disengage",
+                    "explanation": "Exactly. Mockery isn't feedback—it's ego. Walking away denies them the reaction they crave."
                 }
             ]
         },
         {
             "id": 4,
-            "question": "Which element is necessary for humans to breathe?",
+            "question": "Your manager says, 'Your report missed key data points. This is BS. Yet let's review it together so it doesn't happen again.'",
             "correctAnswerIndex": 0,
             "answers": [
                 {
-                    "label": "Oxygen",
-                    "explanation": "Humans need oxygen to survive because it is essential for cellular respiration."
+                    "label": "Engage",
+                    "explanation": "Well done! They're frustrated but still handing you a lifeline. Fixing the issue together builds trust."
                 },
                 {
-                    "label": "Carbon Dioxide",
-                    "explanation": "Carbon dioxide is a waste product of respiration and is expelled from the body."
+                    "label": "Disengage",
+                    "explanation": "The criticism is direct and harsh but focused on improvement, not shaming. They're offering collaboration, not blame."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Your colleague says, 'You're the expert, right? So why does this feel like a kindergarten project?' He smirks and refuses to clarify what he wants.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Engage",
+                    "explanation": "They're baiting you into defensiveness, not seeking solutions."
+                },
+                {
+                    "label": "Disengage",
+                    "explanation": "Nailed it. Vague insults are bait. Refusing to bite shows you won't play their mind games."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "A client says, 'This design isn't working for me. I am really disappointed. Can you walk me through your thought process?' They seem annoyed but curious.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Engage",
+                    "explanation": "Yes! Disappointment is tough, but curiosity means they're open. This is your chance to turn frustration into alignment."
+                },
+                {
+                    "label": "Disengage",
+                    "explanation": "Frustration is present, but they're open to dialogue. This is a chance to align expectations and salvage the project."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Your teammate snaps, 'You're always taking over meetings! Let others speak!' Then they apologize for their tone but stand by their feedback.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Engage",
+                    "explanation": "Perfect. Harsh delivery + an apology = a chance to grow. Addressing this strengthens teamwork."
+                },
+                {
+                    "label": "Disengage",
+                    "explanation": "The delivery was harsh, but the intent is valid. Their apology signals respect."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Your boss says, 'You have a degree in this, so I guess we have to pretend your ideas matter. What's next, genius?'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Engage",
+                    "explanation": "Backhanded compliments weaponize your strengths."
+                },
+                {
+                    "label": "Disengage",
+                    "explanation": "Exactly. Backhanded praise is poison. Leaving the conversation denies it power."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "A mentor says, 'Your presentation lacked structure. Here's how to fix it—do you want feedback or just sympathy?' They smile slightly.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Engage",
+                    "explanation": "Great choice! Blunt feedback with solutions is a gift—even if it stings. This is how growth happens."
+                },
+                {
+                    "label": "Disengage",
+                    "explanation": "Blunt but solution-focused. The humor is teasing, not cruel, and they're investing in your growth."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "A coworker says, 'Your code caused the system crash yesterday. I spent 3 hours fixing it. What was the problem? I want to make sure this doesn't happen again.'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Engage",
+                    "explanation": "Yes! Urgency ≠ attack. Collaborating here prevents future fires and shows professionalism."
+                },
+                {
+                    "label": "Disengage",
+                    "explanation": "The criticism is direct and urgent, but they're focused on solving the problem with you, not shaming you."
                 }
             ]
         }

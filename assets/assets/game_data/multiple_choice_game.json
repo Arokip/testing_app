@@ -1,98 +1,196 @@
 {
     "gameType": "multipleChoice",
-    "prompt": "Prompt here",
+    "prompt": "Turn Tension into Teamwork!\n\nIn this game, you'll tackle tricky interactions by choosing responses that get results without sacrificing your sanity. Apply a growth mindset: Find win-win solutions, avoid power struggles, and never carry the burden alone.\n\nCarefully read the situation and choose the best response.",
     "steps": [
         {
             "id": 1,
-            "question": "Which of these is the largest planet in our solar system?",
+            "question": "Your teammate refuses to share critical project data, saying, 'I'm too busy. Figure it out yourself.' How do you respond?",
+            "correctAnswerIndex": 1,
             "answers": [
                 {
-                    "label": "Earth",
-                    "explanation": "Earth is the third planet from the sun, but it is much smaller than Jupiter."
+                    "label": "'Fine, I'll tell the boss you're sabotaging the project.'",
+                    "explanation": "Avoid this approach—threats damage trust and escalate conflict."
                 },
                 {
-                    "label": "Mars",
-                    "explanation": "Mars is known as the Red Planet, but it is one of the smallest planets."
+                    "label": "'I get that you're swamped. What if I draft the section for you? Then you just review it.'",
+                    "explanation": "Spot on! This balances their workload with your needs, fostering collaboration."
                 },
                 {
-                    "label": "Jupiter",
-                    "explanation": "Jupiter is the largest planet in the solar system, with a massive size and thick atmosphere."
-                },
-                {
-                    "label": "Venus",
-                    "explanation": "Venus is similar in size to Earth, but it is not the largest planet."
+                    "label": "'Never mind, I'll work all night to finish it alone.'",
+                    "explanation": "Not ideal—this reinforces their behavior and harms your well-being."
                 }
-            ],
-            "correctAnswerIndex": 2
+            ]
         },
         {
             "id": 2,
-            "question": "Which language is primarily used for web development?",
+            "question": "Your boss dismisses your proposal in a meeting, saying, 'This is naive. We need real solutions, not pipe dreams.' How do you respond?",
+            "correctAnswerIndex": 0,
             "answers": [
                 {
-                    "label": "Python",
-                    "explanation": "Python is a versatile language used in many fields, but it is not the primary web development language."
+                    "label": "'Could we test this on a small scale first? Low risk, high reward.'",
+                    "explanation": "Perfect! Offering a trial run addresses their concerns while validating your idea."
                 },
                 {
-                    "label": "JavaScript",
-                    "explanation": "JavaScript is the most commonly used language for web development, powering both frontend and backend applications."
+                    "label": "'Clearly, you don't value innovation. I'll take this elsewhere.'",
+                    "explanation": "Too confrontational—this burns bridges instead of building influence."
                 },
                 {
-                    "label": "C++",
-                    "explanation": "C++ is mainly used for system programming, game development, and performance-critical applications."
+                    "label": "'Fine, I'll drop it.'",
+                    "explanation": "Passivity stifles progress. Push respectfully for your vision."
                 }
-            ],
-            "correctAnswerIndex": 1
+            ]
         },
         {
             "id": 3,
-            "question": "Which of these is a mammal?",
+            "question": "A colleague keeps interrupting you in meetings, saying, 'Let's hear from someone experienced.' How do you handle it?",
+            "correctAnswerIndex": 2,
             "answers": [
                 {
-                    "label": "Shark",
-                    "explanation": "Sharks are fish, not mammals. They breathe through gills and lay eggs or give live birth without nursing."
+                    "label": "'You're being disrespectful. Let me finish!'",
+                    "explanation": "Confrontational—this escalates tension without resolving it."
                 },
                 {
-                    "label": "Eagle",
-                    "explanation": "Eagles are birds, not mammals. They lay eggs and have feathers."
+                    "label": "'I'll stay quiet the rest of the meeting.'",
+                    "explanation": "Counterproductive—silence lets them control the narrative."
                 },
                 {
-                    "label": "Dolphin",
-                    "explanation": "Dolphins are mammals because they breathe air, give birth to live young, and nurse them with milk."
-                },
-                {
-                    "label": "Crocodile",
-                    "explanation": "Crocodiles are reptiles, not mammals. They lay eggs and have scaly skin."
+                    "label": "'I'd love to hear your thoughts after I finish my point.'",
+                    "explanation": "Well done! Asserting your space while inviting collaboration."
                 }
-            ],
-            "correctAnswerIndex": 2
+            ]
         },
         {
             "id": 4,
-            "question": "Which continent has the most countries?",
+            "question": "Your report avoids accountability, saying, 'It's not my fault the client hated the design.' How do you respond?",
+            "correctAnswerIndex": 1,
             "answers": [
                 {
-                    "label": "Asia",
-                    "explanation": "Asia is the largest continent, but it does not have the most countries."
+                    "label": "'You're clearly not cut out for this role.'",
+                    "explanation": "Harsh—this shuts down growth and damages morale."
                 },
                 {
-                    "label": "Africa",
-                    "explanation": "Africa has the most countries, with a total of 54 recognized sovereign nations."
+                    "label": "'Let's focus on what we can fix now. How would you approach it differently?'",
+                    "explanation": "Effective! Redirecting to solutions builds accountability and learning."
                 },
                 {
-                    "label": "Europe",
-                    "explanation": "Europe has many countries, but fewer than Africa."
-                },
-                {
-                    "label": "South America",
-                    "explanation": "South America has only 12 independent countries."
-                },
-                {
-                    "label": "North America",
-                    "explanation": "North America consists of 23 countries, but it is not the continent with the most."
+                    "label": "'I'll handle the client myself.'",
+                    "explanation": "Short-term fix—this teaches avoidance, not responsibility."
                 }
-            ],
-            "correctAnswerIndex": 1
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Your boss micromanages your tasks, saying, 'I'll just redo this myself. You're not getting it.' How do you reply?",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "'If you hate my work so much, why bother assigning it?'",
+                    "explanation": "Defensive—this entrenches their micromanagement."
+                },
+                {
+                    "label": "'Do it your way, then.'",
+                    "explanation": "Passive—this prevents skill-building and alignment."
+                },
+                {
+                    "label": "'Could you walk me through your approach? I want to learn.'",
+                    "explanation": "Smart! Turning criticism into a mentorship opportunity."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "A colleague takes credit for your idea, saying, 'We all contributed, right?' How do you address it?",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "'I'm glad you see its potential! Let's collaborate on the next steps.'",
+                    "explanation": "Strategic! Claiming ownership gracefully while fostering teamwork."
+                },
+                {
+                    "label": "'You're a liar. I'm telling the boss.'",
+                    "explanation": "Aggressive—this creates enemies instead of allies."
+                },
+                {
+                    "label": "'Whatever. I'll keep my ideas to myself.'",
+                    "explanation": "Limiting—this reduces your impact and influence."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Your boss says, 'You're too slow. I could do this in half the time.' How do you respond?",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "'Then maybe you should do it yourself!'",
+                    "explanation": "Sarcastic—this escalates tension without solving the problem."
+                },
+                {
+                    "label": "'I'll rush through it next time.'",
+                    "explanation": "Risky—speed often sacrifices quality and accuracy."
+                },
+                {
+                    "label": "'I'd love tips to improve efficiency. What's your method?'",
+                    "explanation": "Brilliant! Turning criticism into a growth opportunity."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "A colleague passive-aggressively says, 'Must be nice to have time for extracurricular projects.' How do you reply?",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "'At least I'm not slacking like you.'",
+                    "explanation": "Unproductive—this fuels drama instead of resolving it."
+                },
+                {
+                    "label": "'I'm happy to share how I balance priorities if you're interested.'",
+                    "explanation": "Tactful! Neutralizing snark with openness and professionalism."
+                },
+                {
+                    "label": "'I'll stop taking initiative to avoid comments.'",
+                    "explanation": "Self-defeating—don't dim your light for others."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Your report misses a deadline and says, 'You didn't remind me enough.' How do you respond?",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "'Let's set up a system so deadlines are clearer. What tools would help you?'",
+                    "explanation": "Proactive! Solving the root issue empowers them long-term."
+                },
+                {
+                    "label": "'Start acting like an adult, not a child.'",
+                    "explanation": "Demoralizing—this breeds resentment, not accountability."
+                },
+                {
+                    "label": "'I'll just manage this myself from now on.'",
+                    "explanation": "Micromanaging—this stifles their growth and your time."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Your boss says, 'You're overcomplicating this. Just do what I say.' How do you reply?",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "'My approach is better. You're stuck in the past.'",
+                    "explanation": "Defiant—this risks your credibility and rapport."
+                },
+                {
+                    "label": "'I'll follow your method this time. Could we review the results afterward?'",
+                    "explanation": "Savvy! Respecting authority while leaving room for improvement."
+                },
+                {
+                    "label": "'Fine, I won't bother trying to improve things.'",
+                    "explanation": "Resigned—this halts progress and innovation."
+                }
+            ]
         }
     ]
 }

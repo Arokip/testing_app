@@ -39,6 +39,158 @@
                     "explanation": "Not really, it is aggressive. While it sets boundaries, it is harsh and closed-off."
                 }
             ]
+        },
+        {
+            "id": 3,
+            "question": "Um…okay, I'll try, but I'm not sure it's possible.",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "Assertive",
+                    "explanation": "Not really, this is passive. You're avoiding a firm stance, not protecting your bandwidth."
+                },
+                {
+                    "label": "Aggressive",
+                    "explanation": "Not really, this is passive. You're avoiding a firm stance, not protecting your bandwidth."
+                },
+                {
+                    "label": "Passive",
+                    "explanation": "You're avoiding a firm stance and not protecting your bandwidth. Try suggesting a solution."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Oh, okay. I guess I'll just have to work late every night this week and weekend. Hope my family understands.",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "Assertive",
+                    "explanation": "Not really, it is passive. You're hinting at your discomfort but not directly addressing the issue."
+                },
+                {
+                    "label": "Aggressive",
+                    "explanation": "Not really, it is passive. You're hinting at your discomfort but not directly addressing the issue."
+                },
+                {
+                    "label": "Passive",
+                    "explanation": "This is passive. You're hinting at your discomfort but not directly addressing the issue. This invites further exploitation of your time."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Well, you're the boss. I suppose you know best. Even though I'm already swamped...",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "Assertive",
+                    "explanation": "Not really, it is too passive. You're deferring to authority but do it with a somewhat passive-aggressive tone."
+                },
+                {
+                    "label": "Aggressive",
+                    "explanation": "Not really, it is too passive. You're deferring to authority but do it with a somewhat passive-aggressive tone."
+                },
+                {
+                    "label": "Passive",
+                    "explanation": "You're deferring to authority and minimizing your own needs with a somewhat passive-aggressive tone. This is unproductive."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "I understand the deadline has moved. To meet it, we'll need to re-prioritize existing tasks. Can we discuss it?",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Assertive",
+                    "explanation": "Excellent! You acknowledge the change, state the impact, and propose to collaborate on a solution."
+                },
+                {
+                    "label": "Aggressive",
+                    "explanation": "Nope. It is assertive. You acknowledge the change, state the impact, and propose to collaborate on a solution."
+                },
+                {
+                    "label": "Passive",
+                    "explanation": "Nope. It is assertive. You acknowledge the change, state the impact, and propose to collaborate on a solution."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Are you serious? That's completely unreasonable! You can't just spring this on me with no notice!",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Assertive",
+                    "explanation": "Not really, it is aggressive. This is confrontational and accusatory. While your frustration is understandable, this approach is likely to escalate the conflict."
+                },
+                {
+                    "label": "Aggressive",
+                    "explanation": "This is confrontational and accusatory. While your frustration is understandable, this approach is likely to escalate the conflict."
+                },
+                {
+                    "label": "Passive",
+                    "explanation": "Not really, it is aggressive. This is confrontational and accusatory. While your frustration is understandable, this approach is likely to escalate the conflict."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "This new deadline significantly impacts my current workload and the deliverables I've already committed to. I'm happy to discuss how we can realistically achieve this, but I need to understand how we can adjust priorities accordingly.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Assertive",
+                    "explanation": "Well done! You clearly explain the impact on you, express your willingness to work together, and seek necessary information."
+                },
+                {
+                    "label": "Aggressive",
+                    "explanation": "Nope. It is assertive. You clearly explain the impact on you, express your willingness to work together, and seek necessary information."
+                },
+                {
+                    "label": "Passive",
+                    "explanation": "Nope. It is assertive. You clearly explain the impact on you, express your willingness to work together, and seek necessary information."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "This is typical! You always do this! You don't care about my time or my other responsibilities.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Assertive",
+                    "explanation": "Not really, it is aggressive. This attacks the boss's character and generalizes their behavior. It's unlikely to lead to a productive conversation."
+                },
+                {
+                    "label": "Aggressive",
+                    "explanation": "This attacks the boss's character and generalizes their behavior. It's unlikely to lead to a productive conversation."
+                },
+                {
+                    "label": "Passive",
+                    "explanation": "Not really, it is aggressive. This attacks the boss's character and generalizes their behavior. It's unlikely to lead to a productive conversation."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "I'm concerned that moving the deadline forward by a week will compromise the quality of the project. Can we discuss how to ensure we can meet the new deadline without sacrificing quality?",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Assertive",
+                    "explanation": "Good job! You focus on the project's success, express your commitment, and invite a discussion about maintaining quality."
+                },
+                {
+                    "label": "Aggressive",
+                    "explanation": "Nope. It is assertive. You focus on the project's success, express your commitment, and invite a discussion about maintaining quality."
+                },
+                {
+                    "label": "Passive",
+                    "explanation": "Nope. It is assertive. You focus on the project's success, express your commitment, and invite a discussion about maintaining quality."
+                }
+            ]
         }
     ]
 }
