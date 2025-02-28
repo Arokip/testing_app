@@ -69191,7 +69191,7 @@ $0(){J.eo(A.wo(this.a,!1,t.oZ),B.xX)},
 $S:0}
 A.Gf.prototype={
 L(a){var s=null
-return A.hH(A.b([A.ce("quiz game - overview",s,s,s),B.aK,A.afA(),A.ce("promp:\n"+this.c.a.a,s,s,s),B.aK,A.na(A.ce("start game",s,s,s),new A.a1f(a))],t.E),B.b7,B.aV,0)}}
+return A.hH(A.b([A.ce("quiz game - overview",s,s,s),B.aK,A.afA(),A.ce("prompt:\n"+this.c.a.a,s,s,s),B.aK,A.na(A.ce("start game",s,s,s),new A.a1f(a))],t.E),B.b7,B.aV,0)}}
 A.a1f.prototype={
 $0(){J.eo(A.wo(this.a,!1,t.oZ),B.yq)},
 $S:0}
