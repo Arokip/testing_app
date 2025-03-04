@@ -1,5 +1,6 @@
 {
-    "gameType": "trueFalse",
+    "type": "trueFalse",
+    "title": "Taming the Tiger",
     "prompt": "Recognize signals that a discussion is unproductive and it's time to disengage to prevent further damage to the relationship and your emotions.\n\nRead each situation carefully and choose whether you should Engage or Disengage.",
     "steps": [
         {

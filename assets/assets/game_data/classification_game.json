@@ -1,5 +1,6 @@
 {
-    "gameType": "classification",
+    "type": "classification",
+    "title": "Sorting the Snakes",
     "prompt": "Learn to set boundaries effectively without being too aggressive or passive and master the art of assertive communication.\n\nImagine your boss, disregarding your workload, abruptly moving a major project deadline forward by a week with no explanation.\n\nRead the answers and assess if they are rightly assertive or too aggressive or passive.",
     "steps": [
         {

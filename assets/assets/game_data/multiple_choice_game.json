@@ -1,5 +1,6 @@
 {
-    "gameType": "multipleChoice",
+    "type": "multipleChoice",
+    "title": "Defusing the Vulture",
     "prompt": "Turn Tension into Teamwork!\n\nIn this game, you'll tackle tricky interactions by choosing responses that get results without sacrificing your sanity. Apply a growth mindset: Find win-win solutions, avoid power struggles, and never carry the burden alone.\n\nCarefully read the situation and choose the best response.",
     "steps": [
         {
