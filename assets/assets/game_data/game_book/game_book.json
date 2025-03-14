@@ -2,87 +2,270 @@
     "type": "gameBook",
     "title": "Navigate Toxic Leadership Effectively!",
     "prompt": "In this game, you'll face a hostile-aggressive boss and learn to manage difficult interactions without compromising your well-being or career. Practice setting boundaries, communicating assertively, and maintaining professionalism even when faced with unreasonable demands or criticism.\n\nCarefully read each scenario, consider the possible outcomes, and select the response that best balances getting results with protecting your professional reputation and mental health.",
+    "initialStepId": 0,
     "steps": [
         {
             "id": 0,
-            "description": "Your boss, as you know, is hostile-aggressive.\n\nHe recently criticized your performance in a team meeting. You enter his office to discuss next quarter's targets. He starts without greeting you, drumming his fingers impatiently on the desk.",
-            "question": "\"These targets aren't rocket science. Why can't you just get it done on time like everyone else?\"",
+            "description": "Your boss, as you know, is hostile-aggressive.\n\nHe recently criticized your performance in a team meeting. You enter his office to discuss next quarter's targets. He starts without greeting you, drumming his fingers impatiently on the desk...",
+            "imageId": "boss_1",
+            "question": "These targets aren't rocket science. Why can't you just get it done on time like everyone else?",
             "answers": [
                 {
-                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "reply": "I see you're upset. Let's break down what's causing the delay.",
                     "nextStepId": 1
                 },
                 {
-                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "reply": "Don't talk to me that way, I'm doing my best!",
                     "nextStepId": 2
                 },
                 {
-                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "reply": "I'm sorry, I'm sorry— I'll do whatever you say.",
                     "nextStepId": 3
                 }
             ]
         },
         {
             "id": 1,
-            "description": "Your boss's jaw unclenches slightly. He leans back and sighs. He glances at his watch—he has another meeting in 15 minutes..",
-            "question": "\"Fine, let's see why you're behind. I'm listening.\"",
+            "description": "Your boss's jaw unclenches slightly. He leans forward and glances at his watch—he has another meeting in 15 minutes.",
+            "imageId": "boss_2",
+            "question": "Fine, let's see why you're behind. I'm listening.",
             "answers": [
                 {
-                    "label": "I see you're upset. Let's break down what's causing the delay.",
-                    "nextStepId": null,
-                    "conclusion": "some explanation after this answer."
+                    "reply": "Honestly, it's the new IT system and marketing team's last-minute changes. How am I supposed to keep up?",
+                    "nextStepId": 4
                 },
                 {
-                    "label": "I see you're upset. Let's break down what's causing the delay.",
-                    "nextStepId": null,
-                    "conclusion": "some explanation after this answer."
+                    "reply": "The delay is partly due to scope changes and my backlog. I've adjusted priorities, but could we have quick check-ins twice a week to catch problems early?",
+                    "nextStepId": 5
                 },
                 {
-                    "label": "I see you're upset. Let's break down what's causing the delay.",
-                    "nextStepId": null,
-                    "conclusion": "some explanation after this answer."
+                    "reply": "To hit the deadline without sacrificing quality, I need to deprioritize another task. Could we delegate it or adjust its timeline?",
+                    "nextStepId": 6
                 }
             ]
         },
         {
             "id": 2,
-            "question": "Your boss, as you know, is hostile-aggressive.\n\nHe recently criticized your performance in a team meeting. You enter his office to discuss next quarter's targets. He starts without greeting you, drumming his fingers impatiently on the desk:\n\n\"These targets aren't rocket science. Why can't you just get it done on time like everyone else?\"\n\nHow do you respond?",
+            "description": "Your boss erupts in anger, his ego bruised by your perceived defiance. He interprets your resistance as a threat to his authority. ",
+            "imageId": "boss_2",
+            "question": "Clearly you can't handle feedback. I might need to reassign this project.",
             "answers": [
                 {
-                    "label": "I see you're upset. Let's break down what's causing the delay.",
-                    "nextStepId": null,
-                    "conclusion": "some explanation after this answer."
+                    "reply": "This project has been challenging, but I want to handle feedback effectively. Could you give me one or two concrete points you need changed first?",
+                    "nextStepId": 7
                 },
                 {
-                    "label": "I see you're upset. Let's break down what's causing the delay.",
-                    "nextStepId": null,
-                    "conclusion": "some explanation after this answer."
+                    "reply": "Your criticism makes it impossible to focus. How can I improve without clear feedback?",
+                    "nextStepId": 8
                 },
                 {
-                    "label": "I see you're upset. Let's break down what's causing the delay.",
-                    "nextStepId": null,
-                    "conclusion": "some explanation after this answer."
+                    "reply": "Reassign it! I'd rather quit than endure your toxic micromanaging!",
+                    "result": "Your boss's face shows cold satisfaction. He stands and leans across the desk. \"Since you're clearly not up to it, I'll hand this to someone who won't crumble under pressure, get out. They'll send your things.\"",
+                    "imageId": "boss_4",
+                    "outcome": "Your hasty resignation is processed within hours. Security escorts you out as colleagues watch. Industry contacts report your boss describing you as \"unstable\" and \"combative\" to potential employers. Six months later, you're still job-hunting.",
+                    "lesson": "Explosive exits feel momentarily satisfying but have lasting professional consequences. Document toxic behavior through proper channels before considering departure."
                 }
             ]
         },
         {
             "id": 3,
-            "question": "Your boss, as you know, is hostile-aggressive.\n\nHe recently criticized your performance in a team meeting. You enter his office to discuss next quarter's targets. He starts without greeting you, drumming his fingers impatiently on the desk:\n\n\"These targets aren't rocket science. Why can't you just get it done on time like everyone else?\"\n\nHow do you respond?",
+            "description": "Your boss shows volatile impatience.",
+            "imageId": "boss_2",
+            "question": "Look, just fix it or I'll find someone else who can. I'm tired of excuses.",
             "answers": [
                 {
-                    "label": "I see you're upset. Let's break down what's causing the delay.",
-                    "nextStepId": null,
-                    "conclusion": "some explanation after this answer."
+                    "reply": "Yes, of course! I'll do whatever it takes—I'll work all night if necessary!",
+                    "action": "You leave quickly.",
+                    "result": "You work 20-hour days, sacrificing health and relationships. Your deliverable meets the deadline but lacks polish. Your boss coldly says, \"Finally. Now do it faster next time.\"",
+                    "imageId": "boss_4",
+                    "outcome": "Your all-nighters become the new expectation. Three months later, you're hospitalized for exhaustion. HR processes short-term disability, but your boss hires your replacement during your absence. You return to find your desk cleared and responsibilities redistributed.",
+                    "lesson": "Martyrdom impresses no one. Hostile-aggressive bosses view self-sacrifice as weakness, not dedication. Health boundaries are non-negotiable."
                 },
                 {
-                    "label": "I see you're upset. Let's break down what's causing the delay.",
-                    "nextStepId": null,
-                    "conclusion": "some explanation after this answer."
+                    "reply": "Understood. Could you quickly confirm which parts need the most attention so I don't waste time?",
+                    "nextStepId": 9
                 },
                 {
-                    "label": "I see you're upset. Let's break down what's causing the delay.",
-                    "nextStepId": null,
-                    "conclusion": "some explanation after this answer."
+                    "reply": null,
+                    "action": "Leave without saying a word.",
+                    "result": "Your boss's face turns purple. \"You're done,\" he hisses, emailing HR before you reach the door. You're placed on \"administrative leave.\" Colleagues avoid you as rumors paint you as \"unstable.\" Months later, you're quietly demoted.",
+                    "imageId": "boss_4",
+                    "outcome": "After walking out, you're labeled \"difficult\" across the department. Colleagues avoid collaborating with you, fearing association. Six months later, you're passed over for promotion: \"Not a team player.\" Your boss smirks during the announcement.",
+                    "lesson": "Silent exits feel dignified but appear unprofessional. Hostile-aggressive bosses control the narrative if you leave it unchallenged."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "description": "Your boss flushes red. He doesn't care who messed up—he only cares about results. He jabs a finger at you.",
+            "imageId": "boss_3",
+            "question": "You're paid to solve problems, not whine. Fix. It.",
+            "answers": [
+                {
+                    "reply": "But you have no idea how incompetent those teams are. There's only so much I can do.",
+                    "result": "Your boss stands abruptly, his chair screeching backward. \"You're done,” he snaps, tossing a folder across the desk. \"Get out.”",
+                    "imageId": "boss_4",
+                    "outcome": "Removed from the project; credibility destroyed.",
+                    "lesson": "Blame-shifting erodes trust permanently with hostile-aggressive bosses. Never double down."
+                },
+                {
+                    "reply": "Fine, I'll try to work around them. Maybe by next Friday? I'll see if that's possible.",
+                    "result": "He sneers, \"'Next Friday? Maybe?' 'You'll see if?' Pathetic.\" Mimicking your tone, he adds, \"It's due Wednesday—no excuses.\" He turns to his computer, dismissing you.",
+                    "imageId": "boss_4",
+                    "outcome": "Unrealistic deadline imposed; setup to fail.",
+                    "lesson": "Vagueness invites exploitation. Hostile-aggressive bosses weaponize uncertainty."
+                },
+                {
+                    "reply": "I understand you want results. I'll push Marketing for updates and work around IT issues. Done by Friday without fail.",
+                    "result": "The boss narrows his eyes, silent for a tense moment. Finally, he grunts, \"Friday. Not a minute later.\" As you leave, he mutters, \"And CC me on every email to Marketing.\"",
+                    "imageId": "boss_4",
+                    "outcome": "Deadline accepted, but micromanagement intensifies.",
+                    "lesson": "Assertive ownership mitigates immediate fallout but requires flawless execution to rebuild trust."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "description": "Your boss narrows his eyes. He's still irritated but notices you've identified specific causes. When you propose check-ins, he cuts you off.",
+            "imageId": "boss_3",
+            "question": "I don't have time for extra meetings. You handle it, or I'll find someone who can.",
+            "answers": [
+                {
+                    "reply": "Without these check-ins, we risk the same issues. We must hold a weekly meeting to ensure we're on track.",
+                    "result": "Your boss slams his fist on the desk. \"Did you not hear me? No. Meetings.\" He shoves a document toward you. \"Sign this—you'll deliver by Friday, no excuses. Miss it, you're off the project.\"",
+                    "imageId": "boss_4",
+                    "outcome": "Forced to accept a punitive deadline with no support.",
+                    "lesson": "Rigid demands backfire; hostile-aggressive bosses retaliate when cornered."
+                },
+                {
+                    "reply": "Alright, I won't bother you with meetings. I'll handle everything myself and report when it's done.",
+                    "result": "He smirks, pleased by your submission. \"Good. Handle it—I don't want to hear another peep.\" Weeks later, when delays occur, he blames you publicly: \"You promised you could manage. Pathetic.\"",
+                    "imageId": "boss_4",
+                    "outcome": "Isolation and scapegoating; no recourse for unforeseen obstacles.",
+                    "lesson": "Over-compliance erases your safety net. Always negotiate some accountability."
+                },
+                {
+                    "reply": "I'll handle the heavy lifting without formal check-ins. But for major obstacles, can I send a quick email for sign-off?",
+                    "result": "Your boss pauses, then gives a curt nod. \"Fine. Only for major issues—don't spam my inbox.\" As you leave: \"And CC my assistant. I'll decide if it's worth my time.\" Later, he responds to your first email with a terse \"Approved.\"",
+                    "imageId": "boss_4",
+                    "outcome": "Retains autonomy while ensuring transparency. Micromanagement decreases over time.",
+                    "lesson": "Flexible boundaries (emails > meetings) satisfy hostile-aggressive bosses' need for control without overwhelming them."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "description": "Your boss narrows his eyes at your request to delegate or extend timelines. He pauses, grudgingly recognizing the logic.",
+            "imageId": "boss_3",
+            "question": "You think you're the first to whine about workload? Spare me.",
+            "answers": [
+                {
+                    "reply": "With respect, this isn't about whining—it's about quality work. If we don't adjust priorities, the project will suffer.",
+                    "result": "Your boss's face darkens. \"'Need my support?'\" he mimics. \"Here's my support: Do. Your. Job.\" He tears the timeline in half. \"Deliver everything by Friday. Bother me about 'priorities' again, you'll prioritize your resumé.\"",
+                    "imageId": "boss_4",
+                    "outcome": "Forced to work unsustainable hours; burnout inevitable.",
+                    "lesson": "Direct challenges to a hostile-aggressive boss's authority often backfire. Frame requests as their success, not your needs."
+                },
+                {
+                    "reply": "I didn't mean to overstep. Forget I asked. I'll figure it out on my own.",
+                    "result": "A smirk curls his lips. \"Finally talking sense,\" he says, tossing the timeline into trash. \"Stay late, cancel plans—just get it done.\" Later, when exhaustion makes you miss a deadline, he berates you publicly: \"You swore you could handle it. Useless.\"",
+                    "imageId": "boss_4",
+                    "outcome": "Loss of credibility; exploited for compliance.",
+                    "lesson": "Surrendering boundaries invites exploitation. Hostile-aggressive bosses see retreat as weakness."
+                },
+                {
+                    "reply": "If we do nothing, I'll need to reduce time on the other task by 50%. Would you prefer that trade-off, or should we loop in colleagues to assist?",
+                    "result": "The boss glares at the timeline, then snorts. \"The other project? Who cares? Cut it,\" he scribbles on the document. \"And CC me when you email colleagues—I'll 'remind' them to help.\" His micromanagement eases as deadlines are met.",
+                    "imageId": "boss_4",
+                    "outcome": "Partial win—workload reduced, but under scrutiny.",
+                    "lesson": "Offering controlled choices (Task X vs. Y) lets hostile-aggressive bosses feel in command while granting you flexibility."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "description": "Your boss leans back, arms crossed. His rage tempers slightly at your shift to problem-solving.",
+            "imageId": "boss_3",
+            "question": "Finally, some backbone. Cut the fluff—get straight to the cost-benefit. Fix those, and we'll see if you can handle the rest.",
+            "answers": [
+                {
+                    "reply": "Sure, I'll fix that right away. No problem at all!",
+                    "result": "You delete entire sections to \"cut the fluff.\" The report lacks critical context. Your boss shreds it in the next team meeting: \"This is half-baked. Did you even try to think?\" Colleagues whisper as you're sidelined from future projects.",
+                    "imageId": "boss_4",
+                    "outcome": "Reputation damaged; professional judgment questioned.",
+                    "lesson": "Blind compliance without clarification guarantees failure. Always confirm expectations."
+                },
+                {
+                    "reply": "I can do that, but this will take more time if I'm juggling three other projects. Can we extend the deadline?",
+                    "result": "\"You want more time? Pathetic,\" he snaps, but relents: \"Fine. If the CEO complains, you're fired.\" You focus solely on the report, which leadership praises, but your boss claims credit: \"My oversight saved this dumpster fire.\" Your neglected projects become ammunition against your promotion.",
+                    "imageId": "boss_4",
+                    "outcome": "Short-term win, long-term loss; boss steals credit while setting you up for future failure.",
+                    "lesson": "Negotiating one deadline creates vulnerability elsewhere. Document all agreements and priorities."
+                },
+                {
+                    "reply": "Got it—tighten cost-benefit. Are there specific sources or points you want highlighted? I'll finalize by Thursday.",
+                    "result": "The boss growls, \"Use Q3 sales data, not this garbage. Highlight ROI—risks are excuses.\" You deliver a focused report by Thursday. He forwards it to the CEO: \"My relentless push got this done.\" Later, he assigns a high-stakes task: \"Don't screw up like last time.\"",
+                    "imageId": "boss_4",
+                    "outcome": "Grudging respect earned; still takes credit but relies on your competence.",
+                    "lesson": "Clarifying ambiguity robs hostile bosses of excuses to criticize. They'll steal credit but may value your work."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "description": "Your boss's rage simmers below the surface, a vein pulsing in his temple. Your defiance wounded his ego, and he's torn between retaliation and salvaging the project.",
+            "imageId": "boss_3",
+            "question": "It is my fault?!",
+            "answers": [
+                {
+                    "reply": "Yes, it is your fault. If you want me to succeed, maybe learn to give feedback without yelling.",
+                    "result": "Your boss's face darkens. \"My fault?\" he whispers, trembling with fury. Suddenly, he erupts: \"GET OUT. NOW.\"",
+                    "imageId": "boss_4",
+                    "outcome": "Relationship permanently damaged; possible termination.",
+                    "lesson": "Directly blaming a hostile-aggressive boss destroys any chance of recovery. They'll reframe criticism as insubordination."
+                },
+                {
+                    "reply": "I'm sorry—I didn't mean it that way. It's my fault. Please don't replace me.",
+                    "result": "Your boss smirks, savoring your submission. \"Glad you see sense,\" he sneers. \"Work nights and weekends to fix this. I'll review every edit.\" He rejects drafts for minor font issues. Exhausted, you make a critical error—he uses it to justify firing you.",
+                    "imageId": "boss_4",
+                    "outcome": "Exploited, then discarded when convenient.",
+                    "lesson": "Self-blame invites abuse. Hostile bosses view apologies as invitations to increase demands until you break."
+                },
+                {
+                    "reply": "I apologize for my outburst. I got defensive. Let's focus on what needs fixing—I'm ready to hear your concerns.",
+                    "result": "Your boss stares silently for an excruciating moment. \"Lucky I'm giving you another chance,\" he finally growls. \"Redo the proposal—cut jargon, add metrics. CC me on every client email.\" Under scrutiny, your work impresses the client. He coldly acknowledges: \"Took you long enough.\"",
+                    "imageId": "boss_4",
+                    "outcome": "Preserved professional standing; earned minimal respect.",
+                    "lesson": "Owning mistakes while refocusing on solutions preserves dignity. Hostile bosses may still be difficult but will hesitate to discard proven competence."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "description": "Your boss leans back with a cold smirk. Your submission appeases his ego, but his trust remains shattered. He views your apology as weakness—a green light to escalate demands. He tosses the report at you.",
+            "imageId": "boss_3",
+            "question": "Fix these two things. Now.",
+            "answers": [
+                {
+                    "reply": "Sure, I'll fix the intro and cut the fluff right away. No problem at all!",
+                    "result": "You frantically delete sections to meet his definition of \"no fluff.\" The report lacks critical context. He shreds it in front of the team: \"This is garbage. Did you even try?\" The project goes to a colleague as he mutters, \"Waste of my time.\" You're sidelined indefinitely.",
+                    "imageId": "boss_4",
+                    "outcome": "Reputation for incompetence; professionally isolated.",
+                    "lesson": "Blind compliance breeds contempt. Hostile bosses interpret eagerness as incompetence—always clarify expectations."
+                },
+                {
+                    "reply": "Got it—update the intro and tighten the cost-benefit section. Any specific sources you want highlighted? I'll finalize by Thursday.",
+                    "result": "Your boss rolls his eyes but growls, \"Use Q3 sales figures and the CEO's last email. Stop wasting my time.\" You deliver a polished draft by Thursday. He forwards it with: \"My oversight saved this.\" Later, he assigns another high-stakes task—\"Don't screw up this time.\"",
+                    "imageId": "boss_4",
+                    "outcome": "Grudging professional respect; still takes credit but assigns important work.",
+                    "lesson": "Forced specificity disarms hostility. Document instructions to avoid future blame."
+                },
+                {
+                    "reply": "I'm really sorry again. I'll fix everything and do whatever it takes not to disappoint you.",
+                    "result": "Your boss's smirk widens. \"Good. Work nights until this is perfect,\" he says, moving the deadline up two days. You sacrifice sleep to meet demands, but he rejects each draft for minor formatting. When you collapse from exhaustion, he remarks: \"Weak. Just like I thought.\"",
+                    "imageId": "boss_4",
+                    "outcome": "Health compromised; professionally diminished.",
+                    "lesson": "Over-apologizing invites exploitation. Hostile bosses see self-blame as permission to abuse—balance accountability with self-respect."
                 }
             ]
         }
