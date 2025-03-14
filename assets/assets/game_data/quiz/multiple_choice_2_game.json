@@ -1,0 +1,197 @@
+{
+    "type": "multipleChoice",
+    "title": "Controlling the Bird of Prey",
+    "prompt": "Master the art of empathetic listening!\n\nIn this game, you'll read a workplace complaint and choose the most effective empathetic response. Learn to recognize and respond to others' emotions with empathy, avoiding escalation and fostering effective communication.\n\nCarefully read the situation and choose the best reaction.",
+    "steps": [
+        {
+            "id": 1,
+            "question": "'I'm sick of this place. Nobody respects my time, and I'm doing all the heavy lifting!'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "'I have my own problems, you know.'",
+                    "explanation": "Shifts focus to yourself, dismissing their feelings and making them feel unheard."
+                },
+                {
+                    "label": "'It sounds like you're frustrated and feel you're carrying extra weight. Did I get that right?'",
+                    "explanation": "Spot on! You named their emotion and paraphrased their concern to show understanding."
+                },
+                {
+                    "label": "'Wow, you're so negative. Calm down!'",
+                    "explanation": "Judges their emotion and tells them to 'calm down,' which often escalates tension."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "'You're all incompetent. If I weren't here to clean up your messes, this team would collapse.'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "'It sounds like you're feeling overwhelmed by the pressure. Want to talk about how we could share the load?'",
+                    "explanation": "You acknowledged their stress and invited collaboration, disarming hostility."
+                },
+                {
+                    "label": "'Silence, then walking away.'",
+                    "explanation": "Ignores the aggression and leaves the conflict unresolved."
+                },
+                {
+                    "label": "'You're the one causing problems with your attitude!'",
+                    "explanation": "Attacking their attitude escalates the conflict and risks a power struggle."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "'This project is doomed. Management doesn't care, and we're all wasting our time.'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "'You're always so pessimistic. Lighten up!'",
+                    "explanation": "Invalidates their concerns and shuts down dialogue."
+                },
+                {
+                    "label": "'I hear you're worried about the project's direction. What specifically feels off to you?'",
+                    "explanation": "You named their emotion and asked for specifics to turn complaints into solutions."
+                },
+                {
+                    "label": "'Yeah, but at least we're getting paid, right?'",
+                    "explanation": "Minimizes their frustration and sounds dismissive."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "'Your idea won't work. I've tried it before—trust me, I know better.'",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "'Fine, do it your way then.'",
+                    "explanation": "Passive-aggressive compliance breeds resentment and kills innovation."
+                },
+                {
+                    "label": "'Maybe if you weren't so stubborn, we could make progress!'",
+                    "explanation": "Calling them 'stubborn' triggers defensiveness and derails teamwork."
+                },
+                {
+                    "label": "'You've got experience here. Can you share what didn't work last time so we can adjust?'",
+                    "explanation": "Validates their expertise while inviting collaboration, fostering respect."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "'Everyone's out to get me. I can't catch a break here.'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "'Well, maybe if you worked harder…'",
+                    "explanation": "Blaming their work ethic deepens their sense of victimhood."
+                },
+                {
+                    "label": "'It must feel isolating to think others aren't on your side. Can you share an example?'",
+                    "explanation": "Acknowledges their isolation and invites them to clarify, building trust."
+                },
+                {
+                    "label": "'You're being paranoid. No one cares that much.'",
+                    "explanation": "Invalidates their experience and shuts down communication."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "A teammate says, 'I deserve all the credit for this success. The rest of you just followed my lead.' How do you respond?",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "'Sure, whatever you say.'",
+                    "explanation": "Passive agreement enables their ego without addressing team dynamics."
+                },
+                {
+                    "label": "'You're clearly proud of your role here. How do you think we could highlight everyone's strengths moving forward?'",
+                    "explanation": "You recognized their pride and redirected the focus to team collaboration."
+                },
+                {
+                    "label": "'You're delusional. We all contributed!'",
+                    "explanation": "'Delusional' is combative and risks a hostile reaction."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "A colleague rolls their eyes and says, 'Oh, great idea. Let's waste another week on this.' How do you respond?",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "'I sense some hesitation. What part of the plan worries you?'",
+                    "explanation": "You addressed the sarcasm calmly and invited constructive feedback."
+                },
+                {
+                    "label": "'Yeah, you're probably right. Let's scrap it.'",
+                    "explanation": "Agreeing to scrap the plan rewards negativity and avoids problem-solving."
+                },
+                {
+                    "label": "'Stop rolling your eyes and act like an adult!'",
+                    "explanation": "Criticizing their maturity escalates tension and entrenches resistance."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "A supervisor says, 'Why didn't you check with me first? I need to approve every step!' How do you respond?",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "'Sorry, I'll never make a decision again.'",
+                    "explanation": "Sarcastic compliance damages trust and avoids addressing the core issue."
+                },
+                {
+                    "label": "'It's important to you that things are done precisely. How can we streamline communication without delays?'",
+                    "explanation": "You validated their need for control and proposed a practical solution."
+                },
+                {
+                    "label": "'You're suffocating me! Back off!'",
+                    "explanation": "'Suffocating me' is hostile and worsens the power dynamic."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "A coworker says, 'This new system is pointless. The old way worked fine!' How do you respond?",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "'Change can feel unsettling. What part of the old system worked best for you?'",
+                    "explanation": "You named their emotion ('unsettling') and invited them to share insights."
+                },
+                {
+                    "label": "'You're just afraid of progress.'",
+                    "explanation": "Accusing them of fear shuts down dialogue and fuels resistance."
+                },
+                {
+                    "label": "'Nobody asked you.'",
+                    "explanation": "'Nobody asked you' is rude and dismisses their perspective entirely."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "A colleague says, 'Did you hear about Sarah? Rumor is she's getting fired for messing up the budget.' How do you respond?",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "'Oh my god, really? Tell me more!'",
+                    "explanation": "Engaging with gossip fuels drama and erodes trust."
+                },
+                {
+                    "label": "'That's none of your business.'",
+                    "explanation": "'None of your business' shames them and closes off productive conversation."
+                },
+                {
+                    "label": "'I'm not comfortable speculating, but it sounds like you're worried about team stability. Want to talk about that?'",
+                    "explanation": "You set a boundary while addressing their underlying anxiety."
+                }
+            ]
+        }
+    ]
+}

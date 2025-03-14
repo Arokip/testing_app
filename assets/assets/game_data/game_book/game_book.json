@@ -1,0 +1,90 @@
+{
+    "type": "gameBook",
+    "title": "Navigate Toxic Leadership Effectively!",
+    "prompt": "In this game, you'll face a hostile-aggressive boss and learn to manage difficult interactions without compromising your well-being or career. Practice setting boundaries, communicating assertively, and maintaining professionalism even when faced with unreasonable demands or criticism.\n\nCarefully read each scenario, consider the possible outcomes, and select the response that best balances getting results with protecting your professional reputation and mental health.",
+    "steps": [
+        {
+            "id": 0,
+            "description": "Your boss, as you know, is hostile-aggressive.\n\nHe recently criticized your performance in a team meeting. You enter his office to discuss next quarter's targets. He starts without greeting you, drumming his fingers impatiently on the desk.",
+            "question": "\"These targets aren't rocket science. Why can't you just get it done on time like everyone else?\"",
+            "answers": [
+                {
+                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "nextStepId": 1
+                },
+                {
+                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "nextStepId": 2
+                },
+                {
+                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "nextStepId": 3
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "description": "Your boss's jaw unclenches slightly. He leans back and sighs. He glances at his watch—he has another meeting in 15 minutes..",
+            "question": "\"Fine, let's see why you're behind. I'm listening.\"",
+            "answers": [
+                {
+                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "nextStepId": null,
+                    "conclusion": "some explanation after this answer."
+                },
+                {
+                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "nextStepId": null,
+                    "conclusion": "some explanation after this answer."
+                },
+                {
+                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "nextStepId": null,
+                    "conclusion": "some explanation after this answer."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Your boss, as you know, is hostile-aggressive.\n\nHe recently criticized your performance in a team meeting. You enter his office to discuss next quarter's targets. He starts without greeting you, drumming his fingers impatiently on the desk:\n\n\"These targets aren't rocket science. Why can't you just get it done on time like everyone else?\"\n\nHow do you respond?",
+            "answers": [
+                {
+                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "nextStepId": null,
+                    "conclusion": "some explanation after this answer."
+                },
+                {
+                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "nextStepId": null,
+                    "conclusion": "some explanation after this answer."
+                },
+                {
+                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "nextStepId": null,
+                    "conclusion": "some explanation after this answer."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Your boss, as you know, is hostile-aggressive.\n\nHe recently criticized your performance in a team meeting. You enter his office to discuss next quarter's targets. He starts without greeting you, drumming his fingers impatiently on the desk:\n\n\"These targets aren't rocket science. Why can't you just get it done on time like everyone else?\"\n\nHow do you respond?",
+            "answers": [
+                {
+                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "nextStepId": null,
+                    "conclusion": "some explanation after this answer."
+                },
+                {
+                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "nextStepId": null,
+                    "conclusion": "some explanation after this answer."
+                },
+                {
+                    "label": "I see you're upset. Let's break down what's causing the delay.",
+                    "nextStepId": null,
+                    "conclusion": "some explanation after this answer."
+                }
+            ]
+        }
+    ]
+}
