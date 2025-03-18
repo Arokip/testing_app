@@ -1,0 +1,158 @@
+{
+    "type": "classification",
+    "title": "Sorting the Snakes",
+    "image": "snake",
+    "prompt": "Growth Mindset Principles: True or False\n\nIn this game, you'll evaluate statements about growth mindset to determine whether they reflect accurate principles of learning, development, and approaching challenges.\n\nRead each statement carefully and decide if it represents a growth mindset or a fixed mindset perspective.",
+    "steps": [
+        {
+            "id": 1,
+            "question": "When facing a difficult colleague, it's best to focus on proving you're right rather than finding common ground.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. This represents a fixed mindset focused on validation rather than growth. Proving you're right creates a win-lose dynamic that damages relationships and misses opportunities to learn from different perspectives."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! A growth mindset prioritizes learning and development over being right. Finding common ground with difficult colleagues opens possibilities for mutual understanding, creative solutions, and relationship building."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Seeking win-win solutions requires understanding the underlying interests of all parties involved.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! A growth mindset involves curiosity about others' perspectives and needs. By understanding underlying interests rather than focusing only on surface positions, you can discover solutions that address multiple parties' core concerns."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Understanding underlying interests is essential for finding win-win solutions. A growth mindset embraces the complexity of different perspectives and seeks to understand what truly matters to each party beyond their stated positions."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "A growth mindset means viewing challenges as opportunities to develop new skills and understanding.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! This is a fundamental principle of growth mindset - seeing challenges as opportunities rather than threats. This perspective helps you approach difficulties with curiosity and resilience rather than avoidance or defensiveness."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Viewing challenges as growth opportunities is a core principle of growth mindset. This perspective transforms potential setbacks into valuable learning experiences that contribute to your development."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "If someone disagrees with your approach, they're probably just being difficult and should be ignored.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. This represents a fixed mindset that dismisses different perspectives as personal attacks or obstacles rather than potential sources of insight. It assumes your approach is already optimal and cannot be improved."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! A growth mindset views disagreement as potentially valuable input rather than just opposition. Different perspectives can reveal blind spots in your thinking and lead to better outcomes, even when initially uncomfortable."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Your abilities and intelligence are primarily determined by genetics and cannot be significantly developed through effort and learning.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. This is the definition of a fixed mindset - the belief that qualities like intelligence are static traits. Research shows that consistent effort, effective strategies, and embracing challenges can substantially develop abilities over time."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! This statement represents the classic fixed mindset that growth mindset challenges. Substantial research shows that abilities can be developed significantly through dedicated effort, effective strategies, and embracing challenges."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Receiving critical feedback should be viewed as an opportunity to improve rather than as a personal attack.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! A growth mindset reframes criticism as valuable information for improvement rather than a judgment of worth. This perspective allows you to extract the useful insights from feedback while managing emotional reactions."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Viewing feedback as a growth opportunity rather than a personal attack is a key growth mindset principle. This perspective helps you benefit from others' perspectives while maintaining self-confidence."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "When you make a significant mistake, it's best to downplay it or blame external factors to maintain others' confidence in you.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. This defensive approach reflects a fixed mindset concerned with appearing perfect rather than growing. Downplaying mistakes prevents learning and actually diminishes others' trust in your integrity and self-awareness."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! A growth mindset approaches mistakes as learning opportunities. Acknowledging mistakes demonstrates integrity, self-awareness, and commitment to improvement - qualities that typically increase rather than decrease others' confidence in you."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "The phrase 'not yet' is more empowering than 'failed' because it suggests current performance is a step in a learning process rather than a final judgment.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! 'Not yet' embodies growth mindset by framing current performance as a point in a continuing journey rather than a permanent state. This language creates psychological space for improvement and perseverance."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. The power of 'not yet' is a key growth mindset concept popularized by Carol Dweck. This language acknowledges current reality while maintaining an orientation toward future development, supporting resilience and continued effort."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Building rapport through identifying shared interests can help resolve seemingly opposing positions.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! This reflects growth mindset's focus on building bridges rather than walls. Finding shared interests creates psychological connection and reveals common ground that can serve as a foundation for resolving differences constructively."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Identifying shared interests is a powerful approach for finding common ground and building the rapport needed to work through differences. This strategy reflects growth mindset's emphasis on connection and mutual benefit."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "The effort and strategies you use are more important predictors of success than your innate talent or intelligence.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! This is a fundamental growth mindset principle supported by research. While natural abilities provide starting points, the persistent application of effective strategies and dedicated effort are more reliable predictors of long-term achievement."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Research supporting growth mindset shows that effort and strategies are indeed more important for long-term success than initial ability. This principle empowers people to develop their capabilities rather than being limited by perceived talent."
+                }
+            ]
+        }
+    ]
+}

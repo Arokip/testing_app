@@ -1,6 +1,7 @@
 {
     "type": "multipleChoice",
     "title": "Controlling the Bird of Prey",
+    "image": "vulture",
     "prompt": "Master the art of empathetic listening!\n\nIn this game, you'll read a workplace complaint and choose the most effective empathetic response. Learn to recognize and respond to others' emotions with empathy, avoiding escalation and fostering effective communication.\n\nCarefully read the situation and choose the best reaction.",
     "steps": [
         {

@@ -1,0 +1,198 @@
+{
+    "type": "multipleChoice",
+    "title": "Controlling the Bird of Prey",
+    "image": "vulture",
+    "prompt": "Finding Common Ground: Conflict Resolution Game\n\nIn this game, you'll practice resolving conflicts by finding shared interests and mutual solutions. Effective conflict resolution preserves relationships while addressing underlying concerns.\n\nFor each scenario, select the response that best demonstrates finding common ground.",
+    "steps": [
+        {
+            "id": 1,
+            "question": "You and a colleague have different ideas about how to approach a project deadline. They want to extend the timeline to ensure quality, while you're concerned about meeting the client's expectations for on-time delivery.",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "Insist on sticking to the original deadline, emphasizing that the client's expectations are non-negotiable.",
+                    "explanation": "This position-based approach fails to acknowledge your colleague's valid concern about quality and misses an opportunity to explore solutions that address both priorities."
+                },
+                {
+                    "label": "Give in and accept the extended timeline since quality is important too.",
+                    "explanation": "While this avoids conflict, it abandons your legitimate concern about client expectations without exploring potential solutions that could satisfy both needs."
+                },
+                {
+                    "label": "Say: 'I understand your concern about ensuring quality work. I'm worried about the client's expectations for the deadline. Could we discuss what specific quality issues concern you and see if we can address those while still meeting most of the timeline?'",
+                    "explanation": "Correct! This response acknowledges both concerns as valid, shows understanding of their perspective, and invites collaborative problem-solving to find a solution that addresses both quality and timeliness."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Your department needs to cut costs, and there's disagreement about whether to reduce team events or professional development funding.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Advocate strongly for whichever option you personally prefer, using persuasive arguments to win others over.",
+                    "explanation": "This approach frames the situation as a win-lose scenario rather than seeking to understand the underlying interests and values behind each position."
+                },
+                {
+                    "label": "Ask: 'What are we hoping to achieve with team events and professional development? Maybe we can find creative ways to meet those needs with a smaller budget, like combining certain activities or prioritizing the most impactful ones.'",
+                    "explanation": "Correct! This response looks beyond positions to identify the underlying interests (team cohesion, skill development) and invites creative thinking to satisfy those interests within constraints."
+                },
+                {
+                    "label": "Suggest splitting the cuts evenly between both categories as the fairest approach.",
+                    "explanation": "While this seems fair on the surface, it's a compromise that may not optimize for what's most important. It doesn't explore whether certain activities in each category deliver more value than others."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "You and your manager disagree about the allocation of responsibilities on an upcoming project. You feel you're being given too many administrative tasks rather than strategic work aligned with your career goals.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Say: 'I notice I've been assigned mostly administrative tasks for this project. I'm committed to the project's success and want to contribute meaningfully while also developing my strategic skills. Could we discuss how to balance the administrative needs with opportunities for me to work on more strategic components?'",
+                    "explanation": "Correct! This response acknowledges the project needs while expressing your interests, avoids accusation, and invites collaborative problem-solving to meet both sets of needs."
+                },
+                {
+                    "label": "Accept the assignment but work on strategic elements anyway to prove your capabilities.",
+                    "explanation": "This creates misalignment with your manager's expectations and could lead to essential administrative work being neglected, potentially harming the project and your professional reputation."
+                },
+                {
+                    "label": "Complain that the assignment is unfair and doesn't utilize your talents properly.",
+                    "explanation": "This confrontational approach focuses on positions rather than interests and may damage your relationship with your manager without addressing the underlying concerns constructively."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "A cross-functional team member consistently misses deadlines that impact your work, claiming their department has different priorities.",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "Escalate to their manager to ensure they prioritize your deadlines properly.",
+                    "explanation": "This escalation before attempting direct resolution could damage your working relationship and doesn't explore the underlying competing priorities that might be addressed collaboratively."
+                },
+                {
+                    "label": "Work around their delays by building extra buffer time into your planning.",
+                    "explanation": "While pragmatic in the short term, this avoids addressing the underlying issue and may reinforce problematic patterns that could worsen over time."
+                },
+                {
+                    "label": "Arrange a conversation: 'I'd like to understand the priorities you're balancing. My team depends on these deliverables by certain dates for reasons X and Y. Could we discuss how to align our workflows so both our priorities can be met?'",
+                    "explanation": "Correct! This approach seeks to understand their constraints, explains your needs with context, and invites collaborative problem-solving to find a solution that works for both parties."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Your team is divided on whether to pursue an innovative but risky approach or a more conservative strategy with a project. The debate has become heated.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Call for a vote to resolve the issue democratically and move forward.",
+                    "explanation": "Voting creates winners and losers rather than finding common ground, potentially leaving half the team feeling unheard and less committed to the outcome."
+                },
+                {
+                    "label": "Say: 'It seems like some of us value innovation and potential breakthroughs, while others are concerned about reliability and managing risk. What if we identify specific areas where we could test innovative approaches while maintaining a more conservative foundation?'",
+                    "explanation": "Correct! This response identifies the underlying values on both sides, frames them as complementary rather than opposing, and suggests an integrative approach that honors both sets of concerns."
+                },
+                {
+                    "label": "Let the most senior or experienced team member make the final decision.",
+                    "explanation": "This defers to authority rather than working through the conflict, missing an opportunity to develop a solution that incorporates the wisdom and addresses the concerns of the entire team."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "You and a client have different interpretations of what was promised in your initial agreement, leading to tension about deliverables.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Say: 'I want to make sure you're satisfied with our work. Let's review the original agreement together, discuss where our understandings differ, and find a path forward that addresses your core needs while working within our capabilities.'",
+                    "explanation": "Correct! This response prioritizes the relationship and client satisfaction, acknowledges the different interpretations without assigning blame, and focuses on finding a solution that addresses fundamental interests rather than positions."
+                },
+                {
+                    "label": "Show them the contract language that supports your interpretation to prove you're right.",
+                    "explanation": "This legalistic approach may win the argument but damage the relationship. It focuses on being right rather than resolving the underlying concerns and preserving goodwill."
+                },
+                {
+                    "label": "Offer to provide what they're asking for at an additional cost to cover the extra work.",
+                    "explanation": "While this appears to be a solution, it assumes their interpretation is wrong without discussion, and may come across as nickel-and-diming rather than partnering to resolve the misunderstanding."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Team members from different generations disagree about work communication styles, with some preferring instant messaging for everything while others value face-to-face meetings.",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "Establish a policy that standardizes communication methods for consistency.",
+                    "explanation": "This one-size-fits-all approach fails to acknowledge the legitimate preferences and needs behind different communication styles, potentially reducing effectiveness for some team members."
+                },
+                {
+                    "label": "Tell everyone to be flexible and adapt to each person's preferred style on a case-by-case basis.",
+                    "explanation": "While this sounds accommodating, the lack of clear guidelines can create confusion, inefficiency, and frustration when trying to coordinate across different preferences."
+                },
+                {
+                    "label": "Facilitate a discussion: 'Let's identify which types of communication work best in different situations. When is real-time discussion most valuable? When is asynchronous communication more efficient? Could we develop shared guidelines that leverage the strengths of each approach?'",
+                    "explanation": "Correct! This response acknowledges that different methods have different strengths, focuses on the underlying needs (efficiency, clarity, connection), and works toward guidelines that optimize communication for various situations."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "You and a colleague share responsibility for a deliverable but have conflicting work styles. You prefer to plan everything in advance, while they work best under pressure close to deadlines.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Divide the work so you each complete your portions according to your own style and preferences.",
+                    "explanation": "While this avoids direct conflict, it may result in disjointed work and misses the opportunity to develop a coordinated approach that leverages both styles' strengths."
+                },
+                {
+                    "label": "Say: 'We seem to have different approaches to timing. I need some early planning to feel comfortable, while you do your best work closer to deadlines. What if we agree on preliminary checkpoints for alignment, with the understanding that your components might evolve more as we get closer to the deadline?'",
+                    "explanation": "Correct! This acknowledges both work styles as valid, identifies your specific need for planning while respecting their process, and proposes a solution that accommodates both approaches."
+                },
+                {
+                    "label": "Explain the benefits of advance planning and ask them to adapt to this more professional approach.",
+                    "explanation": "This frames your preference as inherently superior rather than different, which can create defensiveness and fails to recognize that different approaches can be equally valid and effective in different contexts."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Your team needs to implement a new process, but there's disagreement about whether to roll it out all at once or phase it in gradually.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Ask: 'What concerns do those favoring an immediate rollout have? What worries those who prefer a gradual approach? Could we identify the highest-priority components to implement first, while developing a clear timeline for full implementation that addresses the urgency some feel?'",
+                    "explanation": "Correct! This response seeks to understand the interests behind both positions (likely efficiency/urgency vs. risk management/adaptation time), and suggests an approach that addresses core concerns on both sides."
+                },
+                {
+                    "label": "Bring in an outside expert to recommend the best approach based on industry standards.",
+                    "explanation": "This delegates the decision rather than working through the conflict, and assumes there's a single 'best practice' rather than recognizing that the optimal approach depends on the specific context and team needs."
+                },
+                {
+                    "label": "Compromise by implementing half the changes now and half later.",
+                    "explanation": "This arbitrary split may not address the underlying concerns effectively and could create confusion by implementing interconnected elements separately without strategic prioritization."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Two departments in your organization disagree about resource allocation for an upcoming initiative, each believing their priorities should take precedence.",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "Let the executive team decide who gets priority based on strategic importance.",
+                    "explanation": "This escalates the conflict rather than attempting resolution at the appropriate level, and frames it as a zero-sum competition rather than an opportunity to find mutual gains."
+                },
+                {
+                    "label": "Split the resources evenly between departments to be fair.",
+                    "explanation": "This mathematical compromise may seem fair but could result in neither department having sufficient resources to achieve their goals effectively, potentially undermining the overall initiative."
+                },
+                {
+                    "label": "Facilitate a joint discussion: 'Let's clarify how each department's work contributes to our shared organizational goals. What are the minimum resources each needs to succeed? Are there ways we could sequence our work or share certain resources to maximize overall impact?'",
+                    "explanation": "Correct! This approach focuses on the shared organizational interest above departmental positions, explores minimum acceptable conditions for each side, and looks for integrative solutions that optimize collective outcomes."
+                }
+            ]
+        }
+    ]
+}

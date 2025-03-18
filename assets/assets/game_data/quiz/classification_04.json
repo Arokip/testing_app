@@ -1,0 +1,158 @@
+{
+    "type": "classification",
+    "title": "Taming the Tiger",
+    "image": "tiger",
+    "prompt": "Boundary Basics: True or False\n\nIn this game, you'll evaluate statements about personal and professional boundaries to determine whether they reflect healthy boundary-setting principles.\n\nRead each statement carefully and decide if it represents an accurate understanding of effective boundaries.",
+    "steps": [
+        {
+            "id": 1,
+            "question": "Setting boundaries means saying 'no' to everything that makes you uncomfortable.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Effective boundary-setting isn't about blanket refusal of all discomfort. Sometimes growth requires stepping outside comfort zones. Healthy boundaries involve thoughtful decisions about what to accept or decline based on your values, capacity, and wellbeing."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Healthy boundaries aren't about avoiding all discomfort. They involve making conscious choices about what you accept or decline based on your values, capacity, and wellbeing. Sometimes personal growth requires temporary discomfort."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Clearly communicating your limits while remaining respectful is key to effective boundary setting.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! Effective boundaries combine clarity with respect. Being direct about your limits while maintaining a respectful tone preserves relationships and increases the likelihood your boundaries will be understood and honored."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Clear, respectful communication is essential for effective boundary setting. Vague boundaries are easily misunderstood, while disrespectful delivery can damage relationships and create unnecessary conflict."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Once you set a boundary, you should never adjust it under any circumstances.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Healthy boundaries can and should evolve as circumstances, relationships, and your own needs change. Rigidly maintaining boundaries without considering context or growth opportunities can be as problematic as having no boundaries."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Healthy boundaries are flexible and can evolve as circumstances, relationships, and your own needs change. Rigid, unchangeable boundaries don't account for growth, changing contexts, or deepening trust in relationships."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Setting boundaries at work will likely damage your professional relationships and limit your career advancement.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Professional boundaries typically strengthen relationships by establishing clear expectations and preventing burnout. Thoughtfully communicated boundaries demonstrate self-awareness and professionalism, qualities valued in leadership positions."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Well-communicated professional boundaries typically strengthen relationships and demonstrate maturity. They prevent burnout, resentment, and misunderstandings that would actually harm your effectiveness and advancement opportunities."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "You need to explain and justify your boundaries in detail for them to be valid and respected.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. While brief explanations can sometimes help others understand your boundaries, you don't need to justify or defend your right to have boundaries. Over-explaining can actually undermine your boundaries by suggesting they're negotiable."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! While brief explanations can sometimes be helpful, you don't need to justify or defend your boundaries in detail. Your boundaries are valid because they're important to your wellbeing, not because others understand or approve of them."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Healthy boundaries help prevent burnout and resentment in both personal and professional relationships.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! Boundaries protect your physical and emotional resources, preventing the depletion that leads to burnout. They also prevent the accumulation of unexpressed frustrations that lead to resentment, creating healthier, more sustainable relationships."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Boundaries are essential for preventing burnout by protecting your time and energy. They also prevent resentment by ensuring you're not consistently sacrificing your needs for others, which leads to accumulated frustration."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "It's selfish to prioritize your own needs by setting boundaries with friends and family.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Setting boundaries is self-care, not selfishness. Maintaining your wellbeing through boundaries actually enables you to be more present and supportive in relationships. Without boundaries, relationships often become imbalanced and unsustainable."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Setting boundaries is self-care, not selfishness. Maintaining your wellbeing through boundaries enables you to be more genuinely present and supportive in relationships. Healthy relationships require mutual respect for each person's needs and limits."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "If someone reacts negatively to your boundary, it means your boundary was inappropriate or poorly communicated.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Negative reactions to boundaries often reflect the other person's issues with control, expectations, or their own boundary awareness - not problems with your boundary. Even perfectly communicated boundaries can trigger resistance."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Negative reactions to boundaries often reflect the other person's discomfort with limits, not problems with your boundary. People accustomed to crossing boundaries may resist even when boundaries are clearly and respectfully communicated."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Digital boundaries, such as limiting work email checking to specific hours, are as important as physical boundaries in today's environment.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! Digital boundaries are increasingly essential for wellbeing in our connected world. Setting limits on when and how you engage with technology helps protect your time, attention, and mental health from the pressure of constant availability."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Digital boundaries are crucial in today's constantly connected environment. Without them, work and other demands can infiltrate every moment of your life through devices, leading to stress, burnout, and an inability to be fully present."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Boundaries are primarily about controlling other people's behavior to make yourself comfortable.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Boundaries aren't about controlling others, but about clarifying what you will and won't accept, and the actions you'll take to protect your wellbeing. Healthy boundaries focus on your own behavior and responses, not controlling others."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Boundaries aren't about controlling others, but about clarifying what you will and won't accept, and the actions you'll take in response. They focus on your own behavior and choices rather than attempting to control others."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "type": "classification",
+    "title": "Sorting the Snakes",
+    "image": "snake",
+    "prompt": "Disengagement Wisdom: True or False\n\nIn this game, you'll evaluate statements about strategic disengagement - the skill of recognizing when and how to exit unproductive interactions effectively and respectfully.\n\nRead each statement carefully and decide if it represents effective disengagement principles or problematic approaches.",
+    "steps": [
+        {
+            "id": 1,
+            "question": "Strategic disengagement means permanently cutting off communication with difficult people.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Strategic disengagement is about temporarily stepping back from unproductive interactions, not permanent avoidance. The goal is often to return to the conversation later under better conditions rather than severing relationships entirely."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Strategic disengagement typically involves temporarily stepping back from unproductive interactions, not permanently cutting people off. The goal is usually to resume communication later under better conditions for more productive outcomes."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Recognizing when a conversation becomes unproductive is the first step in strategic disengagement.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! Awareness is essential for effective disengagement. Recognizing signs of unproductive interaction (circular arguments, rising emotions, diminishing returns) allows you to disengage strategically rather than after damage has occurred."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Recognizing unproductive patterns is indeed the crucial first step in strategic disengagement. Without this awareness, you're likely to remain in counterproductive interactions too long or disengage in reactive rather than strategic ways."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "It's always better to persist in a difficult conversation than to suggest taking a break.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Persistence in clearly unproductive conversations often leads to escalation, damaged relationships, and poor decisions. Strategic breaks allow for emotional regulation, reflection, and returning with fresh perspectives."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Continuing unproductive conversations often leads to escalation and damaged relationships. Taking strategic breaks allows for emotional regulation, reflection, and returning with fresh perspectives that can lead to better outcomes."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Strategic disengagement can include suggesting a different format or time for the discussion.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! Effective disengagement often includes proposing constructive alternatives. Suggesting a different format (e.g., email to meeting) or timeframe acknowledges the importance of the topic while recognizing current conditions aren't optimal."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Suggesting alternative formats or timing is a key strategic disengagement technique. It demonstrates commitment to resolution while recognizing that current conditions aren't conducive to productive discussion."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Abruptly leaving a tense situation is usually the most professional form of disengagement.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Abrupt departures without explanation often escalate tension and damage relationships. Professional disengagement typically involves clear communication about your intentions and, when possible, a plan for revisiting the topic."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Abrupt departures typically increase tension and damage trust. Professional disengagement involves clear communication about your intentions, acknowledgment of the importance of the issue, and ideally a plan for when/how to revisit the topic."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "If you need to disengage from a heated conversation, it's best to do so without explaining why to avoid further conflict.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Disengaging without explanation often creates confusion, resentment, or assumptions of dismissiveness. Brief, non-accusatory explanations for your disengagement help maintain respect and set the stage for more productive future interactions."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Briefly explaining your reason for disengaging in non-accusatory terms (e.g., 'I need time to think about this' or 'I want to discuss this when we're both calmer') shows respect and sets the stage for more productive future interaction."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Strategic disengagement should be used as a last resort after trying multiple approaches to resolve a conflict.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! Strategic disengagement is most appropriate after making good-faith efforts to resolve the issue through direct communication. Using it as an initial strategy without attempting resolution can prevent potentially productive outcomes and damage trust."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Strategic disengagement is generally most appropriate after making reasonable efforts to resolve the issue directly. Using it as an initial strategy without attempting resolution may miss opportunities for understanding and can appear avoidant."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Saying 'Let's agree to disagree' is always an effective way to disengage from an unproductive debate.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. While occasionally useful, 'agree to disagree' can feel dismissive, especially for issues with practical implications that require resolution. It's most appropriate for philosophical differences where mutual action isn't needed."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! 'Agree to disagree' can sometimes feel dismissive, particularly for issues that have practical implications requiring resolution. It's most appropriate for philosophical differences where mutual action isn't needed, not for collaborative decisions."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Effective disengagement includes acknowledging the other person's perspective before stepping away.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! Acknowledging the other person's viewpoint before disengaging demonstrates respect and reduces the chance they'll feel dismissed. This simple step helps maintain the relationship while still creating necessary space."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Acknowledging the other perspective before disengaging is indeed a best practice. It demonstrates that you've heard them even if you disagree, reducing feelings of dismissal and maintaining respect while creating necessary space."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Strategic disengagement means avoiding all difficult conversations to maintain harmony.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Strategic disengagement is about temporarily stepping back from unproductive interactions, not avoiding important issues entirely. Avoiding necessary difficult conversations typically leads to festering problems and damaged relationships."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Strategic disengagement is about temporarily pausing unproductive interactions, not avoiding important issues entirely. Many difficult conversations are necessary and valuable when conducted under the right conditions with effective approaches."
+                }
+            ]
+        }
+    ]
+}

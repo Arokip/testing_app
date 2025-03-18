@@ -1,0 +1,198 @@
+{
+    "type": "multipleChoice",
+    "title": "Controlling the Bird of Prey",
+    "image": "vulture",
+    "prompt": "Walking in Their Shoes: Empathetic Response Game\n\nIn this game, you'll practice recognizing and responding with empathy in challenging workplace situations. Empathy builds trust, reduces conflict, and strengthens relationships.\n\nFor each scenario, select the response that demonstrates the most effective empathetic communication.",
+    "steps": [
+        {
+            "id": 1,
+            "question": "A colleague approaches you looking visibly upset, saying: 'I'm sick of this place. Nobody respects my time, and I'm doing all the heavy lifting!'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "I have my own problems, you know.",
+                    "explanation": "This shifts focus to yourself, dismissing their feelings. This can make them feel unheard."
+                },
+                {
+                    "label": "It sounds like you're frustrated and feel you're carrying extra weight. Did I get that right?",
+                    "explanation": "Correct! You named their emotion ('frustrated') and paraphrased their concern to show understanding."
+                },
+                {
+                    "label": "Wow, you're so negative. Calm down!",
+                    "explanation": "Telling someone they're 'so negative' judges their emotion, and 'calm down' often escalates tension rather than reducing it."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "A team member has missed a deadline that impacts your work. They appear stressed and explain they've been overwhelmed with personal issues.",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "You need to separate work and personal life. This affects everyone.",
+                    "explanation": "This response dismisses their personal challenges and focuses only on your frustration, creating distance rather than understanding."
+                },
+                {
+                    "label": "Next time, just let me know sooner so I can plan accordingly.",
+                    "explanation": "While practical, this response skips over acknowledging their current situation, missing the opportunity for empathy before problem-solving."
+                },
+                {
+                    "label": "It sounds like you've been going through a lot lately. This deadline is important, but let's figure out how to manage this together.",
+                    "explanation": "Correct! You acknowledged their personal struggle while gently reinforcing the importance of the work, offering partnership rather than criticism."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "A client emails you, clearly angry about a mistake in their order, using all caps and multiple exclamation points.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "I understand you're upset about this error. I would be frustrated too if I received the wrong order. Let me make this right for you immediately.",
+                    "explanation": "Correct! You validated their feelings, normalized their reaction, and immediately offered to resolve the issue."
+                },
+                {
+                    "label": "Please calm down. Typing in all caps is unnecessary.",
+                    "explanation": "Telling someone to 'calm down' rarely works and often makes them feel dismissed or patronized."
+                },
+                {
+                    "label": "We make thousands of orders each week. Mistakes happen sometimes.",
+                    "explanation": "This response minimizes their specific problem and sounds defensive rather than solution-oriented."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "A new team member appears lost during a meeting and hesitantly asks a question others might consider basic.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "We covered that in the onboarding materials. You should review those first.",
+                    "explanation": "This response creates shame and discourages future questions, potentially leaving them confused but afraid to ask for help."
+                },
+                {
+                    "label": "That's actually a really good question that helps clarify things. The process works like this...",
+                    "explanation": "Correct! You validated their question, removing any potential embarrassment, and provided a helpful explanation that benefits everyone."
+                },
+                {
+                    "label": "Let's discuss this offline to save everyone's time.",
+                    "explanation": "While seemingly efficient, this response might make them feel their question wasn't worthy of group time, potentially embarrassing them."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Your direct report looks dejected after receiving critical feedback from senior leadership on a project they worked hard on.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Don't take it personally. Senior leadership is always harsh.",
+                    "explanation": "This dismisses their feelings and generalizes about leadership, which doesn't address their specific experience."
+                },
+                {
+                    "label": "You seem disappointed after that feedback session. It's tough to hear criticism on work you put so much effort into.",
+                    "explanation": "Correct! You accurately named their emotion and validated the difficulty of the situation without minimizing their feelings."
+                },
+                {
+                    "label": "Let's focus on the positives - at least parts of the project were well-received.",
+                    "explanation": "Jumping to positivity too quickly can feel dismissive of their current disappointment and doesn't allow space for their feelings."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "A customer service representative shares that a customer yelled at them over the phone about an issue that wasn't their fault.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Some customers are just difficult. Try not to let it bother you.",
+                    "explanation": "This generalizes and minimizes their experience, suggesting they shouldn't have feelings about it."
+                },
+                {
+                    "label": "That sounds really upsetting. Being yelled at is never pleasant, especially when the issue wasn't your responsibility. How are you feeling about it?",
+                    "explanation": "Correct! You acknowledged the emotional impact of the situation and opened space for them to share their feelings rather than immediately problem-solving."
+                },
+                {
+                    "label": "What exactly did the customer say? Maybe there was a misunderstanding we can clear up.",
+                    "explanation": "Jumping straight to details and problem-solving misses the opportunity to address the emotional impact of being yelled at."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "A coworker mentions they're struggling to focus because they're worried about a family member's health issue.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "We all have personal problems, but we need to stay professional at work.",
+                    "explanation": "This creates a false dichotomy between being 'professional' and having human emotions, making them feel judged."
+                },
+                {
+                    "label": "That must be really difficult. It's hard to concentrate when you're concerned about someone you love. Is there anything I can do to help with your workload right now?",
+                    "explanation": "Correct! You validated their emotional struggle, normalized their difficulty focusing, and offered practical support."
+                },
+                {
+                    "label": "I'm sure everything will be fine. Try not to worry so much.",
+                    "explanation": "This dismisses their legitimate concerns with toxic positivity and suggests their worry is a choice rather than a natural response."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "During a team discussion, someone shares an idea that receives immediate criticism from others. They become quiet and withdrawn.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "I think there's value in what you suggested. Could you elaborate on how you see it working with our constraints?",
+                    "explanation": "Correct! You affirmed the value in their contribution and invited them back into the conversation, showing you're interested in their perspective."
+                },
+                {
+                    "label": "Don't worry, my ideas get shot down all the time too.",
+                    "explanation": "While attempting to normalize rejection, this doesn't address the merit of their specific idea and keeps the focus on rejection."
+                },
+                {
+                    "label": "Let's move on to the next topic since we don't have consensus.",
+                    "explanation": "This reinforces their exclusion from the conversation and misses an opportunity to explore potentially valuable aspects of their idea."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "A peer confides they're feeling insecure about their presentation skills after receiving feedback that they need improvement.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Public speaking is a common fear. Have you tried practicing more?",
+                    "explanation": "While offering a solution, this response jumps to advice-giving before fully understanding their specific concerns or acknowledging their feelings."
+                },
+                {
+                    "label": "I understand feeling vulnerable about presentation skills. It's something many of us work on continuously. What specific aspects feel most challenging to you?",
+                    "explanation": "Correct! You normalized their feelings without minimizing them, showed understanding, and asked a question that helps them process their specific concerns."
+                },
+                {
+                    "label": "Your last presentation wasn't that bad. I think you're overreacting to the feedback.",
+                    "explanation": "This invalidates their feelings and dismisses the feedback they received, potentially making them feel misunderstood."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "A team member expresses frustration about a last-minute change in project requirements that will require significant rework.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "That's just how projects go sometimes. We need to be flexible.",
+                    "explanation": "This dismisses their legitimate frustration and implies they're being inflexible rather than reasonably responding to a challenging situation."
+                },
+                {
+                    "label": "I get why that's frustrating. You put in all that work based on the original requirements, and now things are changing. It's discouraging when the goalposts move.",
+                    "explanation": "Correct! You validated their frustration, acknowledged the specific reason for it, and showed understanding of the emotional impact of the situation."
+                },
+                {
+                    "label": "Let's look at the bright side - at least we caught this before the final deadline.",
+                    "explanation": "Premature positivity bypasses acknowledging their current feelings, which needs to happen before moving to solutions or silver linings."
+                }
+            ]
+        }
+    ]
+}
