@@ -1,6 +1,7 @@
 {
     "type": "multipleChoice",
-    "title": "Defusing the Vulture",
+    "title": "De-escalation Techniques",
+    "label": "Defusing the Vulture",
     "image": "vulture",
     "prompt": "De-escalation Techniques: Conflict Management Game\n\nIn this game, you'll practice de-escalating tense situations by using techniques that reduce emotional intensity and create space for productive resolution. Effective de-escalation helps prevent conflicts from worsening while maintaining safety and dignity for all involved.\n\nFor each scenario, select the response that best demonstrates appropriate de-escalation techniques.",
     "steps": [

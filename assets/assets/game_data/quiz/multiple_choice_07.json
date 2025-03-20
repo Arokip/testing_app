@@ -1,6 +1,7 @@
 {
     "type": "multipleChoice",
-    "title": "Controlling the Bird of Prey",
+    "title": "Exit Strategies",
+    "label": "Controlling the Bird of Prey",
     "image": "vulture",
     "prompt": "Exit Strategies: Decision-Making Game\n\nThis game presents scenarios where you need to determine the most appropriate exit strategy from various situations. Effective exit strategies require careful planning, clear communication, and thoughtful timing to minimize negative impacts while maximizing positive outcomes.\n\nFor each scenario, select the response that demonstrates the most appropriate exit strategy.",
     "steps": [

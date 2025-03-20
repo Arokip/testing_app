@@ -1,6 +1,7 @@
 {
     "type": "classification",
-    "title": "Taming the Tiger",
+    "title": "Perspective-Taking Toolkit",
+    "label": "Taming the Tiger",
     "image": "tiger",
     "prompt": "Perspective-Taking Toolkit: Identify Communication Techniques\n\nIn this game, you'll identify different perspective-taking techniques used in responses to challenging situations.\n\nFor each scenario, determine whether the response primarily demonstrates Active Listening, Validation, or Empathetic Rephrasing.",
     "steps": [

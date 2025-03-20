@@ -1,6 +1,7 @@
 {
     "type": "classification",
-    "title": "Taming the Tiger",
+    "title": "Classification Disengagement Techniques",
+    "label": "Taming the Tiger",
     "image": "tiger",
     "prompt": "Disengagement Techniques: Recognizing When and How to Step Back\n\nIn this game, you'll identify different strategic disengagement techniques that help maintain productive communication and healthy relationships.\n\nFor each scenario, determine whether the response primarily demonstrates Recognition of Unproductive Patterns, Graceful Exit, or Respectful Redirection.",
     "steps": [

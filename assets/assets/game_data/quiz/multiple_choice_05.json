@@ -1,6 +1,7 @@
 {
     "type": "multipleChoice",
-    "title": "Controlling the Bird of Prey",
+    "title": "Finding Common Ground",
+    "label": "Controlling the Bird of Prey",
     "image": "vulture",
     "prompt": "Finding Common Ground: Conflict Resolution Game\n\nIn this game, you'll practice resolving conflicts by finding shared interests and mutual solutions. Effective conflict resolution preserves relationships while addressing underlying concerns.\n\nFor each scenario, select the response that best demonstrates finding common ground.",
     "steps": [

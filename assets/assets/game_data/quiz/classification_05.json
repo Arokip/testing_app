@@ -1,6 +1,7 @@
 {
     "type": "classification",
-    "title": "Sorting the Snakes",
+    "title": "Growth Mindset Principles",
+    "label": "Sorting the Snakes",
     "image": "snake",
     "prompt": "Growth Mindset Principles: True or False\n\nIn this game, you'll evaluate statements about growth mindset to determine whether they reflect accurate principles of learning, development, and approaching challenges.\n\nRead each statement carefully and decide if it represents a growth mindset or a fixed mindset perspective.",
     "steps": [

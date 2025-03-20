@@ -1,6 +1,7 @@
 {
     "type": "classification",
-    "title": "Sorting the Snakes",
+    "title": "Mindset Matters: Fixed vs. Growth",
+    "label": "Sorting the Snakes",
     "image": "snake",
     "prompt": "Mindset Matters: Fixed vs. Growth\n\nIn this game, you'll identify whether statements reflect a fixed mindset or growth mindset perspective.\n\nA fixed mindset views abilities as static traits, while a growth mindset sees abilities as qualities that can be developed through dedication and effort.\n\nFor each statement, determine whether it demonstrates a fixed mindset or growth mindset.",
     "steps": [

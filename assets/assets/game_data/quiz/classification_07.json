@@ -1,6 +1,7 @@
 {
     "type": "classification",
-    "title": "Sorting the Snakes",
+    "title": "Disengagement Wisdom",
+    "label": "Sorting the Snakes",
     "image": "snake",
     "prompt": "Disengagement Wisdom: True or False\n\nIn this game, you'll evaluate statements about strategic disengagement - the skill of recognizing when and how to exit unproductive interactions effectively and respectfully.\n\nRead each statement carefully and decide if it represents effective disengagement principles or problematic approaches.",
     "steps": [

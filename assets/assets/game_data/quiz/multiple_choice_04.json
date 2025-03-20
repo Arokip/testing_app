@@ -1,6 +1,7 @@
 {
     "type": "multipleChoice",
-    "title": "Defusing the Vulture",
+    "title": "Drawing the Line",
+    "label": "Defusing the Vulture",
     "image": "vulture",
     "prompt": "Drawing the Line: Healthy Boundaries Game\n\nIn this game, you'll practice setting and maintaining healthy boundaries in professional situations. Effective boundaries protect your well-being while preserving relationships and productivity.\n\nFor each scenario, select the response that demonstrates the most effective boundary-setting approach.",
     "steps": [

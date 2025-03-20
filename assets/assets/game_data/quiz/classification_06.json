@@ -1,6 +1,7 @@
 {
     "type": "classification",
-    "title": "Taming the Tiger",
+    "title": "Communication Fundamentals",
+    "label": "Taming the Tiger",
     "image": "tiger",
     "prompt": "Communication Fundamentals: True or False\n\nIn this game, you'll evaluate statements about effective communication principles to determine whether they reflect best practices for clear, respectful, and productive interactions.\n\nRead each statement carefully and decide if it represents sound communication principles or problematic approaches.",
     "steps": [

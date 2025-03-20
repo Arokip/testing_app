@@ -1,6 +1,7 @@
 {
     "type": "multipleChoice",
-    "title": "Controlling the Bird of Prey",
+    "title": "Walking in Their Shoes: Empathetic Response Game",
+    "label": "Controlling the Bird of Prey",
     "image": "vulture",
     "prompt": "Walking in Their Shoes: Empathetic Response Game\n\nIn this game, you'll practice recognizing and responding with empathy in challenging workplace situations. Empathy builds trust, reduces conflict, and strengthens relationships.\n\nFor each scenario, select the response that demonstrates the most effective empathetic communication.",
     "steps": [

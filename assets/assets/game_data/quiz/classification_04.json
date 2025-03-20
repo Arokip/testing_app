@@ -1,6 +1,7 @@
 {
     "type": "classification",
-    "title": "Taming the Tiger",
+    "title": "Boundary Basics",
+    "label": "Taming the Tiger",
     "image": "tiger",
     "prompt": "Boundary Basics: True or False\n\nIn this game, you'll evaluate statements about personal and professional boundaries to determine whether they reflect healthy boundary-setting principles.\n\nRead each statement carefully and decide if it represents an accurate understanding of effective boundaries.",
     "steps": [

@@ -1,6 +1,7 @@
 {
     "type": "multipleChoice",
-    "title": "Defusing the Vulture",
+    "title": "Boundary violation: Spot the real issue",
+    "label": "Defusing the Vulture",
     "image": "vulture",
     "prompt": "Boundary Violation Analysis: Spot the Real Issue\n\nIn this game, you'll analyze statements that violate personal or professional boundaries. For each scenario, select the explanation that most accurately identifies why the statement represents a boundary violation.\n\nChoose carefully - only one answer correctly identifies the core boundary issue.",
     "steps": [

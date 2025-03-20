@@ -1,6 +1,7 @@
 {
     "type": "classification",
-    "title": "Sorting the Snakes",
+    "title": "Empathy check",
+    "label": "Sorting the Snakes",
     "image": "snake",
     "prompt": "Empathy Check: True or False\n\nIn this game, you'll evaluate statements about empathy and perspective-taking to determine whether they accurately reflect empathetic understanding.\n\nRead each statement carefully and decide if it demonstrates true empathy or contains a misunderstanding about empathetic responses.",
     "steps": [

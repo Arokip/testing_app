@@ -1,6 +1,7 @@
 {
     "type": "classification",
-    "title": "Sorting the Snakes",
+    "title": "Recognize the Attack",
+    "label": "Sorting the Snakes",
     "image": "snake",
     "prompt": "Recognize the Attack: Boundary Violations vs. Appropriate Communication\n\nIn this game, you'll identify whether statements represent appropriate communication or cross personal boundaries.\n\nBoundary violations undermine dignity, manipulate, humiliate, or disrespect personal limits, while appropriate communication offers honest feedback or disagreement while respecting boundaries.\n\nFor each statement, determine whether it represents appropriate communication or a boundary violation.",
     "steps": [
