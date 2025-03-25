@@ -80258,7 +80258,7 @@ s.push(new A.ie(new A.akI(a,o),B.aL,A.bp(n==null?"Loading...":n,m,m,m),!1,B.dm,!
 l.push(A.Hs(B.dm,A.bp("Game book",m,m,m),B.aL,!1,new A.akJ(a)))
 l.push(B.m7)
 l.push(B.yR)
-l.push(A.bp("v0.2.7",m,m,m))
+l.push(A.bp("v0.2.8",m,m,m))
 l.push(B.W)
 return A.ael(m,A.ag3(A.cC(l,B.V,B.cq,B.F,0),B.eY))}}
 A.akG.prototype={
@@ -80331,19 +80331,17 @@ o=n.b
 if(!b.d)b.a.$1(new A.kJ(p,o,a.a))}return A.A(null,r)}})
 return A.B($async$CM,r)},
 BZ(a,b){return this.a8U(a,b)},
-a8U(a,b){var s=0,r=A.C(t.H),q=this,p,o,n,m,l,k
+a8U(a,b){var s=0,r=A.C(t.H),q=this,p,o,n,m,l
 var $async$BZ=A.y(function(c,d){if(c===1)return A.z(d,r)
-while(true)switch(s){case 0:k=q.c
-if(k instanceof A.kJ){p=k.c
+while(true)switch(s){case 0:l=q.c
+if(l instanceof A.kJ){p=l.c
 o=p==null
 n=o?null:p.c
-if(n!=null){p=k.a
+if(n!=null){p=l.a
 if(!b.d)b.a.$1(new A.md(p,n))}else if(!o){o=Date.now()
 m=q.ay
 if(m==null)m=new A.bD(Date.now(),0,!1)
-l=new A.bD(o,0,!1).eV(m)
-m=k.a
-q.ax.ajU(l,m.b,B.ff,m.e.length)
+q.ax.ajU(new A.bD(o,0,!1).eV(m),l.a.b,B.ff)
 if(!b.d)b.a.$1(new A.ta(p))}}return A.A(null,r)}})
 return A.B($async$BZ,r)},
 CP(a,b){return this.a8X(a,b)},
@@ -80855,7 +80853,7 @@ return A.G(q.px(new A.yW(c,d,B.DC,e,f,b,(a+1)/f*100)),$async$nq)
 case 2:return A.A(null,r)}})
 return A.B($async$nq,r)},
 tB(a,b,c,d,e){return this.ajV(a,b,c,d,e)},
-ajU(a,b,c,d){return this.tB(a,b,c,null,d)},
+ajU(a,b,c){return this.tB(a,b,c,null,null)},
 ajV(a,b,c,d,e){var s=0,r=A.C(t.H),q=this
 var $async$tB=A.y(function(f,g){if(f===1)return A.z(g,r)
 while(true)switch(s){case 0:s=2
