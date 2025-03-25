@@ -63,49 +63,11 @@
     } catch (error) {
       console.error('Error initializing Firebase:', error);
     }
-
-    // Wait for Firebase to initialize before loading Flutter
-    window.addEventListener('load', function () {
-      // Initialize Flutter
-      const serviceWorkerVersion = "793747835";
-      var scriptLoaded = false;
-      function loadMainDartJs() {
-        if (scriptLoaded) {
-          return;
-        }
-        scriptLoaded = true;
-        var scriptTag = document.createElement('script');
-        scriptTag.src = 'flutter_bootstrap.js';
-        scriptTag.type = 'application/javascript';
-        document.body.append(scriptTag);
-      }
-
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('flutter-first-frame', function () {
-          navigator.serviceWorker.register('flutter_service_worker.js?v=793747835');
-        });
-      }
-      loadMainDartJs();
-    });
   </script>
 </head>
 
 <body>
-  <script>
-    window.addEventListener('load', function (ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function (engineInitializer) {
-          engineInitializer.initializeEngine().then(function (appRunner) {
-            appRunner.runApp();
-          });
-        }
-      });
-    });
-  </script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 
 </html>
