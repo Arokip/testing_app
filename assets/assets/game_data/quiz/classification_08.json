@@ -1,0 +1,199 @@
+{
+    "type": "classification",
+    "title": "Perspective-Taking Toolkit",
+    "label": "Taming the Tiger",
+    "image": "tiger",
+    "prompt": "Perspective-Taking Toolkit: Identify Communication Techniques\n\nIn this game, you'll identify different perspective-taking techniques used in responses to challenging situations.\n\nFor each scenario, determine whether the response primarily demonstrates Active Listening, Validation, or Empathetic Rephrasing.",
+    "steps": [
+        {
+            "id": 1,
+            "question": "Your colleague says: 'I'm frustrated that my ideas keep getting overlooked in meetings.'\n\nResponse: 'So you're feeling frustrated because you don't think your contributions are being recognized during our team discussions. Is that right?'",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "Active Listening",
+                    "explanation": "While active listening is part of this response, the primary technique used is empathetic rephrasing - restating what was heard in your own words to confirm understanding and demonstrate that you're truly hearing their perspective."
+                },
+                {
+                    "label": "Validation",
+                    "explanation": "This response doesn't primarily validate the feeling as reasonable or understandable, but rather focuses on ensuring accurate understanding of the person's experience through rephrasing."
+                },
+                {
+                    "label": "Empathetic Rephrasing",
+                    "explanation": "Correct! This response demonstrates empathetic rephrasing by thoughtfully restating what was heard in different words and checking for accuracy. This technique shows you're working to truly understand their perspective."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "A team member says: 'I don't think I can handle another project right now.'\n\nResponse: 'It makes sense that you'd be concerned about taking on more work with everything already on your plate. Anyone would feel overwhelmed in that situation.'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Active Listening",
+                    "explanation": "This response goes beyond active listening to explicitly normalize and validate the person's feelings as reasonable given their circumstances."
+                },
+                {
+                    "label": "Validation",
+                    "explanation": "Correct! This response validates their concern by explicitly stating it's understandable ('it makes sense') and normalizing their feeling ('anyone would feel overwhelmed'). Validation acknowledges that their reaction is reasonable given their perspective."
+                },
+                {
+                    "label": "Empathetic Rephrasing",
+                    "explanation": "While there is some rephrasing, the primary technique is validation - explicitly confirming that their feelings make sense given the circumstances, rather than simply restating to ensure understanding."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Your direct report says: 'I'm having trouble with the new software system.'\n\nResponse: 'Tell me more about the specific challenges you're experiencing with the system. What parts are you finding most difficult?'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Active Listening",
+                    "explanation": "Correct! This response demonstrates active listening through asking thoughtful follow-up questions that invite elaboration. Rather than assuming understanding or jumping to solutions, it seeks to gather more information about their specific experience."
+                },
+                {
+                    "label": "Validation",
+                    "explanation": "This response doesn't primarily validate their feelings as reasonable, but rather seeks to better understand their specific experience through active listening techniques."
+                },
+                {
+                    "label": "Empathetic Rephrasing",
+                    "explanation": "This response doesn't rephrase what was already shared, but instead asks questions to gather more information - a key component of active listening."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "A customer says: 'I've been waiting for a response to my complaint for over a week!'\n\nResponse: 'I hear that you've been waiting for quite some time without getting the response you needed, which must be really frustrating.'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Active Listening",
+                    "explanation": "While this response shows listening, it goes beyond to explicitly acknowledge the reasonableness of their emotional reaction, making it primarily validation."
+                },
+                {
+                    "label": "Validation",
+                    "explanation": "Correct! This response validates their frustration by acknowledging the legitimacy of their feeling given the circumstances. It recognizes that waiting without response would naturally cause frustration, confirming their reaction makes sense."
+                },
+                {
+                    "label": "Empathetic Rephrasing",
+                    "explanation": "While there is some rephrasing of their situation, the primary technique is validation of their emotional experience as reasonable given the circumstances."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Your colleague says: 'The deadline for this project is completely unreasonable!'\n\nResponse: 'You're concerned about the timeline for completing this project. You feel it doesn't allow enough time for quality work, is that right?'",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "Active Listening",
+                    "explanation": "While active listening elements are present, the primary technique is empathetic rephrasing - restating their concern in more specific, measured terms to confirm understanding."
+                },
+                {
+                    "label": "Validation",
+                    "explanation": "This response doesn't explicitly validate their feeling as reasonable or understandable, but rather focuses on accurately understanding their perspective through rephrasing."
+                },
+                {
+                    "label": "Empathetic Rephrasing",
+                    "explanation": "Correct! This response demonstrates empathetic rephrasing by translating their emotional statement into more specific concerns and checking for accuracy. It shows you're working to understand the substance behind their reaction."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "A team member says: 'I'm worried my presentation wasn't good enough.'\n\nResponse: 'I'm noticing you seem concerned about how your presentation was received. What specific aspects are you worried about?'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Active Listening",
+                    "explanation": "Correct! This response demonstrates active listening by acknowledging what you've heard and asking a thoughtful follow-up question to better understand their specific concerns rather than making assumptions."
+                },
+                {
+                    "label": "Validation",
+                    "explanation": "This response doesn't primarily validate their concern as reasonable, but rather seeks to better understand it through active listening techniques."
+                },
+                {
+                    "label": "Empathetic Rephrasing",
+                    "explanation": "While there is a brief reflection of their concern, the primary technique is active listening through the follow-up question seeking more specific information about their experience."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Your direct report says: 'I feel like I'm falling behind everyone else on the team.'\n\nResponse: 'It's really common to feel that way, especially when you're working with talented colleagues. Many people on our team have expressed similar concerns at different points.'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Active Listening",
+                    "explanation": "This response doesn't primarily demonstrate active listening, as it doesn't seek more information or reflect back what was heard, but rather normalizes and validates their feeling."
+                },
+                {
+                    "label": "Validation",
+                    "explanation": "Correct! This response validates their feeling by normalizing it ('it's really common') and providing context that makes their concern understandable. Validation helps people feel their reactions are reasonable given their perspective."
+                },
+                {
+                    "label": "Empathetic Rephrasing",
+                    "explanation": "This response doesn't primarily rephrase their statement to ensure understanding, but rather validates their feeling as normal and understandable given the context."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "A client says: 'Your company's process is much more complicated than your competitor's.'\n\nResponse: 'So from your perspective, our procedures seem to involve more steps and complexity compared to other options you've explored. I'd like to understand which specific aspects feel most cumbersome.'",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "Active Listening",
+                    "explanation": "While the second sentence shows active listening through asking for more information, the primary technique in this response is empathetic rephrasing of their comparison in the first sentence."
+                },
+                {
+                    "label": "Validation",
+                    "explanation": "This response doesn't primarily validate their perspective as reasonable, but rather focuses on ensuring accurate understanding through rephrasing and seeking more information."
+                },
+                {
+                    "label": "Empathetic Rephrasing",
+                    "explanation": "Correct! This response demonstrates empathetic rephrasing by thoughtfully restating their comparison in more neutral, specific terms while acknowledging it represents their perspective. The follow-up question then builds on this understanding."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Your colleague says: 'I'm stressed about giving the presentation to the executive team tomorrow.'\n\nResponse: 'Presenting to executives can definitely be intimidating, even for experienced professionals. It's natural to feel pressure when the stakes seem high.'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Active Listening",
+                    "explanation": "This response doesn't primarily demonstrate active listening, as it doesn't seek more information or reflect back what was heard, but rather normalizes and validates their feeling."
+                },
+                {
+                    "label": "Validation",
+                    "explanation": "Correct! This response validates their stress by explicitly normalizing it ('natural to feel pressure') and acknowledging the legitimate reasons for their feeling ('presenting to executives can definitely be intimidating'). It confirms their reaction makes sense."
+                },
+                {
+                    "label": "Empathetic Rephrasing",
+                    "explanation": "This response doesn't primarily rephrase their statement to ensure understanding, but rather validates their feeling as reasonable and understandable given the context."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "A team member says: 'The client keeps changing their requirements and it's driving me crazy.'\n\nResponse: 'You're finding it difficult to manage the client's evolving expectations, and that's creating significant frustration for you. What specific changes have been most challenging?'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Active Listening",
+                    "explanation": "Correct! This response combines empathetic rephrasing with a follow-up question that seeks more specific information. Since it actively works to gather more detail rather than just reflecting or validating, active listening is the primary technique demonstrated."
+                },
+                {
+                    "label": "Validation",
+                    "explanation": "While this response acknowledges their frustration, it doesn't primarily validate it as reasonable or understandable, but rather seeks to understand it more fully through active listening techniques."
+                },
+                {
+                    "label": "Empathetic Rephrasing",
+                    "explanation": "While the first sentence does rephrase their statement in more specific terms, the addition of the follow-up question makes this primarily an example of active listening, which seeks to gather more information rather than just reflect understanding."
+                }
+            ]
+        }
+    ]
+}

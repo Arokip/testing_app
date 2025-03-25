@@ -1,0 +1,199 @@
+{
+    "type": "classification",
+    "title": "Classification Disengagement Techniques",
+    "label": "Taming the Tiger",
+    "image": "tiger",
+    "prompt": "Disengagement Techniques: Recognizing When and How to Step Back\n\nIn this game, you'll identify different strategic disengagement techniques that help maintain productive communication and healthy relationships.\n\nFor each scenario, determine whether the response primarily demonstrates Recognition of Unproductive Patterns, Graceful Exit, or Respectful Redirection.",
+    "steps": [
+        {
+            "id": 1,
+            "question": "During a team meeting, a discussion about project timelines has turned into a circular debate with the same points being repeated. A team member says: 'I notice we've been discussing this same point for twenty minutes without making progress. Perhaps we should table this specific issue and move on to other agenda items we can resolve today.'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Recognition of Unproductive Patterns",
+                    "explanation": "Correct! This response demonstrates recognition of an unproductive pattern by explicitly identifying the circular nature of the conversation and the lack of progress despite significant time investment. This awareness is the first step in effective disengagement."
+                },
+                {
+                    "label": "Graceful Exit",
+                    "explanation": "While this response does suggest moving away from the topic, it primarily focuses on identifying the unproductive pattern that makes disengagement necessary, rather than the exit strategy itself."
+                },
+                {
+                    "label": "Respectful Redirection",
+                    "explanation": "While there is an element of redirection to other agenda items, the primary technique demonstrated is the recognition of the unproductive pattern of circular discussion, which justifies the subsequent suggestion to redirect."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "After a colleague has repeatedly interrupted during a discussion that's becoming heated, you say: 'I'd like to continue this conversation when we both have more time to fully hear each other's perspectives. Could we schedule thirty minutes tomorrow afternoon to discuss this further?'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Recognition of Unproductive Patterns",
+                    "explanation": "While there's implicit recognition that the current interaction isn't productive, the response focuses primarily on how to exit the conversation constructively rather than explicitly naming the pattern."
+                },
+                {
+                    "label": "Graceful Exit",
+                    "explanation": "Correct! This response demonstrates a graceful exit by clearly but respectfully ending the current unproductive conversation while simultaneously proposing a specific alternative time and format that shows commitment to resolution."
+                },
+                {
+                    "label": "Respectful Redirection",
+                    "explanation": "This response focuses on exiting the current conversation rather than redirecting it to a different topic or approach in the moment. The suggestion to continue later is about timing, not changing direction."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "During a one-on-one with your direct report who is venting about a colleague, you say: 'I understand you're frustrated with the situation. Instead of focusing on what went wrong, let's discuss what specific outcomes you'd like to see and how we might work toward those.'",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "Recognition of Unproductive Patterns",
+                    "explanation": "While there may be implicit recognition that extended venting isn't productive, the response doesn't explicitly identify a pattern but rather moves directly to redirecting the conversation."
+                },
+                {
+                    "label": "Graceful Exit",
+                    "explanation": "This response doesn't aim to exit or postpone the conversation, but rather to continue it in a more constructive direction, making it a redirection rather than an exit."
+                },
+                {
+                    "label": "Respectful Redirection",
+                    "explanation": "Correct! This response demonstrates respectful redirection by acknowledging the person's feelings before shifting the conversation from problem-focused venting to solution-focused planning, changing the direction while maintaining engagement."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "In a meeting where tensions are rising and people are beginning to make personal comments, you observe: 'I'm noticing that our discussion has moved from the project issues to more personal territory, which usually doesn't lead to productive outcomes.'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Recognition of Unproductive Patterns",
+                    "explanation": "Correct! This response demonstrates recognition of an unproductive pattern by explicitly naming the shift from project issues to personal comments and noting that this pattern typically leads to unproductive outcomes."
+                },
+                {
+                    "label": "Graceful Exit",
+                    "explanation": "This response doesn't attempt to exit the conversation but rather to identify a concerning pattern. It doesn't propose postponing or ending the discussion, which would be characteristic of a graceful exit."
+                },
+                {
+                    "label": "Respectful Redirection",
+                    "explanation": "While this observation might lead to redirection, the response itself focuses on recognizing the unproductive pattern rather than actively redirecting the conversation to a specific alternative topic or approach."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "After a lengthy debate with a colleague that's becoming emotional, you say: 'I value this discussion, but I need some time to think more carefully about your perspective. Let's pause here and continue after I've had a chance to reflect.'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Recognition of Unproductive Patterns",
+                    "explanation": "While there may be implicit recognition that the emotional nature of the conversation isn't optimal, the response focuses primarily on how to exit respectfully rather than explicitly identifying a pattern."
+                },
+                {
+                    "label": "Graceful Exit",
+                    "explanation": "Correct! This response demonstrates a graceful exit by respectfully pausing the conversation while affirming its importance. It provides a legitimate reason for disengagement (reflection time) that doesn't blame the other person and implies future continuation."
+                },
+                {
+                    "label": "Respectful Redirection",
+                    "explanation": "This response focuses on temporarily exiting the conversation rather than redirecting it to a different topic or approach. The suggestion is to pause entirely, not to continue in a different direction."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "In a team discussion that has veered off-topic for several minutes, you say: 'These points about the marketing strategy are interesting, but we should return to discussing the budget constraints, which we need to resolve by the end of this meeting.'",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "Recognition of Unproductive Patterns",
+                    "explanation": "While there's implicit recognition that the conversation has gone off-topic, the response doesn't explicitly identify this as a pattern but moves directly to redirecting the discussion."
+                },
+                {
+                    "label": "Graceful Exit",
+                    "explanation": "This response doesn't aim to exit the conversation but rather to redirect it back to the original topic, maintaining engagement rather than creating space or postponement."
+                },
+                {
+                    "label": "Respectful Redirection",
+                    "explanation": "Correct! This response demonstrates respectful redirection by acknowledging the value of the current discussion before guiding the conversation back to the priority topic that requires resolution, changing direction while maintaining engagement."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "After noticing a conversation with a client has turned into a complaint session about issues outside your control, you say: 'I've noticed we're focusing on aspects that neither of us can directly influence. This tends to leave us feeling frustrated without creating solutions.'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Recognition of Unproductive Patterns",
+                    "explanation": "Correct! This response demonstrates recognition of an unproductive pattern by explicitly identifying that the conversation has shifted to matters outside both parties' control and noting the typical negative outcome of such discussions (frustration without solutions)."
+                },
+                {
+                    "label": "Graceful Exit",
+                    "explanation": "This response doesn't attempt to exit the conversation but rather to identify a problematic pattern. It doesn't propose postponing or ending the discussion, which would be characteristic of a graceful exit."
+                },
+                {
+                    "label": "Respectful Redirection",
+                    "explanation": "While this observation might lead to redirection, the response itself focuses on recognizing the unproductive pattern rather than actively redirecting the conversation to a specific alternative topic or approach."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "During a heated discussion where voices are being raised, you say: 'I think we both care deeply about finding the right solution, but this conversation has become too emotional for productive problem-solving. I suggest we take a 15-minute break and then approach this with fresh perspectives.'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Recognition of Unproductive Patterns",
+                    "explanation": "While there is recognition that the emotional nature of the conversation isn't conducive to problem-solving, the primary focus of the response is on how to exit and return under better conditions."
+                },
+                {
+                    "label": "Graceful Exit",
+                    "explanation": "Correct! This response demonstrates a graceful exit by acknowledging shared goals before suggesting a specific, time-limited break. It frames the exit as beneficial to the ultimate objective and provides a clear plan for continuation, making it a complete exit strategy."
+                },
+                {
+                    "label": "Respectful Redirection",
+                    "explanation": "This response focuses on temporarily exiting the conversation rather than redirecting it to a different topic or approach in the moment. The suggestion is to pause and return, not to continue in a different direction immediately."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "When a meeting discussion has turned into a technical deep-dive that most participants can't follow, you say: 'This technical detail is important, but it might be more efficient to have a smaller working group resolve these specifics and bring recommendations back to the full team. For now, let's focus on the business requirements everyone needs to weigh in on.'",
+            "correctAnswerIndex": 2,
+            "answers": [
+                {
+                    "label": "Recognition of Unproductive Patterns",
+                    "explanation": "While there's implicit recognition that the technical deep-dive isn't effective for the full group, the response focuses primarily on redirecting to a more inclusive topic rather than explicitly identifying the pattern."
+                },
+                {
+                    "label": "Graceful Exit",
+                    "explanation": "This response doesn't aim to exit the overall conversation but rather to redirect it to a more appropriate topic for the current group, while suggesting a different forum for the technical discussion."
+                },
+                {
+                    "label": "Respectful Redirection",
+                    "explanation": "Correct! This response demonstrates respectful redirection by acknowledging the importance of the current topic before suggesting both an alternative process for addressing it (smaller working group) and an immediate shift to a more appropriate topic for the current context."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "After observing a conversation between team members that keeps cycling between two opposing positions, you say: 'I'm noticing we're alternating between the same two perspectives without finding middle ground. When discussions fall into this pattern, we typically don't reach resolution.'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Recognition of Unproductive Patterns",
+                    "explanation": "Correct! This response demonstrates recognition of an unproductive pattern by explicitly identifying the cyclical nature of the discussion between two fixed positions and noting that this pattern typically prevents resolution."
+                },
+                {
+                    "label": "Graceful Exit",
+                    "explanation": "This response doesn't attempt to exit the conversation but rather to identify a problematic pattern. It doesn't propose postponing or ending the discussion, which would be characteristic of a graceful exit."
+                },
+                {
+                    "label": "Respectful Redirection",
+                    "explanation": "While this observation might lead to redirection, the response itself focuses on recognizing the unproductive pattern rather than actively redirecting the conversation to a specific alternative topic or approach."
+                }
+            ]
+        }
+    ]
+}

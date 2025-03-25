@@ -1,0 +1,159 @@
+{
+    "type": "classification",
+    "title": "Recognize the Attack",
+    "label": "Sorting the Snakes",
+    "image": "snake",
+    "prompt": "Recognize the Attack: Boundary Violations vs. Appropriate Communication\n\nIn this game, you'll identify whether statements represent appropriate communication or cross personal boundaries.\n\nBoundary violations undermine dignity, manipulate, humiliate, or disrespect personal limits, while appropriate communication offers honest feedback or disagreement while respecting boundaries.\n\nFor each statement, determine whether it represents appropriate communication or a boundary violation.",
+    "steps": [
+        {
+            "id": 1,
+            "question": "Your colleague says: 'You always mess up these reports. I don't know why we even keep you on this team when you clearly can't handle basic tasks.'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Appropriate Communication",
+                    "explanation": "This is not appropriate communication. The statement uses absolutes ('always'), makes personal attacks about competence, and questions the person's place on the team rather than addressing specific issues with the work. Appropriate feedback would focus on specific problems and offer constructive guidance."
+                },
+                {
+                    "label": "Boundary Violation",
+                    "explanation": "Correct! This crosses boundaries by using absolutes ('always'), making personal attacks about competence, and implying the person doesn't deserve their position. It attacks the person's worth rather than addressing specific work issues constructively."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Your manager says: 'I noticed several calculation errors in the financial section of your report. Could we review those together before the client presentation tomorrow?'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Appropriate Communication",
+                    "explanation": "Correct! This provides specific, factual feedback about the work (not the person), uses a respectful tone, and offers collaborative problem-solving. It addresses performance issues directly without humiliation or personal attacks."
+                },
+                {
+                    "label": "Boundary Violation",
+                    "explanation": "This is actually appropriate communication. It focuses on specific issues with the work rather than attacking the person, uses a respectful tone, and offers collaborative problem-solving rather than criticism without support."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "During a team meeting, a coworker says: 'Oh look, everyone! Sarah's finally decided to share her thoughts with us. Let's all stop what we're doing and listen to her brilliant insights that she's been holding back.'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Appropriate Communication",
+                    "explanation": "This is not appropriate communication. The statement uses sarcasm to publicly mock someone for participating in discussion, creating an unsafe environment that discourages contribution. Appropriate communication would welcome input respectfully."
+                },
+                {
+                    "label": "Boundary Violation",
+                    "explanation": "Correct! This uses sarcasm to publicly humiliate and mock someone for participating in discussion. It creates an unsafe environment that discourages contribution and singles someone out for ridicule rather than engaging with their ideas respectfully."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "A team member says: 'I disagree with your approach to this project. I'm concerned that the timeline you've proposed doesn't account for the testing phase, which has caused problems in previous projects.'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Appropriate Communication",
+                    "explanation": "Correct! This clearly states disagreement while focusing on specific concerns about the work approach rather than attacking the person. It provides context for the concern and remains focused on the project issues rather than making it personal."
+                },
+                {
+                    "label": "Boundary Violation",
+                    "explanation": "This is actually appropriate communication. It expresses disagreement directly but respectfully, focuses on specific work issues rather than personal attacks, and provides context for the concern rather than making sweeping judgments."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Your colleague says to you privately: 'I need to be honest - I felt undermined when you corrected me in front of the client yesterday. In the future, could we align on our approach before client meetings?'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Appropriate Communication",
+                    "explanation": "Correct! This addresses a specific behavior and its impact, expresses a personal feeling without accusation, and proposes a constructive solution. It's delivered privately rather than publicly and focuses on improving future interactions."
+                },
+                {
+                    "label": "Boundary Violation",
+                    "explanation": "This is actually appropriate communication. It addresses a specific behavior rather than attacking character, expresses impact without accusation, proposes a solution, and is delivered privately. This represents healthy boundary setting, not violation."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "During a performance review, your manager says: 'You're too sensitive for this industry. If you can't handle direct feedback without getting emotional, maybe corporate work isn't for you.'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Appropriate Communication",
+                    "explanation": "This is not appropriate communication. Rather than addressing specific behaviors, it makes sweeping judgments about personality ('too sensitive') and belongs in the industry. It dismisses emotional responses as invalid and suggests the person doesn't belong rather than offering constructive guidance."
+                },
+                {
+                    "label": "Boundary Violation",
+                    "explanation": "Correct! This crosses boundaries by making judgments about personality rather than addressing specific behaviors, dismissing emotional responses as invalid, and suggesting the person doesn't belong in their chosen field rather than offering specific, constructive feedback."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "A colleague says in a team chat: 'Just FYI - the deadline for the Johnson proposal has been moved up to Thursday. Let me know if anyone needs support with their sections.'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Appropriate Communication",
+                    "explanation": "Correct! This shares necessary information clearly and directly, offers support rather than just increasing pressure, and doesn't single anyone out or make assumptions about people's ability to meet the deadline."
+                },
+                {
+                    "label": "Boundary Violation",
+                    "explanation": "This is actually appropriate communication. It shares necessary information clearly without blame or pressure, offers support, and doesn't make assumptions about people's capabilities or reactions to the changed deadline."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Your supervisor emails the entire department: 'The quality of work from this team has been embarrassing lately. Some of you clearly don't care about your jobs. Shape up or we'll find people who will take this seriously.'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Appropriate Communication",
+                    "explanation": "This is not appropriate communication. It makes public, generalized criticism without specific feedback, assumes negative intentions ('don't care'), uses shame as a motivator, and contains implicit threats rather than offering constructive guidance."
+                },
+                {
+                    "label": "Boundary Violation",
+                    "explanation": "Correct! This crosses boundaries by using public humiliation, making sweeping generalizations without specific feedback, assuming negative intentions, and using threats rather than constructive guidance. It creates fear rather than motivation for improvement."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "During a project discussion, a team member says: 'I have a different perspective on the user research results. The data suggests users struggle with the navigation, but they actually complete tasks successfully once they find the right section.'",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "Appropriate Communication",
+                    "explanation": "Correct! This offers a different interpretation of shared information without attacking others' views, backs the perspective with specific observations, and contributes constructively to a fuller understanding of the situation."
+                },
+                {
+                    "label": "Boundary Violation",
+                    "explanation": "This is actually appropriate communication. It presents an alternative viewpoint respectfully, focuses on the data rather than attacking others' perspectives, and adds constructive information to deepen understanding rather than dismissing others' contributions."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "A coworker says to you after a presentation: 'That was painful to watch. You clearly didn't prepare, and you made our whole department look amateur. I would have done so much better.'",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "Appropriate Communication",
+                    "explanation": "This is not appropriate communication. It uses harsh, subjective language ('painful'), makes assumptions about preparation, focuses on humiliation rather than improvement, and includes self-promotion at the other's expense rather than offering specific, constructive feedback."
+                },
+                {
+                    "label": "Boundary Violation",
+                    "explanation": "Correct! This crosses boundaries by using deliberately hurtful language, making assumptions rather than asking questions, focusing on humiliation rather than improvement, and including self-promotion at the other's expense rather than offering constructive feedback."
+                }
+            ]
+        }
+    ]
+}

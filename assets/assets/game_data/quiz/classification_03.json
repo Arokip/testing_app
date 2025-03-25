@@ -1,0 +1,159 @@
+{
+    "type": "classification",
+    "title": "Empathy check",
+    "label": "Sorting the Snakes",
+    "image": "snake",
+    "prompt": "Empathy Check: True or False\n\nIn this game, you'll evaluate statements about empathy and perspective-taking to determine whether they accurately reflect empathetic understanding.\n\nRead each statement carefully and decide if it demonstrates true empathy or contains a misunderstanding about empathetic responses.",
+    "steps": [
+        {
+            "id": 1,
+            "question": "Active listening means waiting for your turn to speak while formulating your response.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Active listening involves being fully present with the speaker, focusing on understanding their message rather than preparing your response. It includes paying attention to both verbal and non-verbal cues."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Active listening is not about waiting for your turn while planning what to say next. It's about being fully present, focusing completely on understanding the speaker's message and experience."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Validating someone's feelings means you agree with their perspective or actions.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Validation acknowledges that a person's feelings are real and understandable given their perspective, but doesn't require agreeing with their interpretation or actions."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Validation means acknowledging that someone's feelings make sense from their perspective, even if you see things differently. You can validate emotions without agreeing with actions or conclusions."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Empathy requires you to have experienced the same situation as the other person.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Empathy is about understanding and connecting with others' emotional experiences even when you haven't been in their exact situation. It involves imagination and emotional intelligence."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Empathy doesn't require shared experiences. It's about imaginatively placing yourself in another's position to understand their feelings, even when their circumstances are completely different from anything you've experienced."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Effective empathy includes acknowledging emotions before moving to problem-solving.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! Acknowledging emotions creates psychological safety and helps the person feel understood before addressing practical solutions. People are more receptive to problem-solving after their feelings have been recognized."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Jumping straight to problem-solving without emotional acknowledgment often leaves people feeling dismissed or misunderstood. Effective empathy requires recognizing feelings before addressing solutions."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Using phrases like 'at least' to highlight positive aspects is an effective way to show empathy when someone is struggling.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Phrases like 'at least' often minimize someone's struggle by forcing premature positivity. This approach can make people feel their emotions aren't valid or that you're uncomfortable with their authentic experience."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! 'At least' statements often minimize suffering and can make people feel their emotions aren't being taken seriously. True empathy involves acknowledging the difficulty without immediately trying to find silver linings."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Empathetic responses can include silence and non-verbal cues of attention and care.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! Sometimes the most empathetic response is attentive silence, giving someone space to express themselves while showing you're present through eye contact, nodding, and other non-verbal signals of attention."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Empathy isn't always verbal. Attentive silence and non-verbal cues like nodding, maintaining eye contact, and open body language can powerfully communicate empathetic presence and understanding."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Sharing your own similar experience immediately after someone shares a difficulty is usually the most empathetic response.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. While sharing similar experiences can sometimes create connection, doing so immediately often shifts focus away from the other person's experience to your own, which can feel dismissive."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Immediately sharing your own experience often shifts focus away from the other person when they need attention and understanding. Empathy keeps the focus on their unique experience before potentially sharing yours."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Empathy means protecting people from negative emotions by encouraging them to look on the bright side.",
+            "correctAnswerIndex": 1,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Incorrect. Empathy involves acknowledging and validating all emotions, including difficult ones, rather than trying to protect people from them or immediately redirecting to positivity."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Correct! Empathy isn't about cheering people up or protecting them from negative emotions. It's about being willing to acknowledge and sit with difficult feelings, creating space for their authentic emotional experience."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Asking open-ended questions about someone's experience can demonstrate empathy.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! Thoughtful, open-ended questions show genuine interest in understanding someone's unique perspective and feelings more deeply. They communicate that you value their experience and want to connect with it."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Open-ended questions that invite deeper sharing (rather than yes/no answers) demonstrate interest in truly understanding someone's experience, which is a key component of empathy."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Empathetic listening involves temporarily setting aside your own judgments and assumptions.",
+            "correctAnswerIndex": 0,
+            "answers": [
+                {
+                    "label": "True",
+                    "explanation": "Correct! Effective empathy requires recognizing and setting aside your own biases, assumptions, and immediate judgments to create space for truly understanding another's experience from their perspective."
+                },
+                {
+                    "label": "False",
+                    "explanation": "Incorrect. Setting aside your own judgments and assumptions is essential for empathetic listening. It allows you to hear the other person's experience without filtering it through your own perspective."
+                }
+            ]
+        }
+    ]
+}
