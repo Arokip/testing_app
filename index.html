@@ -60,6 +60,16 @@
     try {
       firebase.initializeApp(firebaseConfig);
       console.log('Firebase initialized successfully');
+
+      // Enable offline persistence
+      firebase.firestore().enablePersistence()
+        .catch((err) => {
+          if (err.code === 'failed-precondition') {
+            console.warn('Multiple tabs open, persistence can only be enabled in one tab at a time.');
+          } else if (err.code === 'unimplemented') {
+            console.warn('The current browser does not support persistence.');
+          }
+        });
     } catch (error) {
       console.error('Error initializing Firebase:', error);
     }
@@ -67,7 +77,16 @@
 </head>
 
 <body>
-  <script src="flutter_bootstrap.js" async></script>
+  <script>
+    window.addEventListener('load', function (ev) {
+      // Download main.dart.js
+      _flutter.loader.load({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
