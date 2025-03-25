@@ -79982,7 +79982,7 @@ s.push(new A.ic(new A.akp(a,o),B.aL,A.bp(n==null?"Loading...":n,m,m,m),!1,B.dm,!
 l.push(A.Hn(B.dm,A.bp("Game book",m,m,m),B.aL,!1,new A.akq(a)))
 l.push(B.m4)
 l.push(B.yO)
-l.push(A.bp("v0.2.2",m,m,m))
+l.push(A.bp("v0.2.3",m,m,m))
 l.push(B.W)
 return A.ae1(m,A.afK(A.cB(l,B.V,B.cq,B.F,0),B.eX))}}
 A.akn.prototype={
