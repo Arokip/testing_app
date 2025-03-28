@@ -60,6 +60,7 @@
                 },
                 {
                     "reply": "Reassign it! I'd rather quit than endure your toxic micromanaging!",
+                    "resultId": 0,
                     "result": "Your boss's face shows cold satisfaction. He stands and leans across the desk. \"Since you're clearly not up to it, I'll hand this to someone who won't crumble under pressure, get out. They'll send your things.\"",
                     "image": "boss_4",
                     "outcome": "Your hasty resignation is processed within hours. Security escorts you out as colleagues watch. Industry contacts report your boss describing you as \"unstable\" and \"combative\" to potential employers. Six months later, you're still job-hunting.",
@@ -76,6 +77,7 @@
                 {
                     "reply": "Yes, of course! I'll do whatever it takes—I'll work all night if necessary!",
                     "action": "You leave quickly.",
+                    "resultId": 1,
                     "result": "You work 20-hour days, sacrificing health and relationships. Your deliverable meets the deadline but lacks polish. Your boss coldly says, \"Finally. Now do it faster next time.\"",
                     "image": "boss_4",
                     "outcome": "Your all-nighters become the new expectation. Three months later, you're hospitalized for exhaustion. HR processes short-term disability, but your boss hires your replacement during your absence. You return to find your desk cleared and responsibilities redistributed.",
@@ -88,6 +90,7 @@
                 {
                     "reply": null,
                     "action": "Leave without saying a word.",
+                    "resultId": 2,
                     "result": "Your boss's face turns purple. \"You're done,\" he hisses, emailing HR before you reach the door. You're placed on \"administrative leave.\" Colleagues avoid you as rumors paint you as \"unstable.\" Months later, you're quietly demoted.",
                     "image": "boss_4",
                     "outcome": "After walking out, you're labeled \"difficult\" across the department. Colleagues avoid collaborating with you, fearing association. Six months later, you're passed over for promotion: \"Not a team player.\" Your boss smirks during the announcement.",
@@ -103,6 +106,7 @@
             "answers": [
                 {
                     "reply": "But you have no idea how incompetent those teams are. There's only so much I can do.",
+                    "resultId": 3,
                     "result": "Your boss stands abruptly, his chair screeching backward. \"You're done,” he snaps, tossing a folder across the desk. \"Get out.”",
                     "image": "boss_4",
                     "outcome": "Removed from the project; credibility destroyed.",
@@ -110,6 +114,7 @@
                 },
                 {
                     "reply": "Fine, I'll try to work around them. Maybe by next Friday? I'll see if that's possible.",
+                    "resultId": 4,
                     "result": "He sneers, \"'Next Friday? Maybe?' 'You'll see if?' Pathetic.\" Mimicking your tone, he adds, \"It's due Wednesday—no excuses.\" He turns to his computer, dismissing you.",
                     "image": "boss_4",
                     "outcome": "Unrealistic deadline imposed; setup to fail.",
@@ -117,6 +122,7 @@
                 },
                 {
                     "reply": "I understand you want results. I'll push Marketing for updates and work around IT issues. Done by Friday without fail.",
+                    "resultId": 5,
                     "result": "The boss narrows his eyes, silent for a tense moment. Finally, he grunts, \"Friday. Not a minute later.\" As you leave, he mutters, \"And CC me on every email to Marketing.\"",
                     "image": "boss_4",
                     "outcome": "Deadline accepted, but micromanagement intensifies.",
@@ -132,6 +138,7 @@
             "answers": [
                 {
                     "reply": "Without these check-ins, we risk the same issues. We must hold a weekly meeting to ensure we're on track.",
+                    "resultId": 6,
                     "result": "Your boss slams his fist on the desk. \"Did you not hear me? No. Meetings.\" He shoves a document toward you. \"Sign this—you'll deliver by Friday, no excuses. Miss it, you're off the project.\"",
                     "image": "boss_4",
                     "outcome": "Forced to accept a punitive deadline with no support.",
@@ -139,6 +146,7 @@
                 },
                 {
                     "reply": "Alright, I won't bother you with meetings. I'll handle everything myself and report when it's done.",
+                    "resultId": 7,
                     "result": "He smirks, pleased by your submission. \"Good. Handle it—I don't want to hear another peep.\" Weeks later, when delays occur, he blames you publicly: \"You promised you could manage. Pathetic.\"",
                     "image": "boss_4",
                     "outcome": "Isolation and scapegoating; no recourse for unforeseen obstacles.",
@@ -146,6 +154,7 @@
                 },
                 {
                     "reply": "I'll handle the heavy lifting without formal check-ins. But for major obstacles, can I send a quick email for sign-off?",
+                    "resultId": 8,
                     "result": "Your boss pauses, then gives a curt nod. \"Fine. Only for major issues—don't spam my inbox.\" As you leave: \"And CC my assistant. I'll decide if it's worth my time.\" Later, he responds to your first email with a terse \"Approved.\"",
                     "image": "boss_4",
                     "outcome": "Retains autonomy while ensuring transparency. Micromanagement decreases over time.",
@@ -161,6 +170,7 @@
             "answers": [
                 {
                     "reply": "With respect, this isn't about whining—it's about quality work. If we don't adjust priorities, the project will suffer.",
+                    "resultId": 9,
                     "result": "Your boss's face darkens. \"'Need my support?'\" he mimics. \"Here's my support: Do. Your. Job.\" He tears the timeline in half. \"Deliver everything by Friday. Bother me about 'priorities' again, you'll prioritize your resumé.\"",
                     "image": "boss_4",
                     "outcome": "Forced to work unsustainable hours; burnout inevitable.",
@@ -168,6 +178,7 @@
                 },
                 {
                     "reply": "I didn't mean to overstep. Forget I asked. I'll figure it out on my own.",
+                    "resultId": 10,
                     "result": "A smirk curls his lips. \"Finally talking sense,\" he says, tossing the timeline into trash. \"Stay late, cancel plans—just get it done.\" Later, when exhaustion makes you miss a deadline, he berates you publicly: \"You swore you could handle it. Useless.\"",
                     "image": "boss_4",
                     "outcome": "Loss of credibility; exploited for compliance.",
@@ -175,6 +186,7 @@
                 },
                 {
                     "reply": "If we do nothing, I'll need to reduce time on the other task by 50%. Would you prefer that trade-off, or should we loop in colleagues to assist?",
+                    "resultId": 11,
                     "result": "The boss glares at the timeline, then snorts. \"The other project? Who cares? Cut it,\" he scribbles on the document. \"And CC me when you email colleagues—I'll 'remind' them to help.\" His micromanagement eases as deadlines are met.",
                     "image": "boss_4",
                     "outcome": "Partial win—workload reduced, but under scrutiny.",
@@ -190,6 +202,7 @@
             "answers": [
                 {
                     "reply": "Sure, I'll fix that right away. No problem at all!",
+                    "resultId": 12,
                     "result": "You delete entire sections to \"cut the fluff.\" The report lacks critical context. Your boss shreds it in the next team meeting: \"This is half-baked. Did you even try to think?\" Colleagues whisper as you're sidelined from future projects.",
                     "image": "boss_4",
                     "outcome": "Reputation damaged; professional judgment questioned.",
@@ -197,6 +210,7 @@
                 },
                 {
                     "reply": "I can do that, but this will take more time if I'm juggling three other projects. Can we extend the deadline?",
+                    "resultId": 13,
                     "result": "\"You want more time? Pathetic,\" he snaps, but relents: \"Fine. If the CEO complains, you're fired.\" You focus solely on the report, which leadership praises, but your boss claims credit: \"My oversight saved this dumpster fire.\" Your neglected projects become ammunition against your promotion.",
                     "image": "boss_4",
                     "outcome": "Short-term win, long-term loss; boss steals credit while setting you up for future failure.",
@@ -204,6 +218,7 @@
                 },
                 {
                     "reply": "Got it—tighten cost-benefit. Are there specific sources or points you want highlighted? I'll finalize by Thursday.",
+                    "resultId": 14,
                     "result": "The boss growls, \"Use Q3 sales data, not this garbage. Highlight ROI—risks are excuses.\" You deliver a focused report by Thursday. He forwards it to the CEO: \"My relentless push got this done.\" Later, he assigns a high-stakes task: \"Don't screw up like last time.\"",
                     "image": "boss_4",
                     "outcome": "Grudging respect earned; still takes credit but relies on your competence.",
@@ -219,6 +234,7 @@
             "answers": [
                 {
                     "reply": "Yes, it is your fault. If you want me to succeed, maybe learn to give feedback without yelling.",
+                    "resultId": 15,
                     "result": "Your boss's face darkens. \"My fault?\" he whispers, trembling with fury. Suddenly, he erupts: \"GET OUT. NOW.\"",
                     "image": "boss_4",
                     "outcome": "Relationship permanently damaged; possible termination.",
@@ -226,6 +242,7 @@
                 },
                 {
                     "reply": "I'm sorry—I didn't mean it that way. It's my fault. Please don't replace me.",
+                    "resultId": 16,
                     "result": "Your boss smirks, savoring your submission. \"Glad you see sense,\" he sneers. \"Work nights and weekends to fix this. I'll review every edit.\" He rejects drafts for minor font issues. Exhausted, you make a critical error—he uses it to justify firing you.",
                     "image": "boss_4",
                     "outcome": "Exploited, then discarded when convenient.",
@@ -233,6 +250,7 @@
                 },
                 {
                     "reply": "I apologize for my outburst. I got defensive. Let's focus on what needs fixing—I'm ready to hear your concerns.",
+                    "resultId": 17,
                     "result": "Your boss stares silently for an excruciating moment. \"Lucky I'm giving you another chance,\" he finally growls. \"Redo the proposal—cut jargon, add metrics. CC me on every client email.\" Under scrutiny, your work impresses the client. He coldly acknowledges: \"Took you long enough.\"",
                     "image": "boss_4",
                     "outcome": "Preserved professional standing; earned minimal respect.",
@@ -248,6 +266,7 @@
             "answers": [
                 {
                     "reply": "Sure, I'll fix the intro and cut the fluff right away. No problem at all!",
+                    "resultId": 18,
                     "result": "You frantically delete sections to meet his definition of \"no fluff.\" The report lacks critical context. He shreds it in front of the team: \"This is garbage. Did you even try?\" The project goes to a colleague as he mutters, \"Waste of my time.\" You're sidelined indefinitely.",
                     "image": "boss_4",
                     "outcome": "Reputation for incompetence; professionally isolated.",
@@ -255,6 +274,7 @@
                 },
                 {
                     "reply": "Got it—update the intro and tighten the cost-benefit section. Any specific sources you want highlighted? I'll finalize by Thursday.",
+                    "resultId": 19,
                     "result": "Your boss rolls his eyes but growls, \"Use Q3 sales figures and the CEO's last email. Stop wasting my time.\" You deliver a polished draft by Thursday. He forwards it with: \"My oversight saved this.\" Later, he assigns another high-stakes task—\"Don't screw up this time.\"",
                     "image": "boss_4",
                     "outcome": "Grudging professional respect; still takes credit but assigns important work.",
@@ -262,6 +282,7 @@
                 },
                 {
                     "reply": "I'm really sorry again. I'll fix everything and do whatever it takes not to disappoint you.",
+                    "resultId": 20,
                     "result": "Your boss's smirk widens. \"Good. Work nights until this is perfect,\" he says, moving the deadline up two days. You sacrifice sleep to meet demands, but he rejects each draft for minor formatting. When you collapse from exhaustion, he remarks: \"Weak. Just like I thought.\"",
                     "image": "boss_4",
                     "outcome": "Health compromised; professionally diminished.",
