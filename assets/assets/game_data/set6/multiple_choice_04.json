@@ -1,5 +1,6 @@
 {
     "type": "multipleChoice",
+    "id": "drawing_the_line",
     "title": "Drawing the Line",
     "label": "Defusing the Vulture",
     "image": "vulture",

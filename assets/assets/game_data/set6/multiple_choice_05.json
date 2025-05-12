@@ -1,5 +1,6 @@
 {
     "type": "multipleChoice",
+    "id": "finding_common_ground",
     "title": "Finding Common Ground",
     "label": "Controlling the Bird of Prey",
     "image": "vulture",

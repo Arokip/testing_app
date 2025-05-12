@@ -1,5 +1,6 @@
 {
     "type": "classification",
+    "id": "perspective_taking_toolkit",
     "title": "Perspective-Taking Toolkit",
     "label": "Taming the Tiger",
     "image": "tiger",

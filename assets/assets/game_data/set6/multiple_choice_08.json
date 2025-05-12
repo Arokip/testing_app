@@ -1,5 +1,6 @@
 {
     "type": "multipleChoice",
+    "id": "boundary_violation",
     "title": "Boundary violation: Spot the real issue",
     "label": "Defusing the Vulture",
     "image": "vulture",

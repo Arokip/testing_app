@@ -1,5 +1,6 @@
 {
     "type": "classification",
+    "id": "communication_fundamentals",
     "title": "Communication Fundamentals",
     "label": "Taming the Tiger",
     "image": "tiger",

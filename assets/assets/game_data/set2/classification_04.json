@@ -1,5 +1,6 @@
 {
     "type": "classification",
+    "id": "boundary_basics",
     "title": "Boundary Basics",
     "label": "Taming the Tiger",
     "image": "tiger",

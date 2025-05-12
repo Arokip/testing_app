@@ -1,5 +1,6 @@
 {
     "type": "multipleChoice",
+    "id": "growth_mindset",
     "title": "Growth Mindset",
     "label": "Defusing the Vulture",
     "image": "vulture",

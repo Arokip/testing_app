@@ -1,5 +1,6 @@
 {
     "type": "multipleChoice",
+    "id": "deescalation_techniques",
     "title": "De-escalation Techniques",
     "label": "Defusing the Vulture",
     "image": "vulture",

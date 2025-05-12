@@ -1,5 +1,6 @@
 {
     "type": "classification",
+    "id": "disengagement_wisdom",
     "title": "Disengagement Wisdom",
     "label": "Sorting the Snakes",
     "image": "snake",

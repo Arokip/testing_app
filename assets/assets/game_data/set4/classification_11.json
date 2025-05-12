@@ -1,5 +1,6 @@
 {
     "type": "classification",
+    "id": "recognize_the_attack",
     "title": "Recognize the Attack",
     "label": "Sorting the Snakes",
     "image": "snake",

@@ -1,5 +1,6 @@
 {
     "type": "classification",
+    "id": "classification_disengagement_techniques",
     "title": "Classification Disengagement Techniques",
     "label": "Taming the Tiger",
     "image": "tiger",

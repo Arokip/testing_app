@@ -1,5 +1,6 @@
 {
     "type": "classification",
+    "id": "mindset_matters",
     "title": "Mindset Matters: Fixed vs. Growth",
     "label": "Sorting the Snakes",
     "image": "snake",

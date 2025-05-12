@@ -1,5 +1,6 @@
 {
     "type": "multipleChoice",
+    "id": "empathy_game",
     "title": "Walking in Their Shoes: Empathetic Response Game",
     "label": "Controlling the Bird of Prey",
     "image": "vulture",
