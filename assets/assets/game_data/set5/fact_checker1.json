@@ -1,0 +1,123 @@
+{
+  "id": "fact_checker1",
+  "type": "multipleChoice",
+  "title": "Fact Checker 1",
+  "label": "Cognitive Restructuring",
+  "image": "fact_checker1",
+  "prompt": "In challenging workplace situations, our minds often jump to negative conclusions. This game helps you practice looking at the actual evidence presented by a situation, and choosing a more balanced perspective. Read carefully the negative thought, the newly presented evidence and select which perspective best incorporates it. Let's begin!",
+  "steps": [
+    {
+      "id": 1,
+      "question": "Thought: \"I completely bombed that presentation; everyone probably thinks I'm incompetent now.\"\n\nEvidence: After the presentation, your colleague Sarah specifically mentioned she found your point about market trends really insightful and helpful.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Sarah was just being polite; she didn't really mean it and probably felt sorry for how badly I did overall.",
+          "explanation": "This response assumes you know Sarah's hidden motives ('just being polite,' 'felt sorry') without evidence – a trap called Mind Reading. It also dismisses the positive feedback (Discounting the Positive). Being open to evidence means considering what was actually said."
+        },
+        {
+          "label": "Okay, at least one part resonated well. Maybe it wasn't a total disaster, and some people found value in it.",
+          "explanation": "Correct! 👍 This acknowledges the specific positive evidence ('at least one part resonated well') and uses it to create a more balanced view ('Maybe it wasn't a total disaster'). It challenges the initial catastrophic thought by focusing on the presented fact."
+        },
+        {
+          "label": "One positive comment doesn't change the fact that the overall presentation was terrible and a complete failure.",
+          "explanation": "This thinking minimizes the positive comment ('One positive comment doesn't change...') and clings to the initial negative judgment ('overall presentation was terrible') – this is Discounting the Positive and Overgeneralization. Being open to evidence means letting facts adjust your overall view."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Thought: \"My contributions to this team project are probably insignificant and easily overlooked by everyone.\"\n\nEvidence: During the project review meeting, the team lead highlighted the section you researched as 'critical to understanding the user needs'.",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "They have to say something positive; my part was likely still minor compared to the others' important work.",
+          "explanation": "This thought dismisses the positive recognition ('They have to say something positive') without proof, which is Discounting the Positive. It assumes the praise wasn't genuine and minimizes your role based on assumptions, not the evidence given."
+        },
+        {
+          "label": "The lead just focused on that small part; it doesn't mean my overall contribution was actually valued much.",
+          "explanation": "Focusing only on the 'small part' and concluding your overall contribution wasn't valued is Minimization. The evidence stated your work was 'critical', which suggests significant value, not minor importance. This response ignores the weight of the evidence."
+        },
+        {
+          "label": "Hearing my research called 'critical' suggests my contribution was indeed significant and valued by the lead.",
+          "explanation": "Great job! ✅ This response directly accepts the evidence ('Hearing my research called critical') and draws a reasonable conclusion ('suggests my contribution was indeed significant and valued'). It counters the initial feeling of insignificance by focusing on the factual statement."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Thought: \"My manager's feedback means she thinks I'm not cut out for this role and probably wants me gone soon.\"\n\nEvidence: The feedback included specific areas for development but also stated, 'Your analytical skills are a strong asset to the team.'",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "This feedback seems balanced, pointing out strengths and areas to grow. It doesn't necessarily mean she thinks I'm failing overall.",
+          "explanation": "Well done! ✨ This perspective acknowledges both parts of the feedback (strengths and areas for growth) and avoids jumping to extreme conclusions ('doesn't necessarily mean she thinks I'm failing'). It reflects a balanced interpretation of the evidence provided."
+        },
+        {
+          "label": "The positive comment is just standard procedure; the criticism is the real message and shows she dislikes my work quality.",
+          "explanation": "This response selectively focuses on the criticism while dismissing the praise as 'standard procedure' (Filtering and Discounting the Positive). It also jumps to conclusions about the manager's feelings ('dislikes my work') which is Mind Reading. The evidence presented a mix, not just criticism."
+        },
+        {
+          "label": "If I need development, it just proves I'm not truly good enough and confirms my fear about not belonging in this role.",
+          "explanation": "Believing that needing development proves you're 'not good enough' and confirms fears is Emotional Reasoning and Catastrophizing. Feedback on development areas is normal; it doesn't automatically equal failure. This ignores the positive evidence given."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Thought: \"Nobody at work really wants to talk to me; I must be unlikeable or incredibly boring to them.\"\n\nEvidence: Yesterday in the breakroom, Alex asked you detailed questions about your weekend trip and seemed genuinely interested in your answers.",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "Alex was probably just killing time or felt obligated to make small talk while waiting for the coffee machine anyway.",
+          "explanation": "Attributing Alex's behaviour to external factors ('killing time', 'obligated') without evidence is Mind Reading. Dismissing the genuine interest shown ('detailed questions') is also Discounting the Positive. This avoids considering the evidence at face value."
+        },
+        {
+          "label": "One single conversation doesn't mean anything; most people still ignore me, proving I don't fit in with the team.",
+          "explanation": "Focusing on the negative ('most people still ignore me') while downplaying the positive interaction ('One single conversation doesn't mean anything') is Filtering and Overgeneralization. Being open to evidence means acknowledging positive instances, even if they feel infrequent."
+        },
+        {
+          "label": "Alex seemed engaged and asked specific questions; perhaps some people do find me interesting to talk to sometimes.",
+          "explanation": "Excellent choice! 🎯 This response focuses on the observed behaviour ('seemed engaged', 'asked specific questions') and uses it to gently challenge the broad negative belief ('perhaps some people do find me interesting'). It's open to the possibility suggested by the evidence."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Thought: \"I made a mistake in that important report; now everyone will think I'm careless and unreliable forever.\"\n\nEvidence: Your colleague pointed out the error, you corrected it quickly, and your colleague said, \"No worries, happens to everyone! Thanks for fixing it so fast.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "They said 'no worries' but likely still judge me harshly inside and won't trust my work again anytime soon.",
+          "explanation": "Assuming you know what your colleague is secretly thinking ('likely still judge me harshly') and predicting negative future consequences ('won't trust my work again') are examples of Mind Reading and Fortune Telling. This ignores their reassuring words and actions."
+        },
+        {
+          "label": "Okay, they seemed understanding, and I fixed it promptly. Mistakes happen, and it doesn't have to define me permanently.",
+          "explanation": "Perfect! 🌟 This acknowledges the evidence ('they seemed understanding', 'I fixed it') and reframes the mistake as a normal event ('Mistakes happen') rather than a permanent definition ('doesn't have to define me'). It accepts the reassurance offered."
+        },
+        {
+          "label": "Fixing it doesn't erase the fact I made the mistake initially. It proves I am careless sometimes, just like I thought.",
+          "explanation": "While it's true a mistake was made, focusing solely on it as proof of being 'careless' is Labeling. This response ignores the context – the quick fix and the colleague's reassuring reaction ('No worries'). Being open to evidence includes how mistakes are handled and perceived by others."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Outstanding work, *Name*! You skillfully embraced the evidence and reframed negative thoughts into balanced interpretations. Your reflections consider both strengths and areas for growth without slipping into assumptions—truly impressive!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great job, *Name*! You mostly focused on the evidence and managed to reframe your thoughts positively. With just a touch more attention to avoid leaning on extra assumptions, you'll perfect that balanced perspective."
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Nice effort, *Name*! You’re on the right track by recognizing the positive cues in the feedback and challenging negative interpretations. A bit more practice in ignoring unwarranted assumptions will help you refine your balanced thinking even further."
+    },
+    {
+      "mistakes": 3,
+      "prompt": "Keep going, *Name*. It’s not easy to sift through harsh self-criticism and extra assumptions, but every attempt is progress. Reflect on the actual evidence and continue practicing a more grounded perspective—you’re steadily improving."
+    }
+  ]
+} 

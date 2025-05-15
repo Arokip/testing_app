@@ -1,0 +1,103 @@
+{
+  "id": "mind_reaction_basics1",
+  "type": "classification",
+  "title": "Mind Reaction Basics",
+  "label": "Thoughts and Feelings",
+  "image": "mind_reaction_basics1",
+  "prompt": "Sometimes our feelings and actions seem automatic, but often there's a link between what happens, what we think about it, and how we end up feeling and acting. This game helps you to understand these connections.\n\nRead each statement and decide if it's True or False.",
+  "steps": [
+    {
+      "id": 1,
+      "question": "Your interpretation (thought) of an event has a bigger impact on your feelings than the event itself.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "That's right! How we look at or interpret things often shapes how we feel much more than the situation itself. Our perspective matters!"
+        },
+        {
+          "label": "False",
+          "explanation": "Think about it this way: the same event can make different people feel very differently. That's usually because their thoughts or interpretations about the event aren't the same. Our interpretation often has a strong effect on our feelings."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "External events automatically dictate your emotional reactions; your thoughts don't play a significant role.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Actually, our thoughts usually play a very important role. It's rarely just the event itself causing the feeling directly. How we think about what happened significantly shapes our emotional reaction."
+        },
+        {
+          "label": "False",
+          "explanation": "Exactly! Our thoughts often act like a filter or a bridge between events and our feelings. We usually have more influence on our feelings than we might realize, based on how we think about things."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Changing how you think about a situation can lead to changes in how you feel and what you do.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Yes, absolutely! By looking at a situation from a different angle or changing our perspective, we can often shift how we feel and influence what we decide to do next."
+        },
+        {
+          "label": "False",
+          "explanation": "Consider this: if you manage to change your perspective on something stressful, doesn't that often make you feel at least a little bit better, or perhaps change how you approach it? These things are usually connected."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "How you feel is completely separate from how you think or what you do.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Actually, these things are usually connected. Think about feeling nervous (feeling) because you're worried about giving a presentation (thought), which might make you practice more (action). They often influence each other."
+        },
+        {
+          "label": "False",
+          "explanation": "You got it! Thoughts, feelings, and actions are linked together. What we think can influence how we feel, which can influence what we do, and this can work in a cycle."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Noticing your automatic thoughts, especially in difficult situations, is often the first step towards managing challenging emotions effectively.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Right! Becoming aware of our thoughts, especially those quick, automatic ones that pop up, is the starting point for understanding our reactions and potentially guiding them differently."
+        },
+        {
+          "label": "False",
+          "explanation": "Think about it: how can we guide our reaction if we don't first notice the thoughts that might be driving it? Awareness of our thoughts is usually the necessary first step to understanding our feelings and actions."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Amazing work, *Name*! You've demonstrated exceptional insight into how your thoughts shape your feelings and actions. Your ability to interpret events and understand the connection between what happens, what you think, and how you feel is truly impressive. Keep up the fantastic work!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great effort, *Name*! You have a strong grasp on the idea that our interpretations influence our emotions. With just a bit more focus, you'll perfect your understanding of these connections. Keep refining your skills!"
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Good job, *Name*! You're well on your way to mastering the link between events, thoughts, and feelings. A little more practice will help clarify these important concepts. Stay motivated and keep learning!"
+    },
+    {
+      "mistakes": 3,
+      "prompt": "It's alright, *Name*. Understanding how our thoughts, feelings, and actions are interconnected can be challenging. Remember, every step you take brings you closer to mastering this concept. Stay positive and keep practicing!"
+    }
+  ]
+}

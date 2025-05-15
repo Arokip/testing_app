@@ -1,0 +1,89 @@
+{
+  "id": "thought_detective1",
+  "type": "gameBook",
+  "title": "Thought Detective 1",
+  "label": "Cognitive Restructuring",
+  "image": "thought_detective1",
+  "prompt": "We learned that our thoughts about a situation, not the situation itself, often cause our feelings. This game helps you practice identifying the specific thoughts behind feelings. Ready to investigate?",
+  "initialStepId": 0,
+  "steps": [
+    {
+      "id": 0,
+      "description": "You wave hello to someone you know across the street, but they don't wave back.\n\nYou feel hurt and a bit anxious.",
+      "image": "boss_1",
+      "question": "Feeling hurt and anxious likely happened after a specific interpretation of the event. Which of these is most likely the Thought that led to those feelings?",
+      "answers": [
+        {
+          "reply": "They deliberately ignored me because they don't like me.",
+          "nextStepId": 1
+        },
+        {
+          "reply": "They didn't wave back.",
+          "resultId": 0,
+          "points": 0,
+          "result": "Not Quite. The statement \"They didn't wave back\" is just a neutral observation or fact about the event itself. It doesn't explain why you felt hurt and anxious. The feeling usually comes from the meaning or interpretation you give to that fact.",
+          "image": "boss_4",
+          "lesson": "Understanding the difference between a simple observation (\"They didn't wave back\") and the interpretation or thought that follows (\"Therefore, they must not like me\") is a key step in understanding your reactions!"
+        },
+        {
+          "reply": "Feeling hurt is unpleasant.",
+          "resultId": 1,
+          "points": 0,
+          "result": "Not Quite. The statement \"Feeling hurt is unpleasant\" simply describes the feeling itself, or states a fact about emotions. It's not the thought that came before the feeling and likely caused it. Remember the flow: Event -> Thought -> Feeling.",
+          "image": "boss_4",
+          "lesson": "It's helpful to distinguish between the thought that causes a feeling (like \"They ignored me\") and the description or experience of the feeling itself (like \"Feeling hurt is unpleasant\"). Spotting that thought is the first step!"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "description": "Correct! This statement is an interpretation or assumption about the event - the kind of thought that directly leads to feelings like hurt or anxiety.\n\nThe good news is we can change the thought and hence the feeling!",
+      "image": "boss_3",
+      "question": "Which of these is a more helpful or balanced way to think about the situation?",
+      "answers": [
+        {
+          "reply": "Maybe they didn't see me, or they were distracted. I don't know for sure why they didn't wave.",
+          "resultId": 2,
+          "points": 3,
+          "result": "Excellent Thinking! The thought \"Maybe they didn't see me, or they were distracted. I don't know for sure why they didn't wave\" is more balanced. It acknowledges possibilities and admits uncertainty, rather than jumping to a negative conclusion.",
+          "image": "boss_4",
+          "lesson": "This kind of balanced thought is less likely to lead to strong negative feelings like hurt or anxiety. It might lead to curiosity or just letting it go. Practicing finding these alternative, balanced thoughts can make a big difference in how you feel day-to-day!"
+        },
+        {
+          "reply": "I should confront them and ask why they ignored me.",
+          "resultId": 3,
+          "points": 1,
+          "result": "Not Quite a Reframe. The statement \"I should confront them and ask why they ignored me\" describes a potential action you could take. Changing your thinking focuses on shifting your interpretation of the situation itself, not just planning what to do next. Sometimes action is needed, but it's different from adjusting the thought that causes the feeling.",
+          "image": "boss_4",
+          "lesson": "It's useful to separate changing your perspective on a situation from deciding how to act on it. Both are important, but changing the thought often helps you choose a calmer, more effective action."
+        },
+        {
+          "reply": "It proves I'm unlikeable.",
+          "resultId": 4,
+          "points": 1,
+          "result": "Still an Unhelpful Thought. The thought \"It proves I'm unlikeable\" is just another negative interpretation, similar to the original thought (\"They don't like me\"). It jumps to a harsh conclusion about yourself based on uncertain evidence.",
+          "image": "boss_4",
+          "lesson": "A helpful or balanced way of thinking is usually less certain, considers other possibilities, and avoids negative labels. Keep practicing looking for those more neutral or positive (but still realistic!) angles."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": ""
+    },
+    {
+      "mistakes": 1,
+      "prompt": ""
+    },
+    {
+      "mistakes": 2,
+      "prompt": ""
+    },
+    {
+      "mistakes": 3,
+      "prompt": ""
+    }
+  ]
+}

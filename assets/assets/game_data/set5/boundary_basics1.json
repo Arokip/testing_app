@@ -1,0 +1,103 @@
+{
+  "id": "boundary_basics1",
+  "type": "multipleChoice",
+  "title": "Boundary Basics 1",
+  "label": "Set Boundaries",
+  "image": "boundary_basics1",
+  "prompt": "Establishing clear boundaries communicates to the bully what behaviors are acceptable and what will not be tolerated is a key skill. Your task is to evaluate statements about personal and professional boundaries to determine whether they reflect healthy boundary-setting principles.\n\nRead each statement carefully and decide if it represents an accurate understanding of effective boundaries.",
+  "steps": [
+    {
+      "id": 1,
+      "question": "Setting boundaries means saying 'no' to everything that makes you uncomfortable.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Incorrect. Effective boundary-setting isn't about blanket refusal of all discomfort. Sometimes growth requires stepping outside comfort zones. Healthy boundaries involve thoughtful decisions about what to accept or decline based on your values, capacity, and wellbeing."
+        },
+        {
+          "label": "False",
+          "explanation": "Correct! Healthy boundaries aren't about avoiding all discomfort. They involve making conscious choices about what you accept or decline based on your values, capacity, and wellbeing. Sometimes personal growth requires temporary discomfort."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Clearly communicating your limits while remaining respectful is key to effective boundary setting.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Correct! Effective boundaries combine clarity with respect. Being direct about your limits while maintaining a respectful tone preserves relationships and increases the likelihood your boundaries will be understood and honored."
+        },
+        {
+          "label": "False",
+          "explanation": "Incorrect. Clear, respectful communication is essential for effective boundary setting. Vague boundaries are easily misunderstood, while disrespectful delivery can damage relationships and create unnecessary conflict."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Once you set a boundary, you should never adjust it under any circumstances.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Incorrect. Healthy boundaries can and should evolve as circumstances, relationships, and your own needs change. Rigidly maintaining boundaries without considering context or growth opportunities can be as problematic as having no boundaries."
+        },
+        {
+          "label": "False",
+          "explanation": "Correct! Healthy boundaries are flexible and can evolve as circumstances, relationships, and your own needs change. Rigid, unchangeable boundaries don't account for growth, changing contexts, or deepening trust in relationships."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Setting boundaries at work will likely damage your professional relationships and limit your career advancement.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Incorrect. Professional boundaries typically strengthen relationships by establishing clear expectations and preventing burnout. Thoughtfully communicated boundaries demonstrate self-awareness and professionalism, qualities valued in leadership positions."
+        },
+        {
+          "label": "False",
+          "explanation": "Correct! Well-communicated professional boundaries typically strengthen relationships and demonstrate maturity. They prevent burnout, resentment, and misunderstandings that would actually harm your effectiveness and advancement opportunities."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "You need to explain and justify your boundaries in detail for them to be valid and respected.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Incorrect. While brief explanations can sometimes help others understand your boundaries, you don't need to justify or defend your right to have boundaries. Over-explaining can actually undermine your boundaries by suggesting they're negotiable."
+        },
+        {
+          "label": "False",
+          "explanation": "Correct! While brief explanations can sometimes be helpful, you don't need to justify or defend your boundaries in detail. Your boundaries are valid because they're important to your wellbeing, not because others understand or approve of them."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Outstanding, *Name*! You've demonstrated a deep understanding of healthy boundary-setting principles. Your ability to evaluate statements about personal and professional boundaries is exceptional. Keep up the fantastic work!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great job, *Name*! You have a strong grasp on the principles of healthy boundary-setting. With just a bit more focus, you'll achieve perfection. Keep honing your skills and understanding!"
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Good effort, *Name*! You're on the right path to understanding healthy boundary-setting. Remember, practice makes perfect, and this app is here to help you improve. Keep learning and stay encouraged!"
+    },
+    {
+      "mistakes": 3,
+      "prompt": "It's not always easy, but don't be discouraged, *Name*. Understanding healthy boundary-setting can be challenging. This app is designed to help you get better, so keep practicing and stay positive. You're making progress!"
+    }
+  ]
+}

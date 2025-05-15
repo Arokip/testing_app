@@ -3,7 +3,7 @@
     "short_name": "snaxe",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#fcf2d1",
+    "background_color": "#5ACD05",
     "theme_color": "#ffffff",
     "description": "A new Flutter project.",
     "orientation": "portrait-primary",

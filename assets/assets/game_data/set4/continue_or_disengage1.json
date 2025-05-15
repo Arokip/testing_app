@@ -1,0 +1,103 @@
+{
+  "id": "continue_or_disengage1",
+  "type": "classification",
+  "title": "Continue or Disengage 1",
+  "label": "Strategicaly Disengage",
+  "image": "continue_or_disengage1",
+  "prompt": "In this game, you'll practice recognizing when to engage with your boss *Bully's name* and when to strategically disengage from potentially harmful interactions.\n\nRead each scenario carefully and decide whether you should continue or strategically disengage from the interaction.",
+  "steps": [
+    {
+      "id": 1,
+      "question": "*Bully's name* interrupts your presentation to say, 'Wow, you actually prepared slides? I didn't think you cared enough to try.' His tone drips with mock surprise.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Continue",
+          "explanation": "Incorrect. This comment contains mockery designed to humiliate, not provide constructive criticism. The sarcasm indicates *Bully's name* is not approaching this interaction with respect or good faith. Engaging often validates and encourages such belittling behavior."
+        },
+        {
+          "label": "Disengage",
+          "explanation": "Correct! This is mockery, not feedback. The sarcastic tone and public undermining suggest *Bully's name* is more interested in embarrassing you than helping you improve. Strategic disengagement protects your dignity and denies them the reaction they're seeking."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "*Bully's name* says, 'You're the expert, right? So why does this feel like a kindergarten project?' He smirks and refuses to clarify what he wants.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Continue",
+          "explanation": "Incorrect. *Bully's name* is using vague insults and refusing to provide specific feedback. This pattern indicates they're more interested in making you defensive than solving problems. Without clear expectations, engagement will likely lead to frustration."
+        },
+        {
+          "label": "Disengage",
+          "explanation": "Correct! *Bully's name* is using vague insults while refusing to provide constructive guidance. The smirk and unwillingness to clarify expectations suggest this is about power, not performance improvement. Strategic disengagement prevents an unproductive cycle of defense and criticism."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "*Bully's name* says, 'You have a degree in this, so I guess we have to pretend your ideas matter. What's next, genius?'",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Continue",
+          "explanation": "Incorrect. This statement contains sarcasm, undermines your credentials, and uses the term 'genius' mockingly. These are clear signs of disrespect rather than constructive criticism. Engaging often reinforces this negative dynamic."
+        },
+        {
+          "label": "Disengage",
+          "explanation": "Correct! *Bully's name* is using backhanded comments and sarcasm to undermine your expertise and contributions. The mocking tone of 'genius' indicates this isn't about your work quality but about diminishing your confidence. Strategic disengagement preserves your professional dignity."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "*Bully's name* says, 'Your report missed key data points. This is BS. Yet let's review it together so it doesn't happen again.'",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Continue",
+          "explanation": "Correct! While *Bully's name* is expressing frustration bluntly, they're also offering a collaborative solution. The focus is on improving the work rather than attacking you personally. This represents an opportunity to address the issue constructively and strengthen your working relationship."
+        },
+        {
+          "label": "Disengage",
+          "explanation": "Incorrect. Though *Bully's name*'s language is harsh, they're offering to work with you on a solution. The criticism is directed at the work product, not at you personally, and includes a path forward. Disengaging here might miss an opportunity for growth and resolution."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "*Bully's name* says, 'Your presentation lacked structure. Here's how to fix it—do you want feedback or just sympathy?' He smiles slightly.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Continue",
+          "explanation": "Correct! While the delivery is direct and includes a touch of challenging humor, *Bully's name* is offering specific feedback and solutions. The slight smile suggests this is meant as constructive criticism rather than mockery. This represents an opportunity for professional growth."
+        },
+        {
+          "label": "Disengage",
+          "explanation": "Incorrect. Although the comment contains a somewhat challenging question, *Bully's name* is offering specific feedback and solutions. The focus is on improving your work rather than belittling you. Disengaging here might be perceived as resistance to constructive criticism."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Outstanding performance, *Name*! You've demonstrated exceptional judgment in navigating difficult workplace interactions. Your ability to distinguish between constructive criticism and toxic behavior will serve you well in maintaining professional boundaries while still growing from feedback. Keep trusting your instincts!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great effort, *Name*! You have a strong understanding of when to engage with challenging feedback and when to protect yourself from harmful interactions. With just a bit more practice, you'll be able to navigate even the trickiest workplace dynamics with confidence. Keep refining your judgment!"
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Good job, *Name*! You're on the right track to mastering workplace boundaries. Remember that the goal is to remain open to growth opportunities while protecting yourself from truly toxic behavior. Keep practicing these scenarios to sharpen your discernment skills!"
+    },
+    {
+      "mistakes": 3,
+      "prompt": "It's not always easy to distinguish between tough feedback and inappropriate behavior, especially from authority figures. Don't be discouraged, *Name*! We are here to help. These skills develop with time and practice."
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "thinking_traps1",
+  "type": "classification",
+  "title": "Thinking Traps",
+  "label": "Balanced Thinking vs Thinking Traps",
+  "image": "thinking_traps1",
+  "prompt": "Sometimes, the way we think about situations can make us feel worse than we need to. Our minds can fall into common unhelpful patterns called \"Thinking Traps.\"\n\nIn this challenge, your task is to classify reactions as either Balanced Thinking (realistic, objective, helpful) or a Thinking Trap (an unhelpful, often distorted pattern).",
+  "steps": [
+    {
+      "id": 1,
+      "question": "Scenario: You made a typo in an important email after sending it.\n\nReaction: \"I always mess things up like this.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "Not quite. This is Overgeneralization - taking one mistake and making a broad negative conclusion about yourself. A balanced thought: \"I made a typo. I'll proofread more carefully next time.\""
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Correct! This is Overgeneralization - taking one mistake and making a broad negative conclusion about yourself. A balanced thought: \"I made a typo. I'll proofread more carefully next time.\""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Scenario: A project you're managing is slightly delayed.\n\nReaction: \"This is a complete disaster! The whole project will fail now, and everyone will be furious.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "That's incorrect. This is Catastrophizing - jumping to worst-case scenarios from a minor setback. Balanced thinking assesses actual impact: \"There's a delay. Let's adjust our timeline and communicate with stakeholders.\""
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Great! This is Catastrophizing - jumping to worst-case scenarios from a minor setback. Balanced thinking assesses actual impact: \"There's a delay. Let's adjust our timeline and communicate with stakeholders.\""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Scenario: You wave at a friend across the street, but they don't seem to notice and walk past.\n\nReaction: \"She's definitely mad at me about something.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "Not quite. This is Mind-Reading - assuming you know what others think without evidence. Many reasons exist for not waving back. Balanced thinking: \"Maybe she didn't see me or was distracted.\""
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Exactly right! This is Mind-Reading - assuming you know what others think without evidence. Many reasons exist for not waving back. Balanced thinking: \"Maybe she didn't see me or was distracted.\""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Scenario: A team project you contributed to didn't get the expected results.\n\nReaction: \"It's all my fault this didn't work out.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "Not right. This is Personalization - taking full blame for an outcome involving multiple factors. Balanced thinking considers all contributors: \"What was my role, and what other factors affected this?\""
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Correct! This is Personalization - taking full blame for an outcome involving multiple factors. Balanced thinking considers all contributors: \"What was my role, and what other factors affected this?\""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Scenario: You received a B+ on a challenging assignment you worked hard on.\n\nReaction: \"If it's not an A, it's a total failure. This B+ is worthless.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "Not correct. This is All-or-Nothing Thinking - seeing things as either perfect or worthless. A B+ on a challenging assignment is still an achievement worth recognizing."
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Great job! This is All-or-Nothing Thinking - seeing things as either perfect or worthless. A B+ on a challenging assignment is still an achievement worth recognizing."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Scenario: Your boss praised three aspects of your work but offered one suggestion for improvement.\n\nReaction: \"He didn't like it at all. He just focused on what was wrong.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "That's wrong. This is Mental Filtering - focusing only on negatives while ignoring positives. Balanced thinking acknowledges both: \"He praised three aspects and gave one suggestion for improvement.\""
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Correct! This is Mental Filtering - focusing only on negatives while ignoring positives. Balanced thinking acknowledges both: \"He praised three aspects and gave one suggestion for improvement.\""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Scenario: A colleague compliments you on a presentation you gave.\n\nReaction: \"Oh, they're just being nice, they don't really mean it.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "Not right. This is Discounting the Positive - rejecting positive feedback as meaningless. Balanced thinking accepts compliments: \"Thank you, I'm glad you found my presentation helpful.\""
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Excellent! This is Discounting the Positive - rejecting positive feedback as meaningless. Balanced thinking accepts compliments: \"Thank you, I'm glad you found my presentation helpful.\""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Scenario: You have several deadlines approaching and feel overwhelmed.\n\nReaction: \"I should be able to handle all of this easily without feeling stressed.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "Let's reconsider. This uses a \"Should\" Statement - imposing rigid expectations on yourself. Balanced thinking is more realistic: \"It's normal to feel stressed with multiple deadlines.\""
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Correct! This uses a \"Should\" Statement - imposing rigid expectations on yourself. Balanced thinking is more realistic: \"It's normal to feel stressed with multiple deadlines.\""
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Outstanding work, *Name*! You've demonstrated an exceptional ability to spot thinking traps and apply balanced thinking in challenging scenarios. Your keen observations—such as recognizing mental filtering and discounting the positive—highlight your strong grasp of these concepts. Keep up the excellent progress!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great job, *Name*! You clearly understand the difference between balanced thinking and those unhelpful patterns that can cloud our judgment. With just a touch more focus on fine-tuning your insights, you'll be even more proficient at catching those subtle thinking traps. Keep refining your skills!"
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Well done, *Name*! You're on the right track with identifying common thinking traps like overgeneralization and catastrophizing. A bit more practice in evaluating each situation will help you transition even more smoothly to balanced thinking. Stay motivated and keep practicing!"
+    },
+    {
+      "mistakes": 3,
+      "prompt": "Don't worry, *Name*. Recognizing the subtle shifts between thinking traps and balanced thinking can be challenging at times. Each attempt brings you closer to a deeper, more realistic understanding of your reactions. Continue to trust the process—you're making steady progress!"
+    }
+  ]
+} 

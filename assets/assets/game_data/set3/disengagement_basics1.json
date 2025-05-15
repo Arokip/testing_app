@@ -1,0 +1,103 @@
+{
+  "id": "disengagement_basics1",
+  "type": "multipleChoice",
+  "title": "Disengagement Basics 1",
+  "label": "Emotional Intelligence",
+  "image": "disengagement_basics1",
+  "prompt": "Sometimes interaction is becoming unproductive or emotionally harmful and it is better to end it gracefully. In this game, you'll evaluate statements about strategic disengagement - the skill of recognizing when and how to exit unproductive interactions effectively and respectfully.\n\nRead each statement carefully and decide if it represents effective disengagement principles or problematic approaches.",
+  "steps": [
+    {
+      "id": 1,
+      "question": "Strategic disengagement means permanently cutting off communication with difficult people.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Incorrect. Strategic disengagement is about temporarily stepping back from unproductive interactions, not permanent avoidance. The goal is often to return to the conversation later under better conditions rather than severing relationships entirely."
+        },
+        {
+          "label": "False",
+          "explanation": "Correct! Strategic disengagement typically involves temporarily stepping back from unproductive interactions, not permanently cutting people off. The goal is usually to resume communication later under better conditions for more productive outcomes."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Recognizing when a conversation becomes unproductive is the first step in strategic disengagement.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Correct! Awareness is essential for effective disengagement. Recognizing signs of unproductive interaction (circular arguments, rising emotions, diminishing returns) allows you to disengage strategically rather than after damage has occurred."
+        },
+        {
+          "label": "False",
+          "explanation": "Incorrect. Recognizing unproductive patterns is indeed the crucial first step in strategic disengagement. Without this awareness, you're likely to remain in counterproductive interactions too long or disengage in reactive rather than strategic ways."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Strategic disengagement can include suggesting a different format or time for the discussion.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Correct! Effective disengagement often includes proposing constructive alternatives. Suggesting a different format (e.g., email to meeting) or timeframe acknowledges the importance of the topic while recognizing current conditions aren't optimal."
+        },
+        {
+          "label": "False",
+          "explanation": "Incorrect. Suggesting alternative formats or timing is a key strategic disengagement technique. It demonstrates commitment to resolution while recognizing that current conditions aren't conducive to productive discussion."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "If you need to disengage from a heated conversation, it's best to do so without explaining why to avoid further conflict.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Incorrect. Disengaging without explanation often creates confusion, resentment, or assumptions of dismissiveness. Brief, non-accusatory explanations for your disengagement help maintain respect and set the stage for more productive future interactions."
+        },
+        {
+          "label": "False",
+          "explanation": "Correct! Briefly explaining your reason for disengaging in non-accusatory terms (e.g., 'I need time to think about this' or 'I want to discuss this when we're both calmer') shows respect and sets the stage for more productive future interaction."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Strategic disengagement should be used as a last resort after trying multiple approaches to resolve a conflict.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Correct! Strategic disengagement is most appropriate after making good-faith efforts to resolve the issue through direct communication. Using it as an initial strategy without attempting resolution can prevent potentially productive outcomes and damage trust."
+        },
+        {
+          "label": "False",
+          "explanation": "Incorrect. Strategic disengagement is generally most appropriate after making reasonable efforts to resolve the issue directly. Using it as an initial strategy without attempting resolution may miss opportunities for understanding and can appear avoidant."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Outstanding performance, *Name*! You've shown exceptional insight into the principles of strategic disengagement. Your ability to evaluate disengagement strategies is remarkable. Keep up the fantastic work!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great effort, *Name*! You have a strong understanding of strategic disengagement principles. With just a bit more focus, you'll achieve perfection. Keep refining your skills and awareness!"
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Good job, *Name*! You're on the right track to mastering strategic disengagement. Remember, practice makes perfect, and this app is here to guide you. Keep learning and stay motivated!"
+    },
+    {
+      "mistakes": 3,
+      "prompt": "It's not always easy, but don't be discouraged, *Name*. This app is designed to help you improve, so keep practicing and stay positive. You're making progress!"
+    }
+  ]
+}

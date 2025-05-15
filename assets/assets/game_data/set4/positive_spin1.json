@@ -1,0 +1,123 @@
+{
+  "id": "positive_spin1",
+  "type": "multipleChoice",
+  "title": "Positive Spin 1",
+  "label": "Cognitive Restructuring",
+  "image": "positive_spin1",
+  "prompt": "Life often presents situations where our first reaction is negative. We might assume the worst about why something happened or how others feel. This game help you practice finding different, more balanced ways to think about things.\n\nRead each scenario. Choose the interpretation that offers the most constructive and plausible \"positive spin.\"",
+  "steps": [
+    {
+      "id": 1,
+      "question": "Your boss *Bully's name* gives you feedback on a report, noting several areas needing significant revision and saying they expected more polish at this stage.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Okay, the feedback is specific. My boss trusts me enough for direct critique, likely wanting skill development now.",
+          "explanation": "Correct. This focuses on specifics ('specific'), assumes positive intent ('trusts me,' 'skill development'), avoiding thinking traps. It promotes growth opportunities."
+        },
+        {
+          "label": "My boss thinks I'm incompetent and is probably looking for good reasons to get rid of me soon enough.",
+          "explanation": "This assumes negative thoughts ('Mind-Reading') and the worst outcome ('Catastrophizing'), causing needless stress without proof. It's an unhelpful pattern to follow."
+        },
+        {
+          "label": "This criticism is totally unfair; the boss is just nitpicking details and trying to assert their power over me.",
+          "explanation": "This involves 'Blaming' and 'Assuming Negative Intent,' closing off learning by labeling feedback as an unfair power play. It creates unnecessary conflict here."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You sent a text message to a friend asking a question a few hours ago, and they still haven't replied, even though they usually respond quickly.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "They're probably just busy with something important, or maybe saw it and simply forgot; I'll hear back much later.",
+          "explanation": "Correct. This considers neutral external factors ('busy,' 'forgot'), avoiding personalization or blame directed toward your friend. It promotes patience now."
+        },
+        {
+          "label": "It's incredibly rude not to reply promptly; they clearly don't value my time or our friendship very much now.",
+          "explanation": "This uses 'Should' statements and 'Blaming,' setting rigid rules and interpreting the delay as a personal insult or a very significant slight toward you."
+        },
+        {
+          "label": "They must be ignoring me right now or maybe they are annoyed with me about something I did do recently.",
+          "explanation": "This involves 'Personalization' and 'Mind-Reading,' assuming the delay is a negative reaction to you without having any real evidence supporting that thought."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "While driving, another car suddenly cuts into your lane very close in front of you, forcing you to brake sharply and suddenly to avoid them.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "My whole day is completely ruined now because of that idiot driver. Driving around here is always so stressful like this time.",
+          "explanation": "This is 'Catastrophizing' (day ruined) and 'All-or-Nothing' thinking ('always stressful'). It gives the single negative event far too much power over you."
+        },
+        {
+          "label": "Whoa, that was quite close indeed. Maybe they didn't see me, or are distracted/in a rush. Good thing I reacted safely then.",
+          "explanation": "Correct. This acknowledges the event but explores plausible, neutral reasons ('didn't see,' 'distracted') and notes your own effective positive response."
+        },
+        {
+          "label": "That absolute jerk did that on purpose just to annoy me! People driving today are just so aggressive toward others always.",
+          "explanation": "This assumes malice ('on purpose'), uses 'Labeling' ('jerk'), and 'Overgeneralizes' about other drivers. It fuels anger without knowing their actual intent."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You hear from a mutual friend that several people from your wider social circle got together over the weekend, but you were not invited along.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "They're such a closed-off clique together; they always leave certain people out like this. It feels completely unfair to me then.",
+          "explanation": "This uses 'Labeling' ('clique') and 'Blaming,' focusing on perceived unfairness instead of considering other neutral logistical reasons for the gathering."
+        },
+        {
+          "label": "It sounds like a smaller group got together then. Maybe it was spontaneous, or for a specific shared interest perhaps this time.",
+          "explanation": "Correct. This normalizes smaller gatherings and considers practical reasons ('spontaneous,' 'shared interest'), avoiding taking the situation personally now."
+        },
+        {
+          "label": "They deliberately excluded me from the gathering; they must not like me or think I am interesting enough for them now.",
+          "explanation": "This involves 'Personalization' and 'Mind-Reading,' assuming exclusion was intentional and about your perceived flaws without any real proof of that being true."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "You've planned an outdoor picnic for the weekend, but the weather forecast now predicts a high chance of rain all day long instead of sun.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Okay, rain is likely now then. It's disappointing about the picnic, but perhaps we can adapt and do something fun inside instead.",
+          "explanation": "Correct. This accepts reality ('rain likely'), acknowledges feelings ('disappointing'), but focuses constructively on adaptation and finding good solutions."
+        },
+        {
+          "label": "This always happens to me! My plans are completely ruined now; the whole entire weekend will be a total washout for sure.",
+          "explanation": "This uses 'Overgeneralization' ('always'), 'Catastrophizing' ('ruined'), and 'All-or-Nothing' thinking, making the current situation seem much worse than it is."
+        },
+        {
+          "label": "Why does the bad weather have to conspire against me? It's so unfair I can never seem to have any nice outdoor plans work out.",
+          "explanation": "This 'Personalizes' an impersonal event (the weather) and adopts a 'Victim Stance,' feeling unfairly targeted by random circumstances beyond your control."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Outstanding work, *Name*! You skillfully turned each challenge into a growth opportunity by choosing interpretations that stay true to the situation while offering a constructive, positive spin. Your balanced thinking shines through!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great job, *Name*! You're almost there. With a touch more attention to keeping your interpretations grounded in the facts, you'll continue improving your ability to flip negativity into productive insights."
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Nice effort, *Name*! You’re on the right path by embracing balanced thinking and positive reframing. A bit more focus on resisting unhelpful assumptions will help refine your interpretations even further."
+    },
+    {
+      "mistakes": 3,
+      "prompt": "Keep going, *Name*. It’s normal to occasionally slip into negative thought patterns. Remember, every situation is a chance to practice reinterpreting events more constructively. Stay patient and keep working at it!"
+    }
+  ]
+} 

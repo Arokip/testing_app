@@ -1,0 +1,123 @@
+{
+  "id": "communication_style_classifier1",
+  "type": "classification",
+  "title": "Communication Style Classifier 1",
+  "label": "Assertive Communication",
+  "image": "communication_style_classifier1",
+  "prompt": "Assertiveness is a key skill in standing up for oneself and challenging bullying behavior. In this challenge you will learn to master the difference between effective communication and being either too passive or too aggressive.\n\nImagine your boss *Bully's name* constantly criticizing your work publicly. Now, he demanded you redo a major project with an impossible deadline.\n\nRead each response and assess if it is rightly assertive or too aggressive or passive:",
+  "steps": [
+    {
+      "id": 1,
+      "question": "Response: \"I understand you're not satisfied with the current version. To ensure I meet your expectations, could we review the specific issues that need addressing and discuss a realistic timeline given my other deadlines?\"",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Assertive",
+          "explanation": "Good job! You respectfully acknowledge the concern while clearly requesting the specific feedback you need and addressing the timeline issue. This sets boundaries without being confrontational."
+        },
+        {
+          "label": "Too Aggressive",
+          "explanation": "Nope. It is assertive. You acknowledge the concern while clearly requesting specific feedback and addressing the timeline issue in a constructive way."
+        },
+        {
+          "label": "Too Passive",
+          "explanation": "Nope. It is assertive. You acknowledge the concern while clearly requesting specific feedback and addressing the timeline issue in a constructive way."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Response: \"Who do you think you are? You can't just demand impossible deadlines after weeks of unclear direction. If you managed better, we wouldn't be in this situation!\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Assertive",
+          "explanation": "Not really, it is too aggressive. While setting boundaries is important, this approach uses confrontational language and personal attacks that will likely make the situation worse."
+        },
+        {
+          "label": "Too Aggressive",
+          "explanation": "This sets a boundary but is harsh and accusatory, likely to escalate the conflict rather than resolve it. Challenging authority with personal attacks typically makes the situation worse."
+        },
+        {
+          "label": "Too Passive",
+          "explanation": "Not really, it is too aggressive. While setting boundaries is important, this approach uses confrontational language and personal attacks that will likely make the situation worse."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Response: \"I'm so sorry it wasn't good enough. I'll stay all night if necessary to fix it. Whatever you think is best...\"",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "Assertive",
+          "explanation": "Oh oh, this is too passive. You're not setting any boundaries and are agreeing to potentially unreasonable demands without addressing the inappropriate criticism."
+        },
+        {
+          "label": "Too Aggressive",
+          "explanation": "Oh oh, this is too passive. You're not setting any boundaries and are agreeing to potentially unreasonable demands without addressing the inappropriate criticism."
+        },
+        {
+          "label": "Too Passive",
+          "explanation": "You're avoiding a firm stance and not protecting your time or wellbeing. This response enables the bullying behavior to continue by accepting unreasonable demands without question."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Response: \"Fine, I'll redo it, but just so you know, I have three other urgent deadlines this week. I guess my family won't be seeing me at all...\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Assertive",
+          "explanation": "This is actually too aggressive in a passive-aggressive way. The seemingly compliant words are undermined by the sarcastic tone and guilt-inducing statements, which create hostility without directly addressing the issue."
+        },
+        {
+          "label": "Too Aggressive",
+          "explanation": "While this appears to be agreeing, the sarcastic tone and guilt-inducing language make this passive-aggressive, which is a form of indirect aggression. This approach creates tension without effectively addressing the issue."
+        },
+        {
+          "label": "Too Passive",
+          "explanation": "This is actually too aggressive in a passive-aggressive way. The seemingly compliant words are undermined by the sarcastic tone and guilt-inducing statements, which create hostility without directly addressing the issue."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Response: \"I'm committed to delivering quality work. The current timeline would require me to either miss other deadlines or compromise on quality. Could we prioritize the most critical revisions or adjust the deadline to ensure the best outcome?\"",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Assertive",
+          "explanation": "Excellent! You focus on shared goals (quality work), clearly explain the constraints, and propose reasonable alternatives. This is effective boundary-setting without being confrontational."
+        },
+        {
+          "label": "Too Aggressive",
+          "explanation": "Nope. It is assertive. You've maintained professionalism while clearly explaining constraints and offering constructive alternatives focused on the best outcome."
+        },
+        {
+          "label": "Too Passive",
+          "explanation": "Nope. It is assertive. You've maintained professionalism while clearly explaining constraints and offering constructive alternatives focused on the best outcome."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Outstanding work, *Name*! You’ve excellently distinguished assertive responses from those that are too aggressive or too passive. Your choices show a clear grasp of setting boundaries while maintaining respect. Keep up the great communication skills!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great job, *Name*! You have a strong understanding of assertiveness. With just a bit more attention to nuance in tone and phrasing, you'll nail that perfect balance between standing up for yourself and staying professional."
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Nice effort, *Name*! You're on the right track in identifying effective communication. With a little more practice in reviewing the tone and implications of each response, you'll further refine your ability to set healthy boundaries."
+    },
+    {
+      "mistakes": 3,
+      "prompt": "Keep going, *Name*. Recognizing the difference between assertiveness and dangerous extremes can be challenging at times. Each step you take builds your skill—you’re learning how to stand up for yourself while keeping interactions constructive."
+    }
+  ]
+} 

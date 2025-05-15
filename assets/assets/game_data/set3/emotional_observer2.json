@@ -1,0 +1,123 @@
+{
+  "id": "emotional_observer2",
+  "type": "multipleChoice",
+  "title": "Emotional Observer 2",
+  "label": "Emotional Intelligence",
+  "image": "emotional_observer2",
+  "prompt": "*Name*, you know that strong emotions like frustration, disappointment, or anxiety can feel overwhelming. This game helps you practice noticing these feelings from a slight distance, without getting swept away or judging yourself for having them. This skill, often called emotional distancing or mindful observation, can help you navigate challenging moments more calmly. \n\nLet's practice!",
+  "steps": [
+    {
+      "id": 1,
+      "question": "You've spent weeks on a project report. During review, your boss provides unexpectedly harsh criticism, focusing only on flaws without acknowledging your effort. It feels like a personal attack. Your stomach drops, you feel a wave of heat, and your chest tightens as you process the criticism. Your reaction to these emotions might be within your control. How will you observe this feeling?",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "\"This is completely unfair! They didn't even read it properly. They always find something to criticize. It's impossible to please them, no matter how hard I work. They just enjoy tearing people down.\"",
+          "explanation": "Not Quite - This is Reacting. You're focusing on blaming your boss and assuming negative intentions. You've become caught up in defensiveness and anger rather than observing your internal state. This prevents constructive processing of feedback. Mindful observation starts with noticing your internal state."
+        },
+        {
+          "label": "\"That felt like a punch. Noticing disappointment and defensiveness rising up. There's a knot in my stomach. This is my reaction to perceived harsh criticism. Let me observe these sensations for a moment.\"",
+          "explanation": "Correct! You identified your feelings and physical sensations without immediately reacting or judging yourself. You framed the feeling as a reaction to the situation. This creates mental space to potentially consider the feedback more objectively later."
+        },
+        {
+          "label": "\"They must think I'm terrible at my job. I clearly messed up completely. I'm probably not cut out for this role if I can't even get a report right. This feeling of failure is overwhelming, I feel so inadequate.\"",
+          "explanation": "Not Quite - This is Fusion with Thoughts/Feelings. You've fused with negative thoughts about your competence, accepting criticism as absolute truth about yourself. You've identified with the feeling of failure. Observing without judgment means recognizing disappointment without letting it define your self-worth."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "You've been working towards a promotion, putting in extra hours and taking on more responsibility. Today, you learn a colleague who seems less qualified got the promotion instead. That news hits hard. You feel disappointment, maybe jealousy or unfairness, and notice thoughts about your career path swirling with doubt. Your reaction to these emotions might be within your control. How will you observe this feeling?",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "\"Feeling a sting of disappointment and some envy. There's a tightness in my chest. It's understandable to feel this way when hoping for something. Let me acknowledge these feelings are present right now without judgment.\"",
+          "explanation": "Correct! You identified your feelings and physical sensations without judgment. You framed the feeling as an understandable reaction to not getting the promotion. This creates space to process the situation without being consumed by negative reactions."
+        },
+        {
+          "label": "\"This is typical! It's all about office politics, not merit. They probably got it because they're friends with the manager. Hard work clearly doesn't matter here. It's so frustrating and unfair, this place is rigged.\"",
+          "explanation": "Not Quite - This is Reacting. You're focusing on external factors like office politics and unfairness, expressing frustration and cynicism. You've become caught up in resentment rather than observing your internal experience of disappointment. Start by noticing your internal state."
+        },
+        {
+          "label": "\"This proves I'm not good enough. I'll likely never get promoted here, no matter what I do. Maybe I'm just not management material. This feeling of being stuck and inadequate is really strong, I feel completely discouraged.\"",
+          "explanation": "Not Quite - This is Fusion with Thoughts/Feelings. You've fused with thoughts of inadequacy, accepting the situation as proof of your limitations. You've identified with the feeling of discouragement. Observing without judgment means recognizing disappointment without believing it defines your future potential."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "During a team meeting, you propose an idea. Your boss immediately dismisses it with a sarcastic comment, rolling their eyes in front of everyone. The room falls silent. You feel a hot flush of humiliation, your heart pounds, and you feel a mix of anger and anxiety, wanting to disappear. Your reaction to these emotions might be within your control. How will you observe this feeling?",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "\"How dare they speak to me like that! They are completely unprofessional and clearly threatened. I should report them to HR immediately! This is unacceptable bullying, and I won't stand for it. I'm furious!\"",
+          "explanation": "Not Quite - This is Reacting. You're driven by immediate anger and indignation, focusing on the boss's behavior and plotting retaliation. You've become caught up in fury rather than observing your internal experience. Mindful observation starts with noticing your internal state before responding."
+        },
+        {
+          "label": "\"My idea must have been stupid. Everyone probably thinks I'm an idiot now. I should just keep quiet in meetings from now on. I feel so small and worthless, completely embarrassed.\"",
+          "explanation": "Not Quite - This is Fusion with Thoughts/Feelings (Withdrawal). You've fused with the boss's criticism, accepting it as truth and deciding to withdraw. You've identified with the feeling of embarrassment. Observing without judgment means recognizing humiliation without letting it silence you or define your worth."
+        },
+        {
+          "label": "\"Intense heat in my face – that's humiliation. Heart racing, feeling anger and anxiety in my gut. There's an urge to lash out or shut down. These are powerful reactions to being publicly belittled. Just notice them.\"",
+          "explanation": "Correct! You identified your intense feelings and physical sensations without immediately reacting or internalizing the insult. You framed them as reactions to the boss's behavior. This creates crucial mental space to manage intense feelings and decide how to proceed calmly."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Your manager assigns you a major, complex task that realistically needs two weeks but must be finished by tomorrow. The workload feels crushing. You feel a surge of panic, your heart races, your breathing becomes shallow, and your mind frantically cycles through how impossible this seems. Your reaction to these emotions might be within your control. How will you observe this feeling?",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "\"This is absolutely ridiculous! Management has no clue about realistic workloads. They always dump impossible deadlines on us without support. It's completely unreasonable and sets me up to fail. I feel so resentful.\"",
+          "explanation": "Not Quite - This is Reacting. You're focusing on blaming management and the unfairness of the situation, expressing resentment. You've become caught up in frustration rather than observing your internal experience of overwhelm and anxiety. Start by noticing your internal state."
+        },
+        {
+          "label": "\"That's a huge wave of pressure. My heart rate is up, feeling overwhelmed and panicky. My thoughts are racing about the deadline. This is the feeling of stress in response to a tight deadline. Just observe this internal storm.\"",
+          "explanation": "Correct! You identified your feelings and physical sensations without judgment. You framed them as a reaction to the demanding situation. This creates mental space to potentially break down the task or communicate about the deadline more calmly."
+        },
+        {
+          "label": "\"There's no way I can finish this. It's impossible. I'm going to fail, everyone will see I can't handle it, and I'll probably lose my job. This feeling of dread is completely paralyzing me. It's a total disaster.\"",
+          "explanation": "Not Quite - This is Fusion with Thoughts/Feelings (Catastrophizing). You've fused with catastrophic thoughts about failure, accepting them as inevitable. You've identified with the feeling of dread. Observing without judgment means recognizing anxiety without believing it guarantees failure."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "You just had a tense argument with a colleague over a shared project. Voices were raised, and you both left feeling angry and misunderstood. Now, back at your desk, you're still fuming. Your jaw is clenched, you keep replaying the argument, and feel lingering frustration or resentment towards your colleague. Your reaction to these emotions might be within your control. How will you observe this feeling?",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "\"Still feeling heated from that argument. Noticing the anger simmering, and my jaw feels tight. My mind keeps replaying their words. This is the residue of conflict. Let me observe this frustration and tension without feeding it.\"",
+          "explanation": "Correct! You identified your lingering feelings and physical sensations without judgment or re-engaging the conflict mentally. You framed them as after-effects of the argument. This creates space for feelings to cool down, allowing for a more constructive approach later."
+        },
+        {
+          "label": "\"They are completely unreasonable and impossible to work with! They refuse to listen to logic and just want to do things their way. This whole project is going to fail because of them. I can't believe I have to deal with such incompetence.\"",
+          "explanation": "Not Quite - This is Reacting. You're continuing the conflict mentally, focusing on blaming the colleague and predicting negative outcomes. You're caught up in anger and judgment rather than observing your internal state. Mindful observation starts with noticing your internal state."
+        },
+        {
+          "label": "\"Maybe I handled that badly. They probably think I'm aggressive or difficult now. I feel really isolated and misunderstood after that fight. Perhaps it's better if I just avoid them and work separately to prevent more conflict.\"",
+          "explanation": "Not Quite - This is Fusion with Thoughts/Feelings (Withdrawal/Self-Blame). You've fused with thoughts of being perceived negatively and are considering withdrawal. You've internalized the conflict's negativity. Observing without judgment means recognizing tension without automatically blaming yourself or shutting down collaboration."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Outstanding job, *Name*! You consistently noticed your feelings without being swept away—observing your internal state rather than reacting impulsively. Your mindful observation is truly commendable!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great work, *Name*! You clearly understand the value of stepping back from overwhelming emotions. Just a tad more focus on separating your immediate reactions from your inner experience, and you'll be even more adept at managing stress."
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Nice effort, *Name*! You're on the right path by recognizing your feelings as they rise. With a bit more practice in avoiding fusion with negative thoughts or the urge to react, you'll sharpen your ability to observe your feelings calmly."
+    },
+    {
+      "mistakes": 3,
+      "prompt": "Keep going, *Name*. It's not easy to observe strong emotions without becoming entangled in them. Continue practicing mindful observation, and soon you'll find it easier to create the mental space needed to handle challenging moments."
+    }
+  ]
+} 

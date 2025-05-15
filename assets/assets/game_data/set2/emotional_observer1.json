@@ -1,0 +1,123 @@
+{
+  "id": "emotional_observer1",
+  "type": "multipleChoice",
+  "title": "Emotional Observer 1",
+  "label": "Emotional Intelligence",
+  "image": "emotional_observer1",
+  "prompt": "Sometimes, strong emotions like frustration, disappointment, or anxiety can feel overwhelming. This game helps you practice noticing these feelings from a slight distance, without getting swept away or judging yourself for having them. This skill, often called emotional distancing or mindful observation, can help you navigate challenging moments more calmly.\n\nLet's practice! ",
+  "steps": [
+    {
+      "id": 1,
+      "question": "You've been looking forward to meeting a friend all week. They cancel last minute. A wave of disappointment hits you, mixed with annoyance. Your shoulders slump and negative thoughts swirl. It's natural to feel let down. Your reaction to these emotions might be within your control. How will you observe this feeling?",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "\"This is unbelievable, they always flake! It's rude and shows they don't care. They probably got a better offer. I'm done scheduling things with someone who doesn't value my time or friendship.\"",
+          "explanation": "Not Quite - This is Reacting. You're focusing on blaming your friend and jumping to negative conclusions. You've become caught up in anger rather than observing it. This escalates negative feelings and prevents constructive responses. Mindful observation starts with noticing your internal state."
+        },
+        {
+          "label": "\"Why does this always happen? They probably don't enjoy my company. Maybe I'm not interesting enough. This feels like proof I'm not important to them, leaving me rejected and lonely.\"",
+          "explanation": "Not Quite - This is Fusion with Thoughts/Feelings. You've fused with negative thoughts, accepting them as truth. You've identified yourself with the feeling. Observing without judgment means recognizing disappointment without automatically believing the story it tells."
+        },
+        {
+          "label": "\"I notice a sinking feeling—that's disappointment. There's also some annoyance bubbling up. It makes sense to feel this way. These are just feelings passing through right now.\"",
+          "explanation": "Correct! You identified your feelings without reacting or judging. You framed them as temporary experiences triggered by the situation. This creates mental space, allowing intensity to decrease and enabling a more considered response later."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "During an important presentation, you make a factual error as colleagues exchange glances. A hot flush creeps up your neck - that familiar embarrassment. Your heart pounds with anxiety, your mind goes blank. You feel awkward and exposed. Your reaction to these emotions might be within your control. How will you observe this feeling?",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "\"This is a disaster! I've blown it. Everyone must think I'm unprepared and foolish. How can I fix this? This awful feeling of failure is crushing me. I feel completely incompetent.\"",
+          "explanation": "Not Quite - This is Fusion with Thoughts/Feelings. You've fused with catastrophic thoughts, accepting them as reality. You've identified yourself with the feeling of dread. Observing without judgment means recognizing embarrassment without believing it defines your competence."
+        },
+        {
+          "label": "\"Feeling a flush - that's embarrassment. Heart racing - hello anxiety. There's a pull to gloss over it. These are just sensations and feelings. I'll notice them, breathe, and calmly fix the error.\"",
+          "explanation": "Correct! You identified your feelings and physical sensations without reacting or judging. You framed the feeling as a temporary experience. This creates mental space to address the situation calmly while acknowledging your emotions."
+        },
+        {
+          "label": "\"Just ignore it. Maybe no one noticed. Best to speed up and act like nothing happened. If I pretend it's fine, the feeling might go away. No need to dwell on this.\"",
+          "explanation": "Not Quite - This is Reacting (Avoidance). While moving on seems practical, denying the feeling is avoidance. It doesn't allow you to process embarrassment healthily. Mindful observation acknowledges uncomfortable feelings without letting them derail you."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "During a sensitive discussion, someone says something you disagree with that feels like criticism. A surge of defensiveness rises, tinged with hurt or anger. Your voice tightens, jaw clenches, and critical thoughts race. Your reaction to these emotions might be within your control. How will you observe this feeling?",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "\"Feeling a pull to defend myself. Noticing heat in my chest and tight jaw – that's defensiveness and hurt. Let me acknowledge this internal flare-up before responding. Just pause.\"",
+          "explanation": "Correct! You identified your feelings and physical sensations without immediately reacting. You framed the feeling as an internal reaction. This creates mental space to pause and choose a more constructive response in the conversation."
+        },
+        {
+          "label": "\"That's completely unfair! You aren't trying to understand. You always jump to conclusions and attack me! Why discuss anything if you won't listen to me?\"",
+          "explanation": "Not Quite - This is Reacting. This is an immediate, aggressive reaction driven by defensiveness. You're caught up in anger and the urge to prove the other person wrong, rather than observing your internal state. This usually escalates conflict."
+        },
+        {
+          "label": "\"Maybe they're right. Perhaps my perspective is flawed. I feel small and unheard, like my opinion doesn't matter. It's probably best if I stop talking to avoid making things worse.\"",
+          "explanation": "Not Quite - This is Fusion with Thoughts/Feelings (Withdrawal). You've fused with thoughts of being wrong and are withdrawing. You've accepted these thoughts as truth and let them shut down communication. Observe hurt without letting it dictate your actions."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You're waiting for important news. The uncertainty feels heavy and intense. A knot of anxiety tightens in your stomach. You feel restless as your mind jumps to worst-case scenarios. The not-knowing is deeply uncomfortable. Your reaction to these emotions might be within your control. How will you observe this feeling?",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "\"This wait is agonizing! It must mean something terrible happened. It's going to be the worst outcome. This intense anxiety is a sign that disaster is coming. I should brace myself now.\"",
+          "explanation": "Not Quite - This is Fusion with Thoughts/Feelings (Catastrophizing). You've fused with anxious thoughts, believing the worst-case scenario is inevitable and mistaking anxiety for proof. Observing without judgment means recognizing anxiety without letting it convince you of disaster."
+        },
+        {
+          "label": "\"Noticing my thoughts jumping to 'what ifs'. There's a restless feeling in my stomach – that's anxiety about the unknown. It's uncomfortable, but these are just thoughts and sensations, not facts. Let me observe them.\"",
+          "explanation": "Correct! You identified your feelings and thoughts without judgment. You framed them as temporary mental events linked to uncertainty, rather than predictions of the future. This creates distance and reduces the power of anxious thoughts."
+        },
+        {
+          "label": "\"This waiting is unbearable. I have to escape this feeling. I'll lose myself in videos or complex tasks, anything to block out this worry. I just need to not feel this anxiety right now.\"",
+          "explanation": "Not Quite - This is Reacting (Avoidance). While distraction can provide temporary relief, you're avoiding anxiety rather than observing it. Mindful observation involves allowing uncomfortable feelings to be present without needing to escape them immediately."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Driving to an important appointment, you hit unexpected traffic. You'll be significantly late. A hot wave of frustration surges through you. You grip the wheel tightly, jaw clenched, as thoughts about consequences race. You feel powerless. Your reaction to these emotions might be within your control. How will you observe this feeling?",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "\"Unbelievable! This city's traffic is a joke! Look at these incompetent drivers. Why does this always happen when I have somewhere important? This is ruining everything! I'm so angry!\"",
+          "explanation": "Not Quite - This is Reacting. You're focusing on blaming external factors and expressing anger outwardly. You've become caught up in frustration rather than observing it. This reaction increases stress without changing the situation. Start by noticing your internal state."
+        },
+        {
+          "label": "\"This is catastrophic. My appointment will be ruined, and they'll never trust me again. This always happens. My whole day is wrecked because of this stupid traffic jam.\"",
+          "explanation": "Not Quite - This is Fusion with Thoughts/Feelings (Catastrophizing). You've fused with catastrophic thoughts about consequences, accepting them as reality. Observing without judgment means recognizing frustration without believing it will lead to catastrophe."
+        },
+        {
+          "label": "\"Feeling intense frustration. My shoulders are tense and I'm gripping the wheel hard. Thoughts about being late are loud. This is just the feeling of being stuck. It's uncomfortable, but reacting won't help. Observe.\"",
+          "explanation": "Correct! You identified your feelings and physical sensations without judgment. You framed the feeling as a temporary response to the situation. This creates mental space and prevents frustration from escalating unnecessarily."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Fantastic job, *Name*! You clearly observed your feelings without getting swept away. Your mindful approach shows great self-awareness. Keep it up!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great effort, *Name*! You have a solid grasp on noticing your emotions. A little extra focus on avoiding immediate reactions will make your observation even sharper!"
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Nice work, *Name*! You’re on your way to mastering mindful observation. With a bit more practice distancing yourself from the emotional surge, you can improve even further!"
+    },
+    {
+      "mistakes": 3,
+      "prompt": "Keep going, *Name*. Recognizing your emotions without judgment is tough, but every step counts. Stay patient and keep practicing to build calm awareness!"
+    }
+  ]
+} 

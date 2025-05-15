@@ -1,0 +1,123 @@
+{
+  "id": "positive_spin2",
+  "type": "multipleChoice",
+  "title": "Positive Spin 2",
+  "label": "Cognitive Restructuring",
+  "image": "positive_spin2",
+  "prompt": "*Name*, this game will help you practice finding different, more balanced ways to think about things.\n\nRead each scenario. Choose the interpretation that offers the most constructive and plausible \"positive spin.\"",
+  "steps": [
+    {
+      "id": 1,
+      "question": "During a team meeting presentation, your boss interrupts you mid-sentence to publicly point out a minor error on one of your slides.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "This is so humiliating. My boss is trying to undermine me in front of everyone and make me look stupid. They clearly don't respect me.",
+          "explanation": "This involves 'Mind-Reading' (assuming intent to undermine) and 'Personalization' (taking it as a direct attack on your competence/respect). It focuses on perceived negative intent without proof."
+        },
+        {
+          "label": "Okay, that was awkward timing, but accuracy is important. I'll correct it and maybe ask later if there's a better way to handle corrections during presentations.",
+          "explanation": "Correct. This acknowledges the awkwardness but focuses on the factual aspect (accuracy), avoids assuming negative intent, and considers a constructive follow-up action."
+        },
+        {
+          "label": "I can never do anything right in their eyes. Every little mistake gets blown out of proportion. I'm probably going to get fired over things like this.",
+          "explanation": "This uses 'All-or-Nothing' thinking ('never do anything right'), 'Magnification' (blowing the error out of proportion), and 'Catastrophizing' (jumping to getting fired)."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "A colleague, known for being competitive and sometimes dismissive, makes a sarcastic comment about your idea during a brainstorming session, saying, \"Oh, that's an... interesting approach.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "They're always trying to put me down. They're just jealous or think they're superior. It's blatant bullying.",
+          "explanation": "This uses 'Labeling' ('bullying'), 'Mind-Reading' (assuming jealousy/superiority), and potentially 'Overgeneralization' ('always'). It focuses on perceived attack rather than the idea itself."
+        },
+        {
+          "label": "Maybe the tone was sarcastic, but perhaps there's a genuine question behind it about feasibility. I could ask, \"What concerns do you have about this approach?\"",
+          "explanation": "Correct. This acknowledges the possible negative tone but chooses not to dwell on it, instead reframing it as a potential (poorly phrased) question and seeking clarification constructively."
+        },
+        {
+          "label": "My ideas are clearly terrible if even they think it's bad. I should just keep quiet from now on in these meetings.",
+          "explanation": "This involves 'Personalization' (taking the comment as a definitive judgment of all your ideas), 'Catastrophizing' (deciding to stop contributing), and 'Discounting the Positive' (ignoring any potential merit in your idea)."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "You discover that a colleague presented a project update using several key insights and data points you had shared with them privately, without giving you any credit.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "They deliberately stole my work to make themselves look good! This is completely unethical and proves they can't be trusted at all.",
+          "explanation": "This assumes negative intent ('deliberately stole'), uses strong 'Labeling' ('unethical'), and 'Overgeneralization' ('can't be trusted at all'). It jumps to the worst conclusion about their character."
+        },
+        {
+          "label": "It's frustrating that my contribution wasn't acknowledged. Maybe they forgot in the rush, or perhaps they misunderstood the norms around crediting. I should probably have a calm conversation with them about it.",
+          "explanation": "Correct. This acknowledges the negative feeling ('frustrating') but considers alternative, less malicious explanations ('forgot,' 'misunderstood norms') and focuses on a constructive action (calm conversation)."
+        },
+        {
+          "label": "This always happens. People just walk all over me and take advantage. There's no point in sharing my ideas if they'll just get stolen.",
+          "explanation": "This uses 'Overgeneralization' ('always happens'), adopts a 'Victim Stance' ('walk all over me'), and leads to 'Catastrophizing' (deciding never to share ideas again)."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Your boss seems distant and curt in interactions with you all week, providing minimal feedback and avoiding eye contact.",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "I must have done something wrong. They're angry with me about my performance and are probably planning to give me a bad review or sideline me.",
+          "explanation": "This is 'Personalization' (assuming their mood is about you) and 'Mind-Reading'/'Catastrophizing' (jumping to negative conclusions about your performance and future)."
+        },
+        {
+          "label": "Bosses shouldn't act like this; it's unprofessional and creates a terrible atmosphere. They're clearly a poor manager.",
+          "explanation": "This uses 'Should' statements (dictating how a boss must act) and 'Labeling' ('poor manager'). While the behavior might be suboptimal, this interpretation focuses on judgment rather than understanding or coping."
+        },
+        {
+          "label": "My boss seems preoccupied this week. It might have nothing to do with me – perhaps they're stressed about deadlines, personal issues, or upper management pressure. I'll keep doing my job well and see if things change.",
+          "explanation": "Correct. This avoids personalization by considering external factors unrelated to you. It focuses on observation ('seems preoccupied') and maintains a constructive, patient approach ('keep doing my job well')."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A senior colleague frequently delegates tedious, low-impact tasks to you, which aren't really part of your job description, leaving you less time for your own important projects.",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "They're just dumping their grunt work on me because they think I'm a pushover and they can get away with it. It's disrespectful and exploitative.",
+          "explanation": "This involves 'Mind-Reading' (assuming intent to exploit), 'Labeling' ('disrespectful,' 'exploitative'), and 'Personalization' (believing it's because you're seen as a 'pushover')."
+        },
+        {
+          "label": "This is completely overwhelming. I'll never get my own work done if this continues. My career progress is going to stall because of this.",
+          "explanation": "This is 'Catastrophizing' (jumping to career stalling) and uses 'All-or-Nothing' thinking ('never get my own work done'). It magnifies the negative impact without considering solutions."
+        },
+        {
+          "label": "The extra tasks are making it hard to focus on my priorities. Perhaps they don't realize the impact. I need to find a way to discuss my workload and boundaries with them or my manager.",
+          "explanation": "Correct. This objectively states the problem ('making it hard to focus') without blame, considers a neutral possibility ('don't realize the impact'), and focuses on finding a constructive solution (discussion about workload/boundaries)."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Outstanding work, *Name*! You've consistently chosen interpretations that focus on the evidence and offer a constructive, balanced spin. Your responses—acknowledging awkward moments without jumping to negative conclusions—show that you understand how to reframe challenges in a positive and professional way. Keep it up!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great job, *Name*! You mostly picked balanced interpretations that look at the facts rather than assuming hostile intent. With just a touch more attention to avoiding extra assumptions, you'll continue to strengthen your ability to reframe workplace challenges constructively."
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Nice effort, *Name*! You're on the right track by recognizing the importance of grounding your thoughts in what actually happened. With a bit more focus on avoiding mind-reading and exaggeration, your capacity to see the positive side will only improve."
+    },
+    {
+      "mistakes": 3,
+      "prompt": "Keep going, *Name*. It's challenging to consistently counteract negative thoughts, but every step forward builds your resilience. Remember, by focusing on the factual evidence and considering more balanced interpretations, you can transform even tough feedback into opportunities for growth."
+    }
+  ]
+} 

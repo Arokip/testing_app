@@ -1,0 +1,123 @@
+{
+  "id": "active_listening_basics1",
+  "type": "multipleChoice",
+  "title": "Active Listening Basics",
+  "label": "Communication Skills",
+  "image": "active_listening_basics1",
+  "prompt": "When speaking with others, especially in tense moments, we can choose to actively listen—fully engaging with both the words and emotions—or risk common pitfalls, such as planning our response prematurely. This challenge identifies genuine Active Listening versus pitfalls, offering valuable feedback to enhance communication skills.\n\nRead carefully and choose the best response.",
+  "steps": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of active listening in difficult conversations?",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "To gather all necessary information to provide the most efficient solution to the problem.",
+          "explanation": "Not quite. While gathering information is part of listening, active listening goes deeper than collecting facts for problem-solving. It prioritizes understanding the speaker's perspective and emotional experience before moving to solutions."
+        },
+        {
+          "label": "To demonstrate your expertise on the topic and establish credibility with the speaker.",
+          "explanation": "Incorrect. Active listening centers on the speaker's experience rather than establishing your own expertise or credibility. The focus should be on understanding their perspective, not demonstrating your knowledge."
+        },
+        {
+          "label": "To understand both the content and the emotions behind what the person is communicating.",
+          "explanation": "Correct! Active listening focuses on comprehensive understanding of both factual content and emotional components of communication. The goal is to truly understand the speaker's perspective in its entirety."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which of the following behaviors MOST interferes with effective active listening?",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Taking brief notes during an important or complex conversation.",
+          "explanation": "Not quite. Taking brief notes can actually support active listening during complex discussions, as long as it doesn't become a distraction or prevent you from maintaining appropriate attention to the speaker."
+        },
+        {
+          "label": "Formulating your response while the other person is still speaking.",
+          "explanation": "Correct! When you're mentally preparing your response while someone is still speaking, you're not fully present with what they're saying. This divided attention prevents deep understanding and often leads to missing important information or emotional cues."
+        },
+        {
+          "label": "Allowing brief moments of silence after the speaker finishes a thought.",
+          "explanation": "Incorrect. Allowing silence after someone speaks demonstrates patience and gives both the speaker and listener time to process. These pauses can create space for deeper reflection and more thoughtful communication."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which technique best demonstrates that you are actively listening during a tense conversation?",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "Offering immediate solutions to resolve the problem and reduce the speaker's distress.",
+          "explanation": "Not quite. Jumping quickly to solutions, even with good intentions, can signal that you're more interested in fixing the problem than understanding the person's experience. Active listening requires patience before problem-solving."
+        },
+        {
+          "label": "Sharing similar experiences from your own life to show you relate to their situation.",
+          "explanation": "Incorrect. While sharing similar experiences can sometimes build connection, doing so too quickly can shift the focus away from the speaker's unique situation to your experience. Active listening keeps the focus primarily on understanding their perspective."
+        },
+        {
+          "label": "Paraphrasing what you've heard and checking if your understanding is accurate.",
+          "explanation": "Correct! Paraphrasing and checking your understanding demonstrates that you're truly listening and processing what the speaker is saying. This validation creates a feedback loop that ensures accurate understanding and helps the speaker feel heard before moving to solutions."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "In the context of active listening, why is paying attention to non-verbal cues important?",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Non-verbal cues often reveal when someone is being untruthful in their communication.",
+          "explanation": "Not quite. While inconsistencies between verbal and non-verbal communication can sometimes signal discomfort, jumping to conclusions about truthfulness can lead to misinterpretations and damage trust. Active listening focuses on understanding, not judgment."
+        },
+        {
+          "label": "Body language and tone provide additional context that completes the full message being conveyed.",
+          "explanation": "Correct! Non-verbal communication—including tone, facial expressions, gestures, and posture—provides essential context to the words being spoken. These cues offer a more complete picture of the speaker's message, especially regarding emotional content that might not be explicitly stated."
+        },
+        {
+          "label": "Mirroring the speaker's body language helps establish rapport before addressing content.",
+          "explanation": "Incorrect. While mirroring can be a technique to build rapport, the primary importance of paying attention to non-verbal cues in active listening is to gather more complete information about what the speaker is communicating, not to mirror their behavior back to them."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A colleague approaches you, visibly upset about a project setback. Which response best demonstrates active listening?",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Let's focus on solutions rather than dwelling on what went wrong. What do you think we should do next?",
+          "explanation": "Not quite. This response moves too quickly to problem-solving mode without first acknowledging and exploring the emotional impact of the situation. Active listening requires understanding before action."
+        },
+        {
+          "label": "I understand this is disappointing. Can you tell me more about your concerns and how this affects you?",
+          "explanation": "Correct! This response acknowledges the emotional component (disappointment), avoids judgment, and invites the speaker to elaborate on their experience. It prioritizes understanding their perspective before moving to solutions, creating space for them to feel fully heard."
+        },
+        {
+          "label": "These setbacks happen to everyone. The important thing is to maintain perspective and stay positive.",
+          "explanation": "Incorrect. This response minimizes the person's experience by generalizing (\"happen to everyone\") and suggests they should feel differently (\"stay positive\"). Active listening involves meeting people where they are emotionally rather than suggesting how they should feel."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Amazing work, *Name*! You've demonstrated exceptional active listening skills by truly understanding both the words and the underlying emotions of the speaker. Your keen attention to non-verbal cues and thoughtful paraphrasing shows a deep grasp of both the content and the context. Keep shining!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great effort, *Name*! You have a strong understanding of active listening and the importance of picking up non-verbal cues to grasp the full message. With just a bit more focus on validating your understanding through paraphrasing, you'll be even more effective. Keep up the good work!"
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Good job, *Name*! You're clearly on the right path toward mastering active listening. By deepening your focus on both verbal and non-verbal cues and practicing more reflective responses, you'll soon be able to truly capture the speaker's full message. Keep practicing and stay inspired!"
+    },
+    {
+      "mistakes": 3,
+      "prompt": "Don't worry, *Name*. Active listening can be challenging, especially when it comes to fully catching non-verbal cues and ensuring accurate understanding. Every conversation is a chance to improve, so stay positive and keep practicing. You're making progress, and that's what counts!"
+    }
+  ]
+}

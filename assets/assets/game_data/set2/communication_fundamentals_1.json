@@ -1,0 +1,102 @@
+{
+  "id": "communication_fundamentals1",
+  "type": "classification",
+  "title": "Communication Fundamentals 1",
+  "image": "communication_fundamentals1",
+  "prompt": "In this game, you'll evaluate statements about effective communication principles to determine whether they reflect best practices for clear, respectful, and productive interactions.\n\nRead each statement carefully and decide if it represents sound communication principles or problematic approaches.",
+  "steps": [
+    {
+      "id": 1,
+      "question": "Using 'I' statements instead of 'you' accusations helps prevent defensiveness.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Correct! 'I' statements ('I feel frustrated when meetings run late') focus on your experience rather than attributing blame. This approach reduces defensiveness and opens space for problem-solving rather than counterattacks."
+        },
+        {
+          "label": "False",
+          "explanation": "Incorrect. 'I' statements are a well-established communication technique that reduces defensiveness by focusing on your experience rather than making accusations. Compare 'I feel concerned when deadlines are missed' to 'You always miss deadlines.'"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Raising your voice is an effective way to ensure your point is taken seriously.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Incorrect. Raising your voice typically triggers others' stress responses, reducing their ability to process information thoughtfully. It often undermines your credibility and shifts focus from your content to your delivery."
+        },
+        {
+          "label": "False",
+          "explanation": "Correct! Raising your voice typically triggers defensive reactions and stress responses in listeners. This reduces their ability to process your message thoughtfully and often damages rapport. Clear, calm communication is generally more effective for being taken seriously."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Taking a pause before responding to a triggering comment is a sign of weakness.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Incorrect. Pausing before responding demonstrates emotional intelligence and self-regulation - qualities associated with strong leadership. This pause allows for more thoughtful, strategic responses rather than reactive ones."
+        },
+        {
+          "label": "False",
+          "explanation": "Correct! Taking a pause demonstrates emotional intelligence and self-control - qualities associated with maturity and leadership. This brief space allows you to respond thoughtfully rather than reactively, leading to more effective communication."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Assertive communication clearly states needs and boundaries without attacking others.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Correct! Assertive communication balances honesty about your needs with respect for others. It's direct without being aggressive, allowing you to advocate for yourself while maintaining positive relationships."
+        },
+        {
+          "label": "False",
+          "explanation": "Incorrect. Assertive communication is precisely about expressing needs and boundaries clearly without aggression. It's a balanced approach between passive communication (not expressing needs) and aggressive communication (expressing needs in attacking ways)."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "It's important to point out when someone else is being irrational or emotional.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "True",
+          "explanation": "Incorrect. Labeling others as 'irrational' or 'emotional' is likely to increase defensiveness and escalate conflict. These judgmental terms rarely help someone gain perspective and often damage rapport."
+        },
+        {
+          "label": "False",
+          "explanation": "Correct! Labeling someone as 'irrational' or 'emotional' typically increases defensiveness and escalates tension. These terms feel dismissive and judgmental, undermining productive dialogue rather than supporting it."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Outstanding job, *Name*! You've truly mastered respectful communication by consistently using 'I' statements, pausing thoughtfully before responding, and expressing assertiveness without aggression. Your approach is clear, considerate, and effective—keep up the brilliant work!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Well done, *Name*! You display a solid understanding of respectful communication and have effectively applied techniques like maintaining calm and using 'I' statements. With just a little extra focus on embracing pauses and avoiding judgmental language, you'll elevate your skills even further. Keep striving!"
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Good work, *Name*! You're on your way to becoming a skilled communicator who values clarity and respect. While you communicate assertively and generally avoid raising your voice, there's room to refine your approach—especially when it comes to refraining from labeling others and allowing a thoughtful pause before reacting. Every step forward counts!"
+    },
+    {
+      "mistakes": 3,
+      "prompt": "Don't be discouraged, *Name*. Respectful communication is a continuous learning process, and it can be challenging to balance assertiveness with empathy. While you're showing promise by using 'I' statements and staying calm, there are moments where judgmental language or hasty responses slip through. Keep practicing these techniques, and you'll continue making steady progress!"
+    }
+  ]
+}

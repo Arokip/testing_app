@@ -1,0 +1,103 @@
+{
+  "id": "reflection_mirror1",
+  "type": "classification",
+  "title": "Reflection Mirror 1",
+  "label": "Reflection Responses",
+  "image": "reflection_mirror1",
+  "prompt": "One of the most powerful techniques of active listening is reflection - paraphrasing what someone has shared to show you understand. In this challenge, you'll see different scenarios followed by a reflection response. Your task is to identify whether each reflection is Just Right or Too Interpretive (adds judgments, assumptions, or interpretations not present in the original statement).",
+  "steps": [
+    {
+      "id": 1,
+      "question": "Speaker: \"I've been working on this project for three weeks now, and my manager just told me we're changing direction completely. All that work feels wasted, and I'm not even sure I understand the new approach.\"\n\nReflection: \"You're feeling frustrated because after investing significant time in this project, the direction has changed, making your work feel wasted, and you're uncertain about the new approach.\"",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Just Right",
+          "explanation": "Correct! This reflection accurately captures both the factual content (three weeks of work, change in direction) and the emotional component (frustration, uncertainty) without adding assumptions or judgments. It stays true to what the speaker actually expressed."
+        },
+        {
+          "label": "Too Interpretive",
+          "explanation": "Not quite. This reflection carefully mirrors both the content and feelings expressed by the speaker without adding any interpretations or assumptions. A good reflection like this one sticks closely to what was actually said while organizing it in a way that shows understanding."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Speaker: \"My team member was late delivering their part of the presentation again. I ended up staying up until midnight finishing it because we couldn't reschedule the client meeting.\"\n\nReflection: \"You're angry that your irresponsible colleague doesn't respect your time, and you resent having to cover for their poor work ethic by staying up late.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Just Right",
+          "explanation": "Not quite. While the speaker may indeed feel angry or resentment, these specific emotions weren't explicitly stated. Additionally, this reflection adds interpretations about the colleague being \"irresponsible\" and having a \"poor work ethic\" - judgments that weren't present in the original statement."
+        },
+        {
+          "label": "Too Interpretive",
+          "explanation": "Correct! This reflection goes beyond what the speaker actually said by adding interpretations about the colleague's character (\"irresponsible,\" \"doesn't respect your time,\" \"poor work ethic\") and assuming specific emotions (\"angry,\" \"resent\") that weren't explicitly stated. A better reflection would stick to the facts shared and any emotions clearly expressed."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Speaker: \"I'm having second thoughts about accepting that promotion. The salary increase would be nice, but I'm already working 50 hours a week, and this would add more responsibility.\"\n\nReflection: \"You're weighing the financial benefits of the promotion against concerns about how the additional responsibilities might impact your already heavy workload.\"",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Just Right",
+          "explanation": "Correct! This reflection accurately summarizes the speaker's dilemma without adding assumptions. It captures the balance they're trying to strike between financial benefits and workload concerns, staying true to what was actually expressed."
+        },
+        {
+          "label": "Too Interpretive",
+          "explanation": "Not quite. This reflection successfully paraphrases the core of the speaker's message without adding interpretations. It organizes the speaker's thoughts in a way that demonstrates understanding while remaining faithful to what was actually said."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Speaker: \"My daughter's teacher called today about her behavior in class. Apparently, she's been disrupting lessons and not completing assignments. This is the first I'm hearing about any problems.\"\n\nReflection: \"You must feel like a bad parent since you didn't know your daughter was having these problems, and you're probably worried that the teacher thinks you're not involved enough.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Just Right",
+          "explanation": "Not quite. This reflection adds significant interpretations that weren't present in the original statement, particularly the assumption that the speaker feels like \"a bad parent\" and concerns about the teacher's judgment. These are projections that go beyond what the speaker actually shared."
+        },
+        {
+          "label": "Too Interpretive",
+          "explanation": "Correct! This reflection inserts interpretations about the speaker \"feeling like a bad parent\" and being \"worried that the teacher thinks you're not involved enough\" - neither of which were mentioned. It projects specific insecurities onto the speaker rather than reflecting what was actually said."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Speaker: \"I've been applying for jobs for six months now. I had two interviews last week that seemed to go well, but I haven't heard back yet. I really thought I'd have found something by now.\"\n\nReflection: \"You're feeling discouraged because your job search is taking longer than you expected, and despite some promising interviews, you're still waiting to hear back.\"",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Just Right",
+          "explanation": "Correct! This reflection accurately captures the situation (length of job search, recent interviews, no responses yet) and the implied feeling of discouragement without adding assumptions or judgments. It organizes the speaker's message in a way that shows understanding."
+        },
+        {
+          "label": "Too Interpretive",
+          "explanation": "Not quite. This reflection stays true to what the speaker shared, identifying the emotional tone (discouragement) that was implied by \"I really thought I'd have found something by now\" without adding any assumptions or interpretations not present in the original statement."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Outstanding job, *Name*! You nailed it by distinguishing reflections that mirror the speaker's words from those that add extra assumptions. Your keen attention to detail shows you're truly mastering active listening!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great work, *Name*! You're nearly there. With a bit more focus on keeping interpretations in check, you'll be even more precise in reflecting just what was said. Keep polishing your skills!"
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Nice effort, *Name*! You're on the right track in recognizing when reflections stray into extra interpretations. With further practice, you'll fine-tune your ability to stick strictly to the speaker's expressed feelings and facts."
+    },
+    {
+      "mistakes": 3,
+      "prompt": "Don't be discouraged, *Name*. This challenge is tough, and it's perfectly normal to occasionally add interpretations that weren't there. Keep practicing active listening and reflection, and you'll soon find it easier to maintain objectivity in your responses!"
+    }
+  ]
+} 

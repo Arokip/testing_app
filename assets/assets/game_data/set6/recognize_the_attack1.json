@@ -1,0 +1,103 @@
+{
+  "id": "recognize_the_attack1",
+  "type": "classification",
+  "title": "Recognize The Attack 1",
+  "label": "Set Boundaries",
+  "image": "recognize_the_attack1",
+  "prompt": "*Name*, identify whether statements from your bullying boss *Bully's name* represent appropriate communication or cross personal boundaries.\n\nBoundary violations undermine dignity, manipulate, humiliate, or disrespect personal limits, while appropriate communication offers honest feedback or disagreement while respecting boundaries.\n\nFor each statement, determine whether it represents appropriate communication or a boundary violation.",
+  "steps": [
+    {
+      "id": 1,
+      "question": "*Bully's name* says: '*Name*, you always mess up these reports. I don't know why I even keep you on this team when you clearly can't handle basic tasks.'",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Appropriate Communication",
+          "explanation": "This is not appropriate communication. The statement uses absolutes ('always'), makes personal attacks about competence, and questions the person's place on the team rather than addressing specific issues with the work. Appropriate feedback would focus on specific problems and offer constructive guidance."
+        },
+        {
+          "label": "Boundary Violation",
+          "explanation": "Correct! This crosses boundaries by using absolutes ('always'), making personal attacks about competence, and implying the person doesn't deserve their position. It attacks the person's worth rather than addressing specific work issues constructively."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "*Bully's name* says: 'I noticed several calculation errors in the financial section of your report. Could we review those together before the client presentation tomorrow?'",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Appropriate Communication",
+          "explanation": "Correct! This provides specific, factual feedback about the work (not the person), uses a respectful tone, and offers collaborative problem-solving. It addresses performance issues directly without humiliation or personal attacks."
+        },
+        {
+          "label": "Boundary Violation",
+          "explanation": "This is actually appropriate communication. It focuses on specific issues with the work rather than attacking the person, uses a respectful tone, and offers collaborative problem-solving rather than criticism without support."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "During a team meeting, *Bully's name* says: 'Oh look, everyone! *Name*'s finally decided to share *Possessive Pronoun* thoughts with us. Let's all stop what we're doing and listen to *Pronoun* brilliant insights that *Pronoun*'s been holding back.'",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Appropriate Communication",
+          "explanation": "This is not appropriate communication. The statement uses sarcasm to publicly mock someone for participating in discussion, creating an unsafe environment that discourages contribution. Appropriate communication would welcome input respectfully."
+        },
+        {
+          "label": "Boundary Violation",
+          "explanation": "Correct! This uses sarcasm to publicly humiliate and mock someone for participating in discussion. It creates an unsafe environment that discourages contribution and singles someone out for ridicule rather than engaging with their ideas respectfully."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "*Bully's name* says: 'I disagree with your approach to this project. I'm concerned that the timeline you've proposed doesn't account for the testing phase, which has caused problems in previous projects.'",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Appropriate Communication",
+          "explanation": "Correct! This clearly states disagreement while focusing on specific concerns about the work approach rather than attacking the person. It provides context for the concern and remains focused on the project issues rather than making it personal."
+        },
+        {
+          "label": "Boundary Violation",
+          "explanation": "This is actually appropriate communication. It expresses disagreement directly but respectfully, focuses on specific work issues rather than personal attacks, and provides context for the concern rather than making sweeping judgments."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "During a performance review, *Bully's name* says: 'You're too sensitive for this industry. If you can't handle direct feedback without getting emotional, maybe the work isn't for you.'",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Appropriate Communication",
+          "explanation": "This is not appropriate communication. Rather than addressing specific behaviors, it makes sweeping judgments about personality ('too sensitive') and belongs in the industry. It dismisses emotional responses as invalid and suggests the person doesn't belong rather than offering constructive guidance."
+        },
+        {
+          "label": "Boundary Violation",
+          "explanation": "Correct! This crosses boundaries by making judgments about personality rather than addressing specific behaviors, dismissing emotional responses as invalid, and suggesting the person doesn't belong in their chosen field rather than offering specific, constructive feedback."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "You're rocking it, *Name*! You have a great ability to recognize the attacks by *Bully's name*. Keep up the fantastic work!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great job, *Name*! You're always there, almost perfect! You have a strong grasp on recognizing the attacks by *Bully's name*. Keep honing your skills!"
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Good job! You're doing well, *Name*. With a bit more practice, you'll be able to recognize the attacks by *Bully's name* even more accurately. Keep it up!"
+    },
+    {
+      "mistakes": 3,
+      "prompt": "It's not always easy, but don't be discouraged, we are here to help. With some more practice and patience, you'll improve. Keep going!"
+    }
+  ]
+} 

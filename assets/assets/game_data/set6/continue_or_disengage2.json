@@ -1,0 +1,103 @@
+{
+  "id": "continue_or_disengage2",
+  "type": "classification",
+  "title": "Continue or Disengage 2",
+  "label": "Strategicaly Disengage",
+  "image": "continue_or_disengage2",
+  "prompt": "Your task, *Name* is to practice recognizing more nuanced situations where you need to decide whether to continue the conversation with your boss *Bully's name* or strategically disengage.\n\nSome scenarios may be less clear-cut, requiring you to carefully weigh the context, tone, and intent behind *Bully's name*'s communication.",
+  "steps": [
+    {
+      "id": 1,
+      "question": "*Bully's name* reviews your quarterly report and says, 'This is disappointing. I expected better from someone at your level. Let's go through it section by section tomorrow so I can show you where you went wrong.'",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Continue",
+          "explanation": "Correct! While the criticism is direct and potentially uncomfortable, *Bully's name* is offering a specific path to improvement through a one-on-one review. The focus appears to be on the work product rather than attacking you personally, and they're willing to invest time in your development."
+        },
+        {
+          "label": "Disengage",
+          "explanation": "Incorrect. Though the feedback is blunt and may feel harsh, your *Bully's name* is offering a specific opportunity to review and improve. This is a learning opportunity rather than belittlement. Disengaging here could be perceived as avoiding accountability and might damage your professional relationship."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "During a team meeting, *Bully's name* cuts you off mid-sentence and says, 'We don't have time for your long-winded explanations today. Just give us the bottom line you genius if you actually have one.' Several colleagues look uncomfortable.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Continue",
+          "explanation": "Incorrect. *Bully's name* is publicly undermining you and using dismissive language that goes beyond asking for brevity. The comment questions whether you have valuable input at all and is designed to diminish your standing in front of colleagues. Continuing in this dynamic risks further public humiliation."
+        },
+        {
+          "label": "Disengage",
+          "explanation": "Correct! This is public humiliation rather than constructive feedback about being concise. The dismissive tone and questioning whether you have a point at all goes beyond professional criticism. A brief acknowledgment followed by disengagement preserves your dignity while preventing escalation."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "*Bully's name*s sends an email saying, 'Your project is off track. I'm frankly pissed about it. Come to my office tomorrow at 9am with a plan to fix this mess, or we'll need to discuss whether you're the right fit for this role.'",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Continue",
+          "explanation": "Correct! Despite the strong language and clear frustration, *Bully's name* is providing a specific opportunity to address the issue with a corrective plan. While the tone is harsh and includes potential consequences, this represents accountability rather than abuse. Preparing thoroughly and engaging professionally is your best path forward."
+        },
+        {
+          "label": "Disengage",
+          "explanation": "Incorrect. While the message contains strong language and feels threatening, this is a critical professional situation that requires engagement. *Bully's name* is giving you a chance to present solutions before making decisions about your role. Strategic disengagement here could be interpreted as avoidance and likely worsen the situation."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "*Bully's name* says, 'I notice you've been quiet in meetings lately. Is everything okay, or are you just letting the real talent do the talking?' *Bully's name* laughs and adds, 'Just kidding, but seriously, I'd like to hear more from you.'",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Continue",
+          "explanation": "Correct! Despite the awkward attempt at humor that could be interpreted as dismissive, *Bully's name* has made a repair attempt by clarifying they value your input. The primary message appears to be encouragement for more participation rather than belittlement. This presents an opportunity to address any barriers to your participation."
+        },
+        {
+          "label": "Disengage",
+          "explanation": "Incorrect. While the attempted joke was clumsy and potentially hurtful, *Bully's name* made an immediate repair attempt and expressed a genuine desire to hear your voice in meetings. The overall intent appears to be inclusion rather than exclusion. Disengaging might miss an opportunity to improve your visibility and influence."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "After you propose a new initiative, *Bully's name* responds, 'That's an interesting approach. Not sure it's realistic given our constraints, but I appreciate you thinking outside the box. What if we modified it to address these specific challenges?'",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Continue",
+          "explanation": "Correct! This is constructive criticism at its best. *Bully's name* acknowledges your creativity, expresses specific concerns rather than dismissing the idea outright, and invites collaboration on improving the proposal. This represents a healthy professional exchange focused on outcomes rather than ego."
+        },
+        {
+          "label": "Disengage",
+          "explanation": "Incorrect. *Bully's name* is demonstrating respect for your ideas while providing specific, constructive feedback. The invitation to modify the proposal together shows they value your contribution despite having concerns. This is precisely the kind of productive dialogue that leads to better outcomes and professional growth."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Impressive discernment, *Name*! You've demonstrated exceptional skill in navigating complex workplace dynamics. You clearly understand the difference between tough but fair leadership and toxic behavior. Your ability to recognize opportunities for growth even in challenging feedback will make you both resilient and continuously improving. Outstanding work!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Excellent judgment, *Name*! You've shown strong ability to distinguish between difficult conversations worth having and truly harmful interactions. Navigating professional relationships requires exactly this kind of nuanced understanding. With continued practice, you'll master even the most challenging workplace dynamics while protecting your wellbeing."
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Solid performance, *Name*! You're developing good instincts for workplace boundaries. Remember that effective professionals can absorb direct criticism while still recognizing when interactions cross the line into disrespect. Keep refining your ability to distinguish between uncomfortable growth opportunities and genuinely toxic behavior."
+    },
+    {
+      "mistakes": 3,
+      "prompt": "You're making progress, *Name*! Workplace dynamics can be tricky to navigate, especially with authority figures. The line between challenging feedback and inappropriate behavior isn't always clear. Review the explanations carefully and notice patterns in what makes an interaction worth engaging with versus when disengagement is the wiser choice."
+    }
+  ]
+} 

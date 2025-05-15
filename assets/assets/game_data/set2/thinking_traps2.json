@@ -1,0 +1,148 @@
+{
+  "id": "thinking_traps2",
+  "type": "classification",
+  "title": "Thinking Traps 2",
+  "label": "Balanced Thinking vs Thinking Traps",
+  "image": "thinking_traps2",
+  "prompt": "*Name*, you already know that how we think about situations can make us feel worse than we need to. In this challenge, you will learn some more \"Thinking Traps.\" Your task is to classify reactions as either Balanced Thinking (realistic, objective, helpful) or a Thinking Trap (an unhelpful, often distorted pattern).\n\nRead carefully and good luck!",
+  "steps": [
+    {
+      "id": 1,
+      "question": "Scenario: You feel very anxious before an upcoming job interview.\n\nReaction: \"I feel so anxious, I just know I'm going to perform terribly.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "Not quite. This is Emotional Reasoning - assuming feelings reflect reality. Feeling anxious doesn't mean you'll perform poorly. Balanced thinking: \"Anxiety is normal before interviews. I've prepared and will do my best.\""
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Correct! This is Emotional Reasoning - assuming feelings reflect reality. Feeling anxious doesn't mean you'll perform poorly. Balanced thinking: \"Anxiety is normal before interviews. I've prepared and will do my best.\""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Scenario: You forgot a friend's birthday until the day after.\n\nReaction: \"I'm such an idiot.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "That's incorrect. This is Labeling - applying a harsh global label to yourself instead of addressing the specific behavior. Balanced thinking: \"I forgot their birthday. I should apologize and make it up to them.\""
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Great job! This is Labeling - applying a harsh global label to yourself instead of addressing the specific behavior. Balanced thinking: \"I forgot their birthday. I should apologize and make it up to them.\""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Scenario: You didn't get a job you interviewed for.\n\nReaction: \"This is terrible proof I'm unemployable. I'll never find a decent job.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "Not quite right. This combines Catastrophizing and Overgeneralization - one rejection doesn't mean you're \"unemployable.\" Balanced thinking: \"I'm disappointed but will learn from this for future opportunities.\""
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Exactly right! This combines Catastrophizing and Overgeneralization - one rejection doesn't mean you're \"unemployable.\" Balanced thinking: \"I'm disappointed but will learn from this for future opportunities.\""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Scenario: Your morning commute was stressful, but the rest of your workday went smoothly.\n\nReaction: \"The entire day was ruined because of that awful commute.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "That's not right. This is All-or-Nothing Thinking - letting one negative part define the whole day. Balanced thinking acknowledges both: \"The commute was rough, but the rest of my day went well.\""
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Correct! This is All-or-Nothing Thinking - letting one negative part define the whole day. Balanced thinking acknowledges both: \"The commute was rough, but the rest of my day went well.\""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Scenario: You made a calculation error in a report you submitted.\n\nReaction: \"Okay, I see I made a mistake on that calculation. I'll correct it and resubmit the report.\"",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "Great! You identified balanced thinking. This acknowledges the specific mistake factually without harsh self-criticism, and focuses on a practical solution to fix the error."
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Not quite. This is actually Balanced Thinking. It acknowledges the specific mistake factually without harsh self-criticism, and focuses on a practical solution to fix the error."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Scenario: A friend seems quieter than usual during your conversation.\n\nReaction: \"She seems quiet today. I wonder if everything is okay with her, or maybe she's just tired.\"",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "Correct! This is balanced thinking. It notices the behavior but avoids jumping to conclusions. It considers multiple possibilities and acknowledges uncertainty rather than mind-reading."
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "That's incorrect. This is Balanced Thinking. It notices the behavior but avoids jumping to conclusions. It considers multiple possibilities and acknowledges uncertainty rather than mind-reading."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Scenario: Someone praises your contribution to a team meeting.\n\nReaction: \"Thanks, I appreciate you saying that. I'm glad my point was helpful.\"",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "Excellent! This is balanced thinking. It accepts positive feedback graciously without dismissing it or minimizing it, which would be Discounting the Positive."
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Not right. This is Balanced Thinking. It accepts positive feedback graciously without dismissing it or minimizing it, which would be Discounting the Positive."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Scenario: You have several tasks to complete and feel pressure building.\n\nReaction: \"I'm feeling pretty pressured right now with these tasks. I should probably list them out and prioritize.\"",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "Correct! This is balanced thinking. It acknowledges feelings without letting them dictate reality and moves toward constructive action rather than catastrophizing."
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "That's not correct. This is Balanced Thinking. It acknowledges feelings without letting them dictate reality and moves toward constructive action rather than catastrophizing."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Excellent work, *Name*! You've clearly recognized balanced thinking in every scenario, weighing different perspectives without jumping to conclusions. Keep up the fresh approach!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great effort, *Name*! You have a strong sense of balanced thinking. With a little more attention to the nuances, you'll be even more precise next time!"
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Nice work, *Name*! You're on the right track. A bit more reflection on each situation will help you fine-tune your understanding of balanced thinking."
+    },
+    {
+      "mistakes": 3,
+      "prompt": "Keep going, *Name*. Every step is progress. Reflect on your responses and use these insights to sharpen your approach. You're learning, and that's what counts!"
+    }
+  ]
+} 
