@@ -1,7 +1,7 @@
 {
   "id": "thinking_traps2",
   "type": "classification",
-  "title": "Thinking Traps 2",
+  "title": "Thinking Traps",
   "label": "Balanced Thinking vs Thinking Traps",
   "image": "thinking_traps2",
   "prompt": "*Name*, you already know that how we think about situations can make us feel worse than we need to. In this challenge, you will learn some more \"Thinking Traps.\" Your task is to classify reactions as either Balanced Thinking (realistic, objective, helpful) or a Thinking Trap (an unhelpful, often distorted pattern).\n\nRead carefully and good luck!",
@@ -53,21 +53,6 @@
     },
     {
       "id": 4,
-      "question": "Scenario: Your morning commute was stressful, but the rest of your workday went smoothly.\n\nReaction: \"The entire day was ruined because of that awful commute.\"",
-      "correctAnswerIndex": 1,
-      "answers": [
-        {
-          "label": "Balanced Thinking",
-          "explanation": "That's not right. This is All-or-Nothing Thinking - letting one negative part define the whole day. Balanced thinking acknowledges both: \"The commute was rough, but the rest of my day went well.\""
-        },
-        {
-          "label": "Thinking Trap",
-          "explanation": "Correct! This is All-or-Nothing Thinking - letting one negative part define the whole day. Balanced thinking acknowledges both: \"The commute was rough, but the rest of my day went well.\""
-        }
-      ]
-    },
-    {
-      "id": 5,
       "question": "Scenario: You made a calculation error in a report you submitted.\n\nReaction: \"Okay, I see I made a mistake on that calculation. I'll correct it and resubmit the report.\"",
       "correctAnswerIndex": 0,
       "answers": [
@@ -82,32 +67,47 @@
       ]
     },
     {
-      "id": 6,
-      "question": "Scenario: A friend seems quieter than usual during your conversation.\n\nReaction: \"She seems quiet today. I wonder if everything is okay with her, or maybe she's just tired.\"",
-      "correctAnswerIndex": 0,
+      "id": 5,
+      "question": "Scenario: Your morning commute was stressful, but the rest of your workday went smoothly.\n\nReaction: \"The entire day was ruined because of that awful commute.\"",
+      "correctAnswerIndex": 1,
       "answers": [
         {
           "label": "Balanced Thinking",
-          "explanation": "Correct! This is balanced thinking. It notices the behavior but avoids jumping to conclusions. It considers multiple possibilities and acknowledges uncertainty rather than mind-reading."
+          "explanation": "That's not right. This is All-or-Nothing Thinking - letting one negative part define the whole day. Balanced thinking acknowledges both: \"The commute was rough, but the rest of my day went well.\""
         },
         {
           "label": "Thinking Trap",
-          "explanation": "That's incorrect. This is Balanced Thinking. It notices the behavior but avoids jumping to conclusions. It considers multiple possibilities and acknowledges uncertainty rather than mind-reading."
+          "explanation": "Correct! This is All-or-Nothing Thinking - letting one negative part define the whole day. Balanced thinking acknowledges both: \"The commute was rough, but the rest of my day went well.\""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Scenario: A colleague compliments you on a presentation you gave.\n\nReaction: \"Oh, they're just being nice, they don't really mean it.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Balanced Thinking",
+          "explanation": "Not right. This is Discounting the Positive - rejecting positive feedback as meaningless. Balanced thinking accepts compliments: \"Thank you, I'm glad you found my presentation helpful.\""
+        },
+        {
+          "label": "Thinking Trap",
+          "explanation": "Excellent! This is Discounting the Positive - rejecting positive feedback as meaningless. Balanced thinking accepts compliments: \"Thank you, I'm glad you found my presentation helpful.\""
         }
       ]
     },
     {
       "id": 7,
-      "question": "Scenario: Someone praises your contribution to a team meeting.\n\nReaction: \"Thanks, I appreciate you saying that. I'm glad my point was helpful.\"",
-      "correctAnswerIndex": 0,
+      "question": "Scenario: You have several deadlines approaching and feel overwhelmed.\n\nReaction: \"I should be able to handle all of this easily without feeling stressed.\"",
+      "correctAnswerIndex": 1,
       "answers": [
         {
           "label": "Balanced Thinking",
-          "explanation": "Excellent! This is balanced thinking. It accepts positive feedback graciously without dismissing it or minimizing it, which would be Discounting the Positive."
+          "explanation": "Let's reconsider. This uses a \"Should\" Statement - imposing rigid expectations on yourself. Balanced thinking is more realistic: \"It's normal to feel stressed with multiple deadlines.\""
         },
         {
           "label": "Thinking Trap",
-          "explanation": "Not right. This is Balanced Thinking. It accepts positive feedback graciously without dismissing it or minimizing it, which would be Discounting the Positive."
+          "explanation": "Correct! This uses a \"Should\" Statement - imposing rigid expectations on yourself. Balanced thinking is more realistic: \"It's normal to feel stressed with multiple deadlines.\""
         }
       ]
     },

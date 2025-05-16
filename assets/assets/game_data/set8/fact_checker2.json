@@ -1,0 +1,123 @@
+{
+  "id": "fact_checker2",
+  "type": "multipleChoice",
+  "title": "Fact Checker",
+  "label": "Cognitive Restructuring",
+  "image": "fact_checker2",
+  "prompt": "You know our minds sometimes jump to negative conclusions. This game helps you practice pausing, looking at the actual evidence presented by a situation, and choosing a more balanced perspective. It's about challenging those automatic negative thoughts by seeing if the facts truly support them. Let's begin!",
+  "steps": [
+    {
+      "id": 1,
+      "question": "Your Thought: \"My boss hates everything I produce; his feedback is always so critical.\"\n\nNew Evidence: During your performance review, the boss criticized the structure of your latest report but later sent a brief email saying, \"Good data point on page 5 of that report, very useful for the client meeting.\"",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "He's clearly just trying to soften the blow of his criticism; the negative feedback is the only part that really matters here.",
+          "explanation": "This assumes the positive comment is insincere and dismisses it (Discounting the Positive). It focuses only on the negative aspect (Filtering) and doesn't give fair weight to the contradictory evidence provided in the email."
+        },
+        {
+          "label": "Okay, so he found at least one specific part useful. Maybe not everything I did was seen negatively, even if he focused on critique.",
+          "explanation": "Correct! 👍 This acknowledges the specific positive evidence ('found at least one specific part useful') and uses it to temper the initial extreme thought ('Maybe not everything... was seen negatively'). It allows the evidence to create a more balanced view."
+        },
+        {
+          "label": "That email proves nothing significant; he probably just needed that specific data point himself and felt obligated to mention it briefly.",
+          "explanation": "Attributing the boss's motive to obligation or personal need without proof is Mind Reading. It minimizes the significance of the positive acknowledgement and avoids incorporating the evidence that contradicts the initial negative thought."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Your Thought: \"The boss deliberately ignored my input during that team meeting; he clearly doesn't value my opinion.\"\n\nNew Evidence: You observed during that same meeting that the boss seemed highly stressed, frequently checked his watch, interrupted several people, and ended the meeting abruptly.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "His stress is his problem; it doesn't excuse ignoring me specifically. He always singles me out when he's feeling under pressure.",
+          "explanation": "While stress isn't an excuse for poor behaviour, assuming it was directed specifically at you and claiming it always happens is Personalization and Overgeneralization. The evidence suggests a broader pattern of stressed behaviour in that meeting."
+        },
+        {
+          "label": "Considering how rushed and stressed he seemed with everyone, maybe his behaviour wasn't personally directed at me that particular time.",
+          "explanation": "Well done! ✅ This considers the context (boss's stress, behaviour towards others) and allows for an alternative explanation that doesn't involve personal targeting ('maybe his behaviour wasn't personally directed at me'). It separates the behaviour from a personal attack based on the evidence."
+        },
+        {
+          "label": "He was probably stressed precisely because he had to listen to input from people like me during such a busy period for him.",
+          "explanation": "This assumes you know the cause of the boss's stress and turns it into something negative about yourself (Mind Reading and Personalization). The evidence only showed the boss was stressed, not why."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Your Thought: \"He's dumping this awful, tedious task on me again because he enjoys making my job difficult.\"\n\nNew Evidence: While the task is definitely challenging and undesirable, reviewing your official job description confirms that assignments of this nature technically fall under your expected responsibilities.",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "The job description might technically cover it, but it feels like he consistently gives me the worst ones like this one.",
+          "explanation": "Focusing on the feeling that you consistently get the worst tasks without concrete proof is Filtering or Overgeneralization. While the feeling is valid, the evidence (job description) suggests a non-personal reason might exist."
+        },
+        {
+          "label": "It's still a terrible task, and the fact he gave it to me confirms my gut feeling that he has something against me personally.",
+          "explanation": "Relying on a 'gut feeling' to confirm personal targeting despite evidence suggesting otherwise (it's part of the job) is Emotional Reasoning. Feelings are important, but being open to evidence means checking if facts support those feelings."
+        },
+        {
+          "label": "Okay, the task aligns with my role's duties. While it's difficult, its assignment might be based on job needs, not personal targeting.",
+          "explanation": "Excellent! ✨ This acknowledges the unpleasantness of the task but accepts the factual evidence (job description) and considers a neutral, non-personalized explanation ('might be based on job needs'). It separates the task's difficulty from assumed malicious intent."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Your Thought: \"The boss is constantly checking my work on this project; he clearly doesn't trust my competence at all.\"\n\nNew Evidence: A colleague you generally trust casually mentioned, \"Oh yeah, the boss tends to get really hands-on and check in frequently with everyone whenever a big new project kicks off.\"",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Hearing that he does this with others suggests his close checking might be his general management style, not just about my ability.",
+          "explanation": "Great job! 🎯 This incorporates the colleague's statement (the evidence) to consider an alternative explanation – that the behaviour is a general pattern ('his general management style') rather than a personal judgment about your competence."
+        },
+        {
+          "label": "My colleague is probably just trying to be nice; I'm sure the boss scrutinizes my work much more closely than anyone else's work.",
+          "explanation": "Dismissing your colleague's statement as 'just trying to be nice' is Discounting the Evidence. Assuming you are scrutinized more without proof is Personalization. This response rejects information that contradicts the initial negative thought."
+        },
+        {
+          "label": "Even if he micromanages everyone on new projects, it just shows he fundamentally thinks the entire team is incompetent without him.",
+          "explanation": "While micromanagement can feel disempowering, assuming it means the boss thinks everyone is incompetent is Mind Reading and Overgeneralization. The evidence suggests a pattern of behaviour, but not necessarily the specific negative judgment attributed to the boss."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Your Thought: \"His extremely brief and curt tone in that email reply definitely shows his growing impatience and personal dislike for me.\"\n\nNew Evidence: You are aware from company-wide communications that the boss is currently leading the urgent response to a major, unexpected system outage impacting key clients.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "A major crisis is absolutely no excuse for being rude; his curt tone was unprofessional and clearly directed at me personally anyway.",
+          "explanation": "While curtness can be unprofessional, insisting it was personally directed despite the significant external pressure (the evidence) is Personalization. Judging the tone solely based on feeling, ignoring context, leans into Emotional Reasoning."
+        },
+        {
+          "label": "Given the massive pressure he's likely under with the system outage, the brief email might just reflect that stress, not his feelings about me.",
+          "explanation": "Excellent choice! 🌟 This considers the significant contextual evidence (the crisis) and offers a plausible, non-personalized explanation for the curt tone ('might just reflect that stress'). It separates the boss's likely state from a judgment about you."
+        },
+        {
+          "label": "This crisis probably just gives him a convenient excuse to treat people poorly, especially those he already doesn't like interacting with, like me.",
+          "explanation": "Assuming the crisis is an 'excuse' and that the boss 'already doesn't like interacting with me' is Mind Reading and Personalization. It interprets the situation through a negative filter without factual support for those assumptions."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Outstanding work, *Name*! You nailed a balanced view by letting the evidence reshape your thoughts."
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great job, *Name*! You're nearly there. With just a bit more attention to the evidence, your perspective will become even more balanced."
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Nice effort, *Name*! You’re on the right path. Try focusing a bit more on the facts and less on assumptions next time."
+    },
+    {
+      "mistakes": 3,
+      "prompt": "Keep going, *Name*. Remember to pause and let the evidence guide you before jumping to conclusions."
+    }
+  ]
+} 

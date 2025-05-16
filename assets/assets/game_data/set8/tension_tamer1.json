@@ -1,0 +1,123 @@
+{
+  "id": "tension_tamer1",
+  "type": "multipleChoice",
+  "title": "Tension Tamer",
+  "label": "De-escalate",
+  "image": "tension_tamer1",
+  "prompt": "In challenging interactions, tension can escalate quickly if not managed effectively. De-escalation techniques help prevent conflicts from intensifying and create opportunities for more productive communication.\n\nYour goal is to recognize signs of rising tension and apply techniques to defuse situations with bullying colleagues or bosses before they worsen.",
+  "steps": [
+    {
+      "id": 1,
+      "question": "During a team meeting, your boss Alex repeatedly interrupts your project presentation with dismissive comments like \"That's completely wrong\" and \"This is why I can't trust you with important projects.\" Your face feels hot as colleagues look away uncomfortably.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "\"With all due respect, Alex, I need to finish my presentation without interruptions. Your comments are undermining me in front of the team and making it impossible to communicate effectively.\"",
+          "explanation": "This confrontational approach risks escalating the power dynamic. \"With all due respect\" often sounds confrontational, and directly stating they are \"undermining\" you creates an accusation that might intensify the power struggle."
+        },
+        {
+          "label": "\"I understand you have concerns about some of these points. I'd like to finish laying out the complete picture first, and then I'd value discussing your specific concerns so we can address them thoroughly.\"",
+          "explanation": "Correct. This response acknowledges concerns while requesting space to complete your presentation. By validating their perspective and offering to address concerns later, you use strategic redirection while maintaining boundaries without creating a public power struggle."
+        },
+        {
+          "label": "\"Fine, if you think everything I'm saying is wrong, maybe you should just take over this presentation since my work is clearly not up to your standards anyway.\"",
+          "explanation": "This passive-aggressive response introduces sarcasm and surrender that encourages further bullying behavior. Responding from frustration typically reinforces negative dynamics rather than resolving them."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Your colleague Jamie just presented your idea to senior leadership as their own. As the meeting ends, you overhear Jamie accepting praise from the VP for \"their innovative approach\" - which was actually your idea. When you make eye contact, Jamie smirks slightly.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Approach Jamie privately: \"I noticed you presented the workflow redesign I developed and shared with you last week as your own work. This pattern is affecting our working relationship. Could we discuss how we'll handle idea attribution going forward?\"",
+          "explanation": "Correct. This response addresses the issue privately, using \"I\" statements without heated accusations. By inviting dialogue rather than making demands, you create space for resolution without embarrassment while still addressing the problematic behavior."
+        },
+        {
+          "label": "Address it immediately as people are leaving: \"Actually, I need to clarify that the workflow redesign Jamie presented was my idea that I shared last week. Jamie has a pattern of claiming others' work as his own that needs to stop.\"",
+          "explanation": "Publicly confronting a bullying colleague creates a situation where defensiveness is almost guaranteed. The accusation about a \"pattern\" escalates into a character attack that typically generates lasting hostility rather than resolution."
+        },
+        {
+          "label": "Say nothing now, but email the team and CC Jamie's manager: \"For accuracy in our records, the workflow redesign presented today originated from my proposal from last week. I've attached my original documentation as this is the third time my work has been misattributed.\"",
+          "explanation": "This passive-aggressive approach introduces documentation that publicly shames Jamie. CCing their manager significantly escalates the situation without attempting direct communication first, potentially making you appear equally problematic."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "During your department's weekly update meeting, your manager Taylor interrupts to say, \"This is embarrassingly unprepared. Did you even look at the numbers before wasting everyone's time?\" You notice your voice starting to shake as you feel humiliated.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "\"I've prepared extensively for this presentation with the information available to me. If there are specific concerns about the data, I'm happy to address them constructively, but I would prefer to discuss feedback on my performance privately after the meeting.\"",
+          "explanation": "Correct. This response maintains professionalism while setting clear boundaries around public criticism. By acknowledging concerns while requesting appropriate timing for performance feedback, you create a path forward focused on the work rather than personal dynamics."
+        },
+        {
+          "label": "\"I'm sorry you feel that way, Taylor. Clearly, I've disappointed you again. I'll try to do better next time if you'll still allow me to contribute to these meetings.\"",
+          "explanation": "This submissive response enables bullying behavior. The self-deprecating tone reinforces a negative power dynamic and typically invites continued bullying, as those who bully often target people who show the most emotional reaction or submission."
+        },
+        {
+          "label": "\"That was an inappropriate and unprofessional comment. I've prepared thoroughly, and publicly attacking me doesn't help the team or the project. Let's focus on constructive feedback instead of personal attacks.\"",
+          "explanation": "While boundaries are important, directly labeling your manager's behavior as \"inappropriate\" in front of colleagues creates a public challenge likely to escalate the conflict. This risks greater hostility rather than resolution."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "In a cross-departmental meeting, executive Morgan singles out your team, slamming a report on the table: \"Your department's incompetence is dragging down the entire company. I don't know why we keep you people around.\" Morgan stares at you, expecting a response.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "\"I understand this situation is frustrating. While I don't agree with that characterization of our team, I recognize there are delays we need to address. I'd be happy to discuss the specific challenges we're facing and how we're working to resolve them.\"",
+          "explanation": "Correct. This response acknowledges the emotion without accepting the inappropriate characterization. It offers context without defensiveness and focuses on problem-solving rather than blame, demonstrating emotional regulation that de-escalates while maintaining boundaries."
+        },
+        {
+          "label": "\"That's a completely unfair assessment. My team has been working overtime for weeks despite insufficient resources and last-minute requirement changes. Maybe if other departments communicated better, we wouldn't be in this position.\"",
+          "explanation": "This defensive response escalates the conflict by challenging the executive's assessment and shifting blame. Counter-accusations typically intensify hostility when facing someone already displaying aggressive behavior."
+        },
+        {
+          "label": "\"You're absolutely right, and I take full responsibility for our failures. I promise we'll work around the clock to fix everything, whatever it takes. Please don't think poorly of our entire department.\"",
+          "explanation": "Accepting complete blame and making unrealistic promises reinforces inappropriate behavior and signals that intimidation works. Making promises you likely cannot keep creates future vulnerability when those promises inevitably cannot be fulfilled."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "During a team brainstorming session where you're presenting a new idea, your colleague Riley rolls their eyes and says, \"Here we go with another naive suggestion. That would never work in the real world. Some of us have actual industry experience that matters.\"",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "\"I appreciate that you have concerns about feasibility. Perhaps I'm missing some context from your experience. Could you share what specific aspects you think wouldn't work? That information would be valuable in refining this approach.\"",
+          "explanation": "Correct. This response acknowledges Riley's experience while diplomatically creating space for your idea. By redirecting toward collaborative problem-solving rather than responding defensively, you model professionalism while subtly establishing boundaries."
+        },
+        {
+          "label": "\"Actually, Riley, this approach is backed by research and has worked in similar environments. If you'd bother to listen instead of dismissing ideas that aren't your own, you might learn something new instead of relying on outdated experiences.\"",
+          "explanation": "This defensive counter-attack matches Riley's belittling tone. While standing up to a bully might feel satisfying, similar tactics typically escalate the conflict into a power struggle, intensifying tension rather than reducing it."
+        },
+        {
+          "label": "\"I understand you have doubts. Would anyone else like to share their thoughts on this approach? Different perspectives might help us identify both potential issues and opportunities before making a decision.\"",
+          "explanation": "This response avoids direct confrontation while seeking broader input. While it doesn't escalate the situation, consistently failing to address bullying behavior can enable it to continue in future interactions."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Outstanding work, *Name*! You consistently choose responses that stay focused on the facts and maintain professionalism—even in the face of criticism or bullying. Your responses skillfully de-escalate tension by inviting dialogue, setting clear boundaries, and avoiding assumptions. Keep up the excellent work!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great job, *Name*! You mostly lean toward constructive responses that balance assertiveness and collaboration. With just a little more attention to steering clear of extra assumptions or public confrontations, you'll further hone your ability to manage challenging interactions effectively."
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Nice effort, *Name*! You're on the right track by seeking to address conflicts with calm and clear communication. A bit more practice in reframing your thoughts strictly based on the evidence—instead of jumping to personal conclusions—will help you further refine your responses."
+    },
+    {
+      "mistakes": 3,
+      "prompt": "Keep going, *Name*. Handling bullying and confrontational situations is tough, and every experience is a chance to grow. Focus on using 'I' statements, inviting private discussion, and maintaining your focus on solutions rather than blame. With time and practice, you'll continue to build even stronger, more resilient responses."
+    }
+  ]
+} 

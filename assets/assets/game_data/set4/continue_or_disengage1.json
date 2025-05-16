@@ -1,7 +1,7 @@
 {
   "id": "continue_or_disengage1",
   "type": "classification",
-  "title": "Continue or Disengage 1",
+  "title": "Continue or Disengage",
   "label": "Strategicaly Disengage",
   "image": "continue_or_disengage1",
   "prompt": "In this game, you'll practice recognizing when to engage with your boss *Bully's name* and when to strategically disengage from potentially harmful interactions.\n\nRead each scenario carefully and decide whether you should continue or strategically disengage from the interaction.",

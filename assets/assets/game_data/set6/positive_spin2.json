@@ -1,7 +1,7 @@
 {
   "id": "positive_spin2",
   "type": "multipleChoice",
-  "title": "Positive Spin 2",
+  "title": "Positive Spin",
   "label": "Cognitive Restructuring",
   "image": "positive_spin2",
   "prompt": "*Name*, this game will help you practice finding different, more balanced ways to think about things.\n\nRead each scenario. Choose the interpretation that offers the most constructive and plausible \"positive spin.\"",

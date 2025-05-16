@@ -1,7 +1,7 @@
 {
   "id": "reflection_mirror1",
   "type": "classification",
-  "title": "Reflection Mirror 1",
+  "title": "Reflection Mirror",
   "label": "Reflection Responses",
   "image": "reflection_mirror1",
   "prompt": "One of the most powerful techniques of active listening is reflection - paraphrasing what someone has shared to show you understand. In this challenge, you'll see different scenarios followed by a reflection response. Your task is to identify whether each reflection is Just Right or Too Interpretive (adds judgments, assumptions, or interpretations not present in the original statement).",

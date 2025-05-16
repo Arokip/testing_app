@@ -1,7 +1,7 @@
 {
   "id": "communication_style_classifier1",
   "type": "classification",
-  "title": "Communication Style Classifier 1",
+  "title": "Comm Style Classifier",
   "label": "Assertive Communication",
   "image": "communication_style_classifier1",
   "prompt": "Assertiveness is a key skill in standing up for oneself and challenging bullying behavior. In this challenge you will learn to master the difference between effective communication and being either too passive or too aggressive.\n\nImagine your boss *Bully's name* constantly criticizing your work publicly. Now, he demanded you redo a major project with an impossible deadline.\n\nRead each response and assess if it is rightly assertive or too aggressive or passive:",

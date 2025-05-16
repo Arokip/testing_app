@@ -1,7 +1,7 @@
 {
   "id": "fact_checker1",
   "type": "multipleChoice",
-  "title": "Fact Checker 1",
+  "title": "Fact Checker",
   "label": "Cognitive Restructuring",
   "image": "fact_checker1",
   "prompt": "In challenging workplace situations, our minds often jump to negative conclusions. This game helps you practice looking at the actual evidence presented by a situation, and choosing a more balanced perspective. Read carefully the negative thought, the newly presented evidence and select which perspective best incorporates it. Let's begin!",

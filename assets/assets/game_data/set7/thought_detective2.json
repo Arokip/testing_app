@@ -1,0 +1,89 @@
+{
+  "id": "thought_detective2",
+  "type": "gameBook",
+  "title": "Thought detective",
+  "label": "Cognitive Restructuring",
+  "image": "thought_detective2",
+  "prompt": "You already know, *Name* that our thoughts about a situation, not the situation itself, often cause our feelings. This game helps you practice identifying the specific thoughts behind feelings. Ready to investigate?",
+  "initialStepId": 0,
+  "steps": [
+    {
+      "id": 0,
+      "description": "During a team meeting, your colleague presents an idea that you had shared with them privately last week, without acknowledging you.\n\nYou feel angry and resentful.",
+      "image": "boss_1",
+      "question": "Feeling angry and resentful likely happened after a specific interpretation of the event. Which of these is most likely the Thought that led to those feelings?",
+      "answers": [
+        {
+          "reply": "My colleague presented the same idea I shared last week.",
+          "resultId": 0,
+          "points": 0,
+          "result": "Not Quite. The statement \"My colleague presented the same idea I shared last week\" is just a neutral observation or fact about what happened. It doesn't explain why you felt angry and resentful. The feeling usually comes from the meaning or interpretation you give to that fact.",
+          "image": "boss_4",
+          "lesson": "The factual observation doesn't contain assumptions about intent or what it means about your relationship. The emotions arise from your interpretation of what their actions mean."
+        },
+        {
+          "reply": "I feel uncomfortable when my contributions aren't recognized.",
+          "resultId": 1,
+          "points": 0,
+          "result": "Not Quite. The statement \"I feel uncomfortable when my contributions aren't recognized\" expresses a general emotional response, but doesn't capture the specific thought about this colleague's intentions that led to your anger and resentment. Remember the flow: Event → Thought → Feeling.",
+          "image": "boss_4",
+          "lesson": "While this statement describes how you feel, it doesn't reveal what you believed was happening in this specific situation that triggered your strong emotional response."
+        },
+        {
+          "reply": "They deliberately stole my idea to make themselves look better.",
+          "nextStepId": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "description": "Correct! This statement assumes negative intentions and creates a narrative of betrayal that naturally leads to anger and resentment.\n\nThe good news is we can change the thought and hence the feeling!",
+      "image": "boss_3",
+      "question": "Which of these is a more helpful or balanced way to think about the situation?",
+      "answers": [
+        {
+          "reply": "I need to immediately confront them about taking my idea.",
+          "resultId": 2,
+          "points": 1,
+          "result": "Not Quite a Reframe. The statement \"I need to immediately confront them about taking my idea\" describes a reactive action rather than a change in perspective. This approach might escalate conflict rather than resolving the underlying issue.",
+          "image": "boss_4",
+          "lesson": "Planning a confrontation comes from the same assumption that your colleague acted with negative intent. A balanced reframe would first question this assumption before deciding on a course of action."
+        },
+        {
+          "reply": "There could be several explanations for what happened here.",
+          "resultId": 3,
+          "points": 3,
+          "result": "Excellent Thinking! The thought \"There could be several explanations for what happened here\" acknowledges multiple possibilities rather than assuming the worst about your colleague's intentions.",
+          "image": "boss_4",
+          "lesson": "This balanced perspective allows you to address the situation calmly and directly without damaging the relationship unnecessarily. It recognizes that human behavior has many possible motivations beyond deliberate malice."
+        },
+        {
+          "reply": "This proves I shouldn't share my thoughts with colleagues.",
+          "resultId": 4,
+          "points": 1,
+          "result": "Still an Unhelpful Thought. The thought \"This proves I shouldn't share my thoughts with colleagues\" overgeneralizes from one incident to a sweeping conclusion about all workplace interactions. This kind of all-or-nothing thinking often increases isolation.",
+          "image": "boss_4",
+          "lesson": "Drawing such broad conclusions from limited evidence tends to create self-fulfilling prophecies and damage your ability to collaborate effectively. A balanced thought would avoid such extreme generalizations."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": ""
+    },
+    {
+      "mistakes": 1,
+      "prompt": ""
+    },
+    {
+      "mistakes": 2,
+      "prompt": ""
+    },
+    {
+      "mistakes": 3,
+      "prompt": ""
+    }
+  ]
+}

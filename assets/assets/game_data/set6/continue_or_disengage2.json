@@ -1,7 +1,7 @@
 {
   "id": "continue_or_disengage2",
   "type": "classification",
-  "title": "Continue or Disengage 2",
+  "title": "Continue or Disengage",
   "label": "Strategicaly Disengage",
   "image": "continue_or_disengage2",
   "prompt": "Your task, *Name* is to practice recognizing more nuanced situations where you need to decide whether to continue the conversation with your boss *Bully's name* or strategically disengage.\n\nSome scenarios may be less clear-cut, requiring you to carefully weigh the context, tone, and intent behind *Bully's name*'s communication.",

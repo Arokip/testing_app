@@ -1,0 +1,123 @@
+{
+  "id": "drawing_the_line1",
+  "type": "multipleChoice",
+  "title": "Drawing The Line",
+  "label": "Set Boundaries",
+  "image": "drawing_the_line1",
+  "prompt": "Now, you'll practice effective communication to set and maintain healthy boundaries in interactions with your boss *Bully's name*. Effective boundaries protect your well-being while preserving relationships and productivity.\n\nFor each scenario, select the response that demonstrates the most effective boundary-setting approach.",
+  "steps": [
+    {
+      "id": 1,
+      "question": "*Bully's name* regularly emails you work requests after hours and on weekends, expecting immediate responses.",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "Always respond immediately to show your dedication, regardless of when the emails arrive.",
+          "explanation": "This sets a precedent that you're always available, which can lead to burnout and unrealistic expectations about your availability."
+        },
+        {
+          "label": "Ignore the emails until regular work hours without any explanation.",
+          "explanation": "While protecting your time, this approach lacks communication and may create confusion or frustration for your manager."
+        },
+        {
+          "label": "Have a conversation: 'I've noticed work requests coming in after hours. I'm committed to my role, but also need to maintain work-life balance. Can we agree on expectations for after-hours communication?'",
+          "explanation": "Correct! This approach acknowledges the issue directly, affirms your commitment to work, states your boundary clearly, and invites collaborative problem-solving."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "*Bully's name* consistently calls you on your personal phone outside of business hours for non-urgent matters.",
+      "correctAnswerIndex": 0,
+      "answers": [
+        {
+          "label": "Next time they call: 'I appreciate your call, but I'm currently off the clock. I'd be happy to discuss this during business hours tomorrow. For urgent matters, please contact our support line at [number].'",
+          "explanation": "Correct! This response is polite but firm, offers an alternative, educates on proper channels, and clearly establishes when you're available."
+        },
+        {
+          "label": "Stop answering their calls and hope they get the hint.",
+          "explanation": "This passive approach creates confusion and potential frustration for the client, and doesn't clearly communicate your boundary."
+        },
+        {
+          "label": "Answer their calls but sound increasingly annoyed until they stop calling.",
+          "explanation": "Using indirect signals like tone instead of clear communication is ineffective and unprofessional, potentially damaging the client relationship."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "*Bully's name* asks you to take on a high-profile project, but you're already at maximum capacity with current commitments.",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "Accept the project without mentioning your workload to impress your boss.",
+          "explanation": "This sets you up for potential failure or burnout by not communicating your realistic capacity, which ultimately serves neither you nor the organization."
+        },
+        {
+          "label": "Flatly refuse, saying you're too busy for additional work.",
+          "explanation": "While honest, this blunt approach misses an opportunity to demonstrate your strategic thinking and commitment to quality outcomes."
+        },
+        {
+          "label": "'I'm honored you thought of me for this project. Currently, I'm at capacity with X, Y, and Z. I could take this on if we reprioritize my current projects, or I could contribute in a more limited capacity. What would you suggest?'",
+          "explanation": "Correct! This response shows appreciation, clearly communicates your boundary, provides context, and collaboratively explores solutions."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "*Bully's name* started a habit of scheduling early morning meetings (7:30 AM) that conflict with your family responsibilities.",
+      "correctAnswerIndex": 1,
+      "answers": [
+        {
+          "label": "Rearrange your family responsibilities to accommodate the meetings, regardless of the personal cost.",
+          "explanation": "This consistently prioritizes work demands over important personal responsibilities, which is unsustainable and can lead to resentment."
+        },
+        {
+          "label": "'I notice our meetings have shifted to 7:30 AM. Due to family commitments, I'm available from 8:30 AM onwards. Could we find a time that works for everyone, or could I get a recording/notes for any portions I miss?'",
+          "explanation": "Correct! This clearly states your boundary and the reason behind it, while offering constructive alternatives that acknowledge team needs."
+        },
+        {
+          "label": "Attend the meetings but multitask with family responsibilities simultaneously, dividing your attention.",
+          "explanation": "This compromises your effectiveness in both areas and doesn't address the underlying scheduling issue, creating ongoing stress."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "*Bully's name* frequently makes 'just joking' comments about your appearance that make you uncomfortable.",
+      "correctAnswerIndex": 2,
+      "answers": [
+        {
+          "label": "Laugh along to avoid making a scene, even though the comments bother you.",
+          "explanation": "This reinforces their behavior by signaling it's acceptable, allowing the boundary violation to continue and potentially worsen."
+        },
+        {
+          "label": "Make similar jokes about their appearance to give them a taste of their own medicine.",
+          "explanation": "This escalates the situation rather than resolving it, potentially creating a hostile environment and damaging the professional relationship."
+        },
+        {
+          "label": "Speak to them privately: 'I know humor is subjective, but comments about my appearance make me uncomfortable. I'd appreciate it if we could keep our interactions focused on professional topics.'",
+          "explanation": "Correct! This directly addresses the issue in private, acknowledges their possible intent without accusation, clearly states your boundary, and offers a constructive path forward."
+        }
+      ]
+    }
+  ],
+  "resultPrompt": [
+    {
+      "mistakes": 0,
+      "prompt": "Amazing work, *Name*! You've shown exceptional skill in setting and maintaining healthy boundaries. Your ability to communicate effectively in challenging situations is outstanding. Keep up the incredible work!"
+    },
+    {
+      "mistakes": 1,
+      "prompt": "Great effort, *Name*! You have a strong grasp of effective boundary-setting. With just a bit more focus, you'll achieve perfection. Keep refining your communication skills!"
+    },
+    {
+      "mistakes": 2,
+      "prompt": "Good job, *Name*! You're on the right path to mastering boundary-setting. Remember, practice makes perfect, and this app is here to help you improve. Keep learning and stay motivated!"
+    },
+    {
+      "mistakes": 3,
+      "prompt": "It's not always easy, but don't be discouraged, *Name*. Setting boundaries can be really difficult. This app is designed to help you get better, so stay positive. You're making progress!"
+    }
+  ]
+} 

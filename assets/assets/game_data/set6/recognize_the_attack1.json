@@ -1,7 +1,7 @@
 {
   "id": "recognize_the_attack1",
   "type": "classification",
-  "title": "Recognize The Attack 1",
+  "title": "Recognize The Attack",
   "label": "Set Boundaries",
   "image": "recognize_the_attack1",
   "prompt": "*Name*, identify whether statements from your bullying boss *Bully's name* represent appropriate communication or cross personal boundaries.\n\nBoundary violations undermine dignity, manipulate, humiliate, or disrespect personal limits, while appropriate communication offers honest feedback or disagreement while respecting boundaries.\n\nFor each statement, determine whether it represents appropriate communication or a boundary violation.",
@@ -38,7 +38,7 @@
     },
     {
       "id": 3,
-      "question": "During a team meeting, *Bully's name* says: 'Oh look, everyone! *Name*'s finally decided to share *Possessive Pronoun* thoughts with us. Let's all stop what we're doing and listen to *Pronoun* brilliant insights that *Pronoun*'s been holding back.'",
+      "question": "During a team meeting, *Bully's name* says: 'Oh look, everyone! *Name*'s finally decided to share *Possessive Pronoun* thoughts with us. Let's all stop what we're doing and listen to *Possessive Pronoun* brilliant insights that *Pronoun*'s been holding back.'",
       "correctAnswerIndex": 1,
       "answers": [
         {

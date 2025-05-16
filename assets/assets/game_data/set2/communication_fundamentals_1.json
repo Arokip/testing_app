@@ -1,7 +1,7 @@
 {
   "id": "communication_fundamentals1",
   "type": "classification",
-  "title": "Communication Fundamentals 1",
+  "title": "Communication Fundamentals",
   "image": "communication_fundamentals1",
   "prompt": "In this game, you'll evaluate statements about effective communication principles to determine whether they reflect best practices for clear, respectful, and productive interactions.\n\nRead each statement carefully and decide if it represents sound communication principles or problematic approaches.",
   "steps": [

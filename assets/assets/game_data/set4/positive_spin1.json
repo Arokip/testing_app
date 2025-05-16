@@ -1,14 +1,14 @@
 {
   "id": "positive_spin1",
   "type": "multipleChoice",
-  "title": "Positive Spin 1",
+  "title": "Positive Spin",
   "label": "Cognitive Restructuring",
   "image": "positive_spin1",
   "prompt": "Life often presents situations where our first reaction is negative. We might assume the worst about why something happened or how others feel. This game help you practice finding different, more balanced ways to think about things.\n\nRead each scenario. Choose the interpretation that offers the most constructive and plausible \"positive spin.\"",
   "steps": [
     {
       "id": 1,
-      "question": "Your boss *Bully's name* gives you feedback on a report, noting several areas needing significant revision and saying they expected more polish at this stage.",
+      "question": "Your boss *Bully's name* gives you feedback on a report, noting several areas needing significant revision and saying *Pronoun* expected more polish at this stage",
       "correctAnswerIndex": 0,
       "answers": [
         {
