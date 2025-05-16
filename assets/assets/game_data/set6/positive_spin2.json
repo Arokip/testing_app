@@ -8,11 +8,11 @@
   "steps": [
     {
       "id": 1,
-      "question": "During a team meeting presentation, your boss interrupts you mid-sentence to publicly point out a minor error on one of your slides.",
+      "question": "During a team meeting presentation, *Bully's name* interrupts you mid-sentence to publicly point out a minor error on one of your slides.",
       "correctAnswerIndex": 1,
       "answers": [
         {
-          "label": "This is so humiliating. My boss is trying to undermine me in front of everyone and make me look stupid. They clearly don't respect me.",
+          "label": "This is so humiliating. *Bully's name* is trying to undermine me in front of everyone and make me look stupid. *Pronoun* clearly doesn't respect me.",
           "explanation": "This involves 'Mind-Reading' (assuming intent to undermine) and 'Personalization' (taking it as a direct attack on your competence/respect). It focuses on perceived negative intent without proof."
         },
         {
@@ -65,19 +65,19 @@
     },
     {
       "id": 4,
-      "question": "Your boss seems distant and curt in interactions with you all week, providing minimal feedback and avoiding eye contact.",
+      "question": "*Bully's name* seems distant and curt in interactions with you all week, providing minimal feedback and avoiding eye contact.",
       "correctAnswerIndex": 2,
       "answers": [
         {
-          "label": "I must have done something wrong. They're angry with me about my performance and are probably planning to give me a bad review or sideline me.",
+          "label": "I must have done something wrong. *Bully's name* is angry with me about my performance and is probably planning to give me a bad review or sideline me.",
           "explanation": "This is 'Personalization' (assuming their mood is about you) and 'Mind-Reading'/'Catastrophizing' (jumping to negative conclusions about your performance and future)."
         },
         {
-          "label": "Bosses shouldn't act like this; it's unprofessional and creates a terrible atmosphere. They're clearly a poor manager.",
+          "label": "Bosses shouldn't act like this; it's unprofessional and creates a terrible atmosphere. *Pronoun* is clearly a poor manager.",
           "explanation": "This uses 'Should' statements (dictating how a boss must act) and 'Labeling' ('poor manager'). While the behavior might be suboptimal, this interpretation focuses on judgment rather than understanding or coping."
         },
         {
-          "label": "My boss seems preoccupied this week. It might have nothing to do with me – perhaps they're stressed about deadlines, personal issues, or upper management pressure. I'll keep doing my job well and see if things change.",
+          "label": "*Bully's name* seems preoccupied this week. It might have nothing to do with me - perhaps *Pronoun* is stressed about deadlines, personal issues, or upper management pressure. I'll keep doing my job well and see if things change.",
           "explanation": "Correct. This avoids personalization by considering external factors unrelated to you. It focuses on observation ('seems preoccupied') and maintains a constructive, patient approach ('keep doing my job well')."
         }
       ]

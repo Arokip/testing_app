@@ -8,7 +8,7 @@
   "steps": [
     {
       "id": 1,
-      "question": "During a team meeting, your boss Alex repeatedly interrupts your project presentation with dismissive comments like \"That's completely wrong\" and \"This is why I can't trust you with important projects.\" Your face feels hot as colleagues look away uncomfortably.",
+      "question": "During a team meeting, your boss Alex repeatedly interrupts your project presentation with dismissive comments like \"That's completely wrong\" and \"This is why I can't trust you with important projects.\" Your face feels hot as colleagues look away uncomfortably.\n\nHow do you respond?",
       "correctAnswerIndex": 1,
       "answers": [
         {
@@ -27,7 +27,7 @@
     },
     {
       "id": 2,
-      "question": "Your colleague Jamie just presented your idea to senior leadership as their own. As the meeting ends, you overhear Jamie accepting praise from the VP for \"their innovative approach\" - which was actually your idea. When you make eye contact, Jamie smirks slightly.",
+      "question": "Your colleague Jamie just presented your idea to senior leadership as their own. As the meeting ends, you overhear Jamie accepting praise from the VP for \"her innovative approach\" - which was actually your idea. When you make eye contact, Jamie smirks slightly.\n\nHow do you respond?",
       "correctAnswerIndex": 0,
       "answers": [
         {
@@ -40,13 +40,13 @@
         },
         {
           "label": "Say nothing now, but email the team and CC Jamie's manager: \"For accuracy in our records, the workflow redesign presented today originated from my proposal from last week. I've attached my original documentation as this is the third time my work has been misattributed.\"",
-          "explanation": "This passive-aggressive approach introduces documentation that publicly shames Jamie. CCing their manager significantly escalates the situation without attempting direct communication first, potentially making you appear equally problematic."
+          "explanation": "This passive-aggressive approach introduces documentation that publicly shames Jamie. CCing her manager significantly escalates the situation without attempting direct communication first, potentially making you appear equally problematic."
         }
       ]
     },
     {
       "id": 3,
-      "question": "During your department's weekly update meeting, your manager Taylor interrupts to say, \"This is embarrassingly unprepared. Did you even look at the numbers before wasting everyone's time?\" You notice your voice starting to shake as you feel humiliated.",
+      "question": "During your department's weekly update meeting, your manager Taylor interrupts to say, \"This is embarrassingly unprepared. Did you even look at the numbers before wasting everyone's time?\" You notice your voice starting to shake as you feel humiliated.\n\nHow do you respond?",
       "correctAnswerIndex": 0,
       "answers": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "id": 4,
-      "question": "In a cross-departmental meeting, executive Morgan singles out your team, slamming a report on the table: \"Your department's incompetence is dragging down the entire company. I don't know why we keep you people around.\" Morgan stares at you, expecting a response.",
+      "question": "In a cross-departmental meeting, executive Morgan singles out your team, slamming a report on the table: \"Your department's incompetence is dragging down the entire company. I don't know why we keep you people around.\" Morgan stares at you, expecting a response.\n\nHow do you respond?",
       "correctAnswerIndex": 0,
       "answers": [
         {
@@ -84,7 +84,7 @@
     },
     {
       "id": 5,
-      "question": "During a team brainstorming session where you're presenting a new idea, your colleague Riley rolls their eyes and says, \"Here we go with another naive suggestion. That would never work in the real world. Some of us have actual industry experience that matters.\"",
+      "question": "During a team brainstorming session where you're presenting a new idea, your colleague Riley rolls his eyes and says, \"Here we go with another naive suggestion. That would never work in the real world. Some of us have actual industry experience that matters.\"\n\nHow do you respond?",
       "correctAnswerIndex": 0,
       "answers": [
         {

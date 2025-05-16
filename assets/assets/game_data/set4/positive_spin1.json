@@ -12,15 +12,15 @@
       "correctAnswerIndex": 0,
       "answers": [
         {
-          "label": "Okay, the feedback is specific. My boss trusts me enough for direct critique, likely wanting skill development now.",
+          "label": "Okay, the feedback is specific. *Bully's name* trusts me enough for direct critique, likely wanting skill development now.",
           "explanation": "Correct. This focuses on specifics ('specific'), assumes positive intent ('trusts me,' 'skill development'), avoiding thinking traps. It promotes growth opportunities."
         },
         {
-          "label": "My boss thinks I'm incompetent and is probably looking for good reasons to get rid of me soon enough.",
+          "label": "*Bully's name* thinks I'm incompetent and is probably looking for good reasons to get rid of me soon enough.",
           "explanation": "This assumes negative thoughts ('Mind-Reading') and the worst outcome ('Catastrophizing'), causing needless stress without proof. It's an unhelpful pattern to follow."
         },
         {
-          "label": "This criticism is totally unfair; the boss is just nitpicking details and trying to assert their power over me.",
+          "label": "This criticism is totally unfair; *Bully's name* is just nitpicking details and trying to assert their power over me.",
           "explanation": "This involves 'Blaming' and 'Assuming Negative Intent,' closing off learning by labeling feedback as an unfair power play. It creates unnecessary conflict here."
         }
       ]

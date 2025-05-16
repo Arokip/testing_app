@@ -11,7 +11,7 @@
             "id": 0,
             "description": "Your boss, *Bully's name*, as you know, is hostile-aggressive.\n\n*Pronoun* recently criticized your performance in a team meeting. You enter *Possessive Pronoun* office to discuss next quarter's targets. *Pronoun* starts without greeting you, drumming *Possessive Pronoun* fingers impatiently on the desk:",
             "image": "boss_1",
-            "question": "These targets aren't rocket science. Why can't you just get it done on time like everyone else?",
+            "question": "\"These targets aren't rocket science. Why can't you just get it done on time like everyone else?\"",
             "answers": [
                 {
                     "reply": "I see you're upset. Let's break down what's causing the delay.",
@@ -51,7 +51,7 @@
             "id": 2,
             "description": "*Bully's name* erupts in anger, *Possessive Pronoun* ego bruised by your perceived defiance. *Pronoun* interprets your resistance as a threat to *Possessive Pronoun* authority.",
             "image": "boss_2",
-            "question": "Clearly you can't handle feedback. I might need to reassign this project.",
+            "question": "\"Clearly you can't handle feedback. I might need to reassign this project.\"",
             "answers": [
                 {
                     "reply": "This project has been challenging, but I want to handle feedback effectively. Could you give me one or two concrete points you need changed first?",
@@ -67,8 +67,7 @@
                     "points": 0,
                     "result": "*Bully's name*'s face shows cold satisfaction. *Pronoun* stands and leans across the desk. \"Since you're clearly not up to it, I'll hand this to someone who won't crumble under pressure, get out. They'll send your things.\"",
                     "image": "boss_4",
-                    "outcome": "Your hasty resignation is processed within hours. Security escorts you out as colleagues watch. Industry contacts report your boss describing you as \"unstable\" and \"combative\" to potential employers. Six months later, you're still job-hunting.",
-                    "lesson": "Explosive exits feel momentarily satisfying but have lasting professional consequences. Document toxic behavior through proper channels before considering departure."
+                    "lesson": "Your hasty resignation is processed within hours. Security escorts you out as colleagues watch in stunned silence. Over the following weeks, industry contacts report your boss describing you as \"unstable\" and \"combative\" to potential employers. Six months later, you're still job-hunting, explaining the gap in interviews while your former position has been filled by someone who tolerates the abuse.\n\nExplosive exits might feel momentarily satisfying but create lasting professional consequences that follow you beyond the workplace. When facing a hostile-aggressive boss, documenting toxic behavior through proper channels before considering departure gives you protection and preserves your professional reputation in ways that emotional reactions cannot."
                 }
             ]
         },
@@ -76,7 +75,7 @@
             "id": 3,
             "description": "*Bully's name* shows volatile impatience.",
             "image": "boss_2",
-            "question": "Look, just fix it or I'll find someone else who can. I'm tired of excuses.",
+            "question": "\"Look, just fix it or I'll find someone else who can. I'm tired of excuses.\"",
             "answers": [
                 {
                     "reply": "Yes, of course! I'll do whatever it takes—I'll work all night if necessary!",
@@ -85,8 +84,7 @@
                     "points": 1,
                     "result": "You work 20-hour days, sacrificing health and relationships. Your deliverable meets the deadline but lacks polish. Your boss coldly says, \"Finally. Now do it faster next time.\"",
                     "image": "boss_4",
-                    "outcome": "Your all-nighters become the new expectation. Three months later, you're hospitalized for exhaustion. HR processes short-term disability, but your boss hires your replacement during your absence. You return to find your desk cleared and responsibilities redistributed.",
-                    "lesson": "Martyrdom impresses no one. Hostile-aggressive bosses view self-sacrifice as weakness, not dedication. Health boundaries are non-negotiable."
+                    "lesson": "Your immediate capitulation establishes a dangerous precedent. The all-nighters become your new expected standard, not an exception. Three months later, you're hospitalized for exhaustion after weeks of similar demands. While you're on short-term disability, your boss quietly hires your replacement, claiming your \"unreliability\" forced the decision. You return to find your desk cleared and responsibilities redistributed, with no recourse.\n\nSelf-sacrifice impresses no one in toxic workplace dynamics. Hostile-aggressive bosses interpret martyrdom as weakness to exploit, not dedication to reward. Setting health boundaries isn't optional—it's essential for survival, as no deadline or project is worth permanent damage to your wellbeing or career sustainability."
                 },
                 {
                     "reply": "Understood. Could you quickly confirm which parts need the most attention so I don't waste time?",
@@ -99,8 +97,7 @@
                     "points": 0,
                     "result": "*Bully's name*'s face turns purple. \"You're done,\" *Pronoun* hisses, emailing HR before you reach the door. You're placed on \"administrative leave.\" Colleagues avoid you as rumors paint you as \"unstable.\" Months later, you're quietly demoted.",
                     "image": "boss_4",
-                    "outcome": "After walking out, you're labeled \"difficult\" across the department. Colleagues avoid collaborating with you, fearing association. Six months later, you're passed over for promotion: \"Not a team player.\" Your boss smirks during the announcement.",
-                    "lesson": "Silent exits feel dignified but appear unprofessional. Hostile-aggressive bosses control the narrative if you leave it unchallenged."
+                    "lesson": "After walking out, you're labeled \"difficult\" across the department. Colleagues avoid collaborating with you, fearing association. Six months later, you're passed over for promotion: \"Not a team player.\" Your boss smirks during the announcement.\n\nRemember that silent exits feel dignified but appear unprofessional. Hostile-aggressive bosses control the narrative if you leave it unchallenged."
                 }
             ]
         },
@@ -108,25 +105,23 @@
             "id": 4,
             "description": "*Bully's name* flushes red. *Pronoun* doesn't care who messed up—he only cares about results. *Pronoun* jabs a finger at you.",
             "image": "boss_3",
-            "question": "You're paid to solve problems, not whine. Fix. It.",
+            "question": "\"You're paid to solve problems, not whine. Fix. It.\"",
             "answers": [
                 {
                     "reply": "But you have no idea how incompetent those teams are. There's only so much I can do.",
                     "resultId": 3,
                     "points": 0,
-                    "result": "*Bully's name* stands abruptly, *Possessive Pronoun* chair screeching backward. “You're done,” *Pronoun* snaps, tossing a folder across the desk. \"Get out.\"",
+                    "result": "*Bully's name* stands abruptly, *Possessive Pronoun* chair screeching backward. \"You're done,\" *Pronoun* snaps, tossing a folder across the desk. \"Get out.\"",
                     "image": "boss_4",
-                    "outcome": "Removed from the project; credibility destroyed.",
-                    "lesson": "Blame-shifting erodes trust permanently with hostile-aggressive bosses. Never double down."
+                    "lesson": "Your attempt to shift blame backfires catastrophically. Within days, you're removed from the project entirely, your credibility destroyed throughout the organization. In team meetings, your boss uses you as an example of \"how not to handle challenges.\" When you apply for internal transfers, doors mysteriously close—your reputation for finger-pointing precedes you.\n\nBlame-shifting erodes trust permanently with hostile-aggressive bosses, who view accountability as non-negotiable. Even when external factors contribute to delays, presenting excuses without solutions triggers their contempt. Once labeled as someone who deflects responsibility, rebuilding professional credibility becomes nearly impossible."
                 },
                 {
                     "reply": "Fine, I'll try to work around them. Maybe by next Friday? I'll see if that's possible.",
                     "resultId": 4,
                     "points": 1,
-                    "result": "*Pronoun* sneers, \"'Next Friday? Maybe?' 'You'll see if?' Pathetic.\" Mimicking your tone, *Pronoun* adds, \"It's due Wednesday—no excuses.\" *Pronoun* turns to *Possessive Pronoun* computer, dismissing you",
+                    "result": "*Pronoun* sneers, \"'Next Friday? Maybe?' 'You'll see if?' Pathetic.\" Mimicking your tone, *Pronoun* adds, \"It's due Wednesday—no excuses.\" *Pronoun* turns to *Possessive Pronoun* computer, dismissing you.",
                     "image": "boss_4",
-                    "outcome": "Unrealistic deadline imposed; setup to fail.",
-                    "lesson": "Vagueness invites exploitation. Hostile-aggressive bosses weaponize uncertainty."
+                    "lesson": "Your tentative language triggers an even more unrealistic deadline—Wednesday instead of Friday. You're now trapped in an impossible situation, set up to fail by your own hesitation. When you inevitably miss the accelerated deadline, your boss uses this as evidence of your incompetence in your performance review, citing your \"inability to commit to deliverables.\"\n\nVagueness invites exploitation from hostile-aggressive personalities who thrive on power dynamics. Words like \"maybe,\" \"try,\" and \"possibly\" signal weakness they instinctively attack. When negotiating with such bosses, concrete language and firm (if realistic) commitments are your only protection against arbitrary escalation of demands."
                 },
                 {
                     "reply": "I understand you want results. I'll push Marketing for updates and work around IT issues. Done by Friday without fail.",
@@ -134,8 +129,7 @@
                     "points": 2,
                     "result": "*Bully's name* narrows *Possessive Pronoun* eyes, silent for a tense moment. Finally, *Pronoun* grunts, \"Friday. Not a minute later.\" As you leave, *Pronoun* mutters, \"And CC me on every email to Marketing.\"",
                     "image": "boss_4",
-                    "outcome": "Deadline accepted, but micromanagement intensifies.",
-                    "lesson": "Assertive ownership mitigates immediate fallout but requires flawless execution to rebuild trust."
+                    "lesson": "Your clear commitment and solution-focused approach earns you a grudging reprieve, though at the cost of increased surveillance. Your boss insists on being copied on all communications, micromanaging your interactions with Marketing. You deliver on Friday as promised, which prevents immediate criticism but doesn't fully restore trust—your boss continues monitoring your work closely for weeks afterward.\n\nAssertive ownership of problems, even those not entirely of your making, can mitigate immediate fallout with hostile-aggressive personalities. However, this approach requires flawless execution to rebuild trust. The micromanagement you've invited through CC'ing your boss becomes a temporary tax you pay for professional survival, one that only consistent delivery will eventually reduce."
                 }
             ]
         },
@@ -143,7 +137,7 @@
             "id": 5,
             "description": "*Bully's name* narrows *Possessive Pronoun* eyes. *Pronoun*'s still irritated but notices you've identified specific causes. When you propose check-ins, *Pronoun* cuts you off.",
             "image": "boss_3",
-            "question": "I don't have time for extra meetings. You handle it, or I'll find someone who can.",
+            "question": "\"I don't have time for extra meetings. You handle it, or I'll find someone who can.\"",
             "answers": [
                 {
                     "reply": "Without these check-ins, we risk the same issues. We must hold a weekly meeting to ensure we're on track.",
@@ -151,8 +145,7 @@
                     "points": 1,
                     "result": "*Bully's name* slams *Possessive Pronoun* fist on the desk. \"Did you not hear me? No. Meetings.\" *Pronoun* shoves a document toward you. \"Sign this—you'll deliver by Friday, no excuses. Miss it, you're off the project.\"",
                     "image": "boss_4",
-                    "outcome": "Forced to accept a punitive deadline with no support.",
-                    "lesson": "Rigid demands backfire; hostile-aggressive bosses retaliate when cornered."
+                    "lesson": "Your insistence on meetings after your boss explicitly rejected them triggers a punitive response. You're forced to sign a document committing to an unreasonable Friday deadline with no support structure. The document becomes a weapon—when unexpected obstacles arise, your boss waves it triumphantly: \"You signed this. No excuses.\" You're trapped in a no-win scenario of your own creation.\n\nRigid demands often backfire when dealing with hostile-aggressive personalities who perceive persistence as insubordination. When they reject one form of support (like meetings), immediately pivoting to alternative solutions preserves your standing. Continuing to push for the same rejected approach only reinforces their determination to prove their authority at your expense."
                 },
                 {
                     "reply": "Alright, I won't bother you with meetings. I'll handle everything myself and report when it's done.",
@@ -160,8 +153,7 @@
                     "points": 1,
                     "result": "*Pronoun* smirks, pleased by your submission. \"Good. Handle it—I don't want to hear another peep.\" Weeks later, when delays occur, *Pronoun* blames you publicly: \"You promised you could manage. Pathetic.\"",
                     "image": "boss_4",
-                    "outcome": "Isolation and scapegoating; no recourse for unforeseen obstacles.",
-                    "lesson": "Over-compliance erases your safety net. Always negotiate some accountability."
+                    "lesson": "Your complete surrender initially pleases your boss but creates a dangerous isolation. Weeks later, when inevitable complications arise from third-party delays, you have no documentation of the challenges and no established communication channel. In a department meeting, your boss publicly humiliates you: \"You promised you could handle this without bothering me. Clearly that was a mistake.\" Colleagues avoid eye contact, leaving you professionally isolated and scapegoated.\n\nOver-compliance erases your safety net in hostile workplace dynamics. While aggressive bosses may initially reward complete submission, they quickly forget their role in creating impossible situations. Always maintain some form of documentation and regular status updates, even when managing independently—complete isolation makes you vulnerable to revisionist blame when challenges inevitably arise."
                 },
                 {
                     "reply": "I'll handle the heavy lifting without formal check-ins. But for major obstacles, can I send a quick email for sign-off?",
@@ -169,8 +161,7 @@
                     "points": 3,
                     "result": "*Bully's name* pauses, then gives a curt nod. \"Fine. Only for major issues—don't spam my inbox.\" As you leave: \"And CC my assistant. I'll decide if it's worth my time.\" Later, *Pronoun* responds to your first email with a terse \"Approved.\"",
                     "image": "boss_4",
-                    "outcome": "Retains autonomy while ensuring transparency. Micromanagement decreases over time.",
-                    "lesson": "Flexible boundaries (emails > meetings) satisfy hostile-aggressive bosses' need for control without overwhelming them."
+                    "lesson": "Your flexible approach—offering emails instead of meetings—gives your boss a way to maintain control without the time investment they resent. Over the following weeks, you send only critical updates, each carefully worded and actionable. Your boss's responses grow less hostile, occasionally even constructive. By month's end, you've established a functional communication pattern that preserves your autonomy while ensuring transparency.\n\nFlexible boundaries that acknowledge hostile-aggressive bosses' aversion to time-consuming oversight while still maintaining accountability often succeed where rigid demands fail. By suggesting emails rather than meetings, you've satisfied their need for control without overwhelming their schedule, creating a sustainable compromise that protects both your project and professional standing."
                 }
             ]
         },
@@ -178,7 +169,7 @@
             "id": 6,
             "description": "*Bully's name* narrows *Possessive Pronoun* eyes at your request to delegate or extend timelines. *Pronoun* pauses, grudgingly recognizing the logic.",
             "image": "boss_3",
-            "question": "You think you're the first to whine about workload? Spare me.",
+            "question": "\"You think you're the first to whine about workload? Spare me.\"",
             "answers": [
                 {
                     "reply": "With respect, this isn't about whining—it's about quality work. If we don't adjust priorities, the project will suffer.",
@@ -186,8 +177,7 @@
                     "points": 1,
                     "result": "*Bully's name*'s face darkens. \"'Need my support?'\" *Pronoun* mimics. \"Here's my support: Do. Your. Job.\" *Pronoun* tears the timeline in half. \"Deliver everything by Friday. Bother me about 'priorities' again, you'll prioritize your résumé.\"",
                     "image": "boss_4",
-                    "outcome": "Forced to work unsustainable hours; burnout inevitable.",
-                    "lesson": "Direct challenges to a hostile-aggressive boss's authority often backfire. Frame requests as their success, not your needs."
+                    "lesson": "Your appeal to quality standards backfires dramatically. Your boss interprets your concern as a challenge to their authority, responding with an even more unreasonable deadline. Over the next few days, you work unsustainable hours, sacrificing sleep and personal commitments. The resulting deliverable meets basic requirements but lacks the quality you fought for. Your boss takes credit for \"pushing you to deliver\" while criticizing the very shortcuts you were forced to take.\n\nDirect challenges to a hostile-aggressive boss's judgment, even when framed around quality, often trigger defensive reactions. They perceive reasonable concerns as personal criticism. When negotiating workload with such personalities, frame adjustments in terms of their success and reputation rather than your needs or abstract standards—their ego is always the most effective lever for change."
                 },
                 {
                     "reply": "I didn't mean to overstep. Forget I asked. I'll figure it out on my own.",
@@ -195,8 +185,7 @@
                     "points": 1,
                     "result": "A smirk curls *Possessive Pronoun* lips. \"Finally talking sense,\" *Pronoun* says, tossing the timeline into trash. \"Stay late, cancel plans—just get it done.\" Later, when exhaustion makes you miss a deadline, *Pronoun* berates you publicly: \"You swore you could handle it. Useless.\"",
                     "image": "boss_4",
-                    "outcome": "Loss of credibility; exploited for compliance.",
-                    "lesson": "Surrendering boundaries invites exploitation. Hostile-aggressive bosses see retreat as weakness."
+                    "lesson": "Your immediate retreat signals weakness that your boss exploits mercilessly. In the following weeks, your workload increases while support decreases. When inevitable exhaustion causes you to miss a deadline, your boss uses your earlier surrender as ammunition: \"You claimed you could handle everything—clearly I was wrong to trust you.\" Your credibility erodes as colleagues witness your public humiliation, leaving you professionally vulnerable and increasingly isolated.\n\nSurrendering boundaries completely invites exploitation from hostile-aggressive personalities who respect only strength. While direct confrontation may backfire, complete capitulation creates a dangerous precedent that undermines your professional standing. Maintaining some form of boundary, even when compromising, preserves essential dignity and prevents the establishment of unsustainable expectations that will inevitably lead to failure."
                 },
                 {
                     "reply": "If we do nothing, I'll need to reduce time on the other task by 50%. Would you prefer that trade-off, or should we loop in colleagues to assist?",
@@ -204,8 +193,7 @@
                     "points": 2,
                     "result": "*Bully's name* glares at the timeline, then snorts. \"The other project? Who cares? Cut it,\" *Pronoun* scribbles on the document. \"And CC me when you email colleagues—I'll 'remind' them to help.\" *Possessive Pronoun* micromanagement eases as deadlines are met.",
                     "image": "boss_4",
-                    "outcome": "Partial win—workload reduced, but under scrutiny.",
-                    "lesson": "Offering controlled choices (Task X vs. Y) lets hostile-aggressive bosses feel in command while granting you flexibility."
+                    "lesson": "Your strategic framing of the situation as a choice between alternatives gives your boss the authority they crave while still achieving your goal of a reduced workload. Though you must endure temporary micromanagement as your boss insists on being copied on colleague communications, your consistent delivery gradually earns you more autonomy. By the project's end, your boss's scrutiny has decreased substantially, and you've established a reputation for pragmatic problem-solving.\n\nOffering controlled choices rather than open-ended requests allows hostile-aggressive bosses to feel in command while still granting you the flexibility you need. By presenting the decision as \"which task gets priority\" rather than \"can I have less work,\" you've reframed the conversation from your limitations to their strategic judgment—a subtle but crucial distinction that preserves their ego while protecting your capacity to deliver quality work."
                 }
             ]
         },
@@ -213,7 +201,7 @@
             "id": 7,
             "description": "*Bully's name* leans back, arms crossed. *Possessive Pronoun* rage tempers slightly at your shift to problem-solving.",
             "image": "boss_3",
-            "question": "Finally, some backbone. Cut the fluff—get straight to the cost-benefit. Fix those, and we'll see if you can handle the rest.",
+            "question": "\"Finally, some backbone. Cut the fluff—get straight to the cost-benefit. Fix those, and we'll see if you can handle the rest.\"",
             "answers": [
                 {
                     "reply": "Sure, I'll fix that right away. No problem at all!",
@@ -221,8 +209,7 @@
                     "points": 1,
                     "result": "You delete entire sections to \"cut the fluff.\" The report lacks critical context. *Bully's name* shreds it in the next team meeting: \"This is half-baked. Did you even try to think?\" Colleagues whisper as you're sidelined from future projects.",
                     "image": "boss_4",
-                    "outcome": "Reputation damaged; professional judgment questioned.",
-                    "lesson": "Blind compliance without clarification guarantees failure. Always confirm expectations."
+                    "lesson": "Your eager compliance without clarification leads to disaster. Without understanding what \"fluff\" means to your boss, you gut essential context from the report. In the next team meeting, your boss publicly eviscerates your work: \"This is what happens when you don't think critically.\" For months afterward, meaningful assignments go to colleagues while you receive only administrative tasks. Your professional judgment is openly questioned in performance reviews.\n\nBlind compliance without clarification guarantees failure when dealing with hostile-aggressive bosses who often issue vague directives. Their ambiguity creates a trap—they expect you to read their mind, then punish you when you inevitably fail. Always confirm specific expectations, even at the risk of appearing hesitant. The momentary discomfort of asking for clarification prevents the lasting damage of misinterpreting critical instructions."
                 },
                 {
                     "reply": "I can do that, but this will take more time if I'm juggling three other projects. Can we extend the deadline?",
@@ -230,8 +217,7 @@
                     "points": 1,
                     "result": "\"You want more time? Pathetic,\" *Pronoun* snaps, but relents: \"Fine. If the CEO complains, you're fired.\" You focus solely on the report, which leadership praises, but your boss claims credit: \"My oversight saved this dumpster fire.\" Your neglected projects become ammunition against your promotion.",
                     "image": "boss_4",
-                    "outcome": "Short-term win, long-term loss; boss steals credit while setting you up for future failure.",
-                    "lesson": "Negotiating one deadline creates vulnerability elsewhere. Document all agreements and priorities."
+                    "lesson": "Your request for an extension succeeds but creates cascading problems. While you produce an excellent report that earns leadership praise, your boss claims full credit: \"My relentless oversight turned this around.\" Meanwhile, your other projects suffer from neglect. Six months later, in your performance review, these same neglected projects become evidence of your \"inconsistency\" and \"poor prioritization,\" blocking your promotion despite the successful report.\n\nNegotiating one deadline in isolation creates vulnerability elsewhere when dealing with hostile-aggressive managers who keep score. They grant concessions only to weaponize them later. When adjusting priorities, always document the full scope of the agreement—which tasks take precedence, which will be delayed, and who has approved these trade-offs. Without this paper trail, temporary victories become ammunition for future criticism."
                 },
                 {
                     "reply": "Got it—tighten cost-benefit. Are there specific sources or points you want highlighted? I'll finalize by Thursday.",
@@ -239,8 +225,7 @@
                     "points": 2,
                     "result": "*Bully's name* growls, \"Use Q3 sales data, not this garbage. Highlight ROI—risks are excuses.\" You deliver a focused report by Thursday. *Pronoun* forwards it to the CEO: \"My relentless push got this done.\" Later, *Pronoun* assigns a high-stakes task: \"Don't screw up like last time.\"",
                     "image": "boss_4",
-                    "outcome": "Grudging respect earned; still takes credit but relies on your competence.",
-                    "lesson": "Clarifying ambiguity robs hostile bosses of excuses to criticize. They'll steal credit but may value your work."
+                    "lesson": "Your specific questions extract clear guidelines that enable you to deliver exactly what your boss wants. Though *Pronoun* takes full credit in the email to the CEO—\"My relentless push got this done\"—your competence earns you grudging respect behind closed doors. This translates into assignment to higher-stakes projects, albeit with the backhanded compliment: \"Don't screw up like last time.\" Over time, your boss relies increasingly on your work while continuing to claim credit.\n\nClarifying ambiguity through specific questions disarms hostile bosses by removing their ability to criticize you for misinterpreting vague directions. While they may never acknowledge your contribution publicly or treat you with the respect you deserve, your demonstrated competence makes you valuable to them. This creates a foundation of professional security even as they continue taking credit for your work—an imperfect but sustainable arrangement in toxic environments."
                 }
             ]
         },
@@ -248,7 +233,7 @@
             "id": 8,
             "description": "*Bully's name*'s rage simmers below the surface, a vein pulsing in *Possessive Pronoun* temple. Your defiance wounded *Possessive Pronoun* ego, and he's torn between retaliation and salvaging the project.",
             "image": "boss_3",
-            "question": "It is my fault?!",
+            "question": "\"It is my fault?!\"",
             "answers": [
                 {
                     "reply": "Yes, it is your fault. If you want me to succeed, maybe learn to give feedback without yelling.",
@@ -256,17 +241,15 @@
                     "points": 0,
                     "result": "*Bully's name*'s face darkens. \"My fault?\" *Pronoun* whispers, trembling with fury. Suddenly, *Pronoun* erupts: \"GET OUT. NOW.\"",
                     "image": "boss_4",
-                    "outcome": "Relationship permanently damaged; possible termination.",
-                    "lesson": "Directly blaming a hostile-aggressive boss destroys any chance of recovery. They'll reframe criticism as insubordination."
+                    "lesson": "Your direct accusation detonates any possibility of professional recovery. Within hours, you're called to HR to discuss your \"insubordination\" and \"inability to accept feedback.\" Your boss has already spoken with leadership, framing you as unstable and combative. Despite your attempts to explain, the narrative is set. You're placed on a performance improvement plan with impossible metrics, clearly designed to facilitate termination.\n\nDirectly blaming a hostile-aggressive boss, especially in emotional terms, destroys any chance of recovery. They experience criticism as an existential threat and respond with overwhelming force, using their institutional power to reframe your legitimate concerns as insubordination. Even when their behavior is objectively problematic, direct confrontation without witnesses or documentation only provides them ammunition to destroy your credibility and position."
                 },
                 {
                     "reply": "I'm sorry—I didn't mean it that way. It's my fault. Please don't replace me.",
                     "resultId": 16,
                     "points": 0,
-                    "result": "*Bully's name* smirks, savoring your submission. \"Glad you see sense,\" *Pronoun* sneers. \"Work nights and weekends to fix this. I'll review every edit.\" *Pronoun* rejects drafts for minor font issues. Exhausted, you make a critical error—he uses it to justify firing you",
+                    "result": "*Bully's name* smirks, savoring your submission. \"Glad you see sense,\" *Pronoun* sneers. \"Work nights and weekends to fix this. I'll review every edit.\" *Pronoun* rejects drafts for minor font issues. Exhausted, you make a critical error—he uses it to justify firing you.",
                     "image": "boss_4",
-                    "outcome": "Exploited, then discarded when convenient.",
-                    "lesson": "Self-blame invites abuse. Hostile bosses view apologies as invitations to increase demands until you break."
+                    "lesson": "Your complete surrender triggers predatory instincts in your boss, who systematically increases demands to breaking point. Each night, you submit revisions; each morning, *Pronoun* rejects them for increasingly trivial reasons—font choices, margin widths, synonym preferences. After two weeks of sleep deprivation, you make a calculation error that affects projections. Your boss triumphantly circulates this mistake to leadership as justification for your termination: \"See? Incompetent, just as I said.\"\n\nSelf-blame without boundaries invites exploitation from hostile personalities who view apology as weakness. They deliberately escalate demands until you inevitably fail, creating the justification they need for punishment. When accepting responsibility for your part in conflicts, always maintain basic dignity and reasonable limits—complete capitulation doesn't earn respect or mercy, only contempt and eventual destruction."
                 },
                 {
                     "reply": "I apologize for my outburst. I got defensive. Let's focus on what needs fixing—I'm ready to hear your concerns.",
@@ -274,8 +257,7 @@
                     "points": 3,
                     "result": "*Bully's name* stares silently for an excruciating moment. \"Lucky I'm giving you another chance,\" *Pronoun* finally growls. \"Redo the proposal—cut jargon, add metrics. CC me on every client email.\" Under scrutiny, your work impresses the client. *Pronoun* coldly acknowledges: \"Took you long enough.\"",
                     "image": "boss_4",
-                    "outcome": "Preserved professional standing; earned minimal respect.",
-                    "lesson": "Owning mistakes while refocusing on solutions preserves dignity. Hostile bosses may still be difficult but will hesitate to discard proven competence."
+                    "lesson": "Your balanced response—owning your reaction while redirecting to solutions—defuses the immediate crisis. Though your boss imposes micromanagement, copying *Pronoun* on every client email, your consistently excellent work gradually rebuilds professional standing. When the client praises your revised proposal, your boss offers the minimal acknowledgment: \"Took you long enough.\" This backhanded compliment marks a turning point—criticism becomes less frequent, and colleagues begin seeking your input on projects.\n\nOwning your emotional reactions while quickly refocusing on solutions preserves professional dignity when dealing with hostile-aggressive personalities. Unlike complete surrender, which invites abuse, or confrontation, which triggers retaliation, this balanced approach acknowledges the relationship's power dynamic while maintaining essential self-respect. Hostile bosses may never become supportive, but they will hesitate to discard someone whose competence has been consistently demonstrated, even under difficult circumstances."
                 }
             ]
         },
@@ -283,7 +265,7 @@
             "id": 9,
             "description": "*Bully's name* leans back with a cold smirk. Your submission appeases *Possessive Pronoun* ego, but *Possessive Pronoun* trust remains shattered. *Pronoun* views your apology as weakness—a green light to escalate demands. *Pronoun* tosses the report at you.",
             "image": "boss_3",
-            "question": "Fix these two things. Now.",
+            "question": "\"Fix these two things. Now.\"",
             "answers": [
                 {
                     "reply": "Sure, I'll fix the intro and cut the fluff right away. No problem at all!",
@@ -291,8 +273,7 @@
                     "points": 1,
                     "result": "You frantically delete sections to meet *Possessive Pronoun* definition of \"no fluff.\" The report lacks critical context. *Pronoun* shreds it in front of the team: \"This is garbage. Did you even try?\" The project goes to a colleague as *Pronoun* mutters, \"Waste of my time.\" You're sidelined indefinitely.",
                     "image": "boss_4",
-                    "outcome": "Reputation for incompetence; professionally isolated.",
-                    "lesson": "Blind compliance breeds contempt. Hostile bosses interpret eagerness as incompetence—always clarify expectations."
+                    "lesson": "Your eager compliance without clarification proves disastrous. Without understanding what your boss considers \"fluff,\" you gut essential sections from the report. In the next team meeting, *Pronoun* publicly humiliates you: \"This is what incompetence looks like.\" The project is reassigned to a colleague while you're relegated to administrative tasks. For months afterward, meaningful assignments bypass you entirely as your professional judgment remains in question.\n\nBlind compliance breeds contempt from hostile-aggressive bosses who interpret eagerness as incompetence rather than dedication. Their deliberately vague instructions create a no-win situation—they expect mind-reading, then punish inevitable misinterpretation. Always seek clarification on ambiguous directives, even at the risk of appearing hesitant. The momentary discomfort of asking questions prevents the lasting damage of guessing wrong about critical expectations."
                 },
                 {
                     "reply": "Got it—update the intro and tighten the cost-benefit section. Any specific sources you want highlighted? I'll finalize by Thursday.",
@@ -300,8 +281,7 @@
                     "points": 2,
                     "result": "*Bully's name* rolls *Possessive Pronoun* eyes but growls, \"Use Q3 sales figures and the CEO's last email. Stop wasting my time.\" You deliver a polished draft by Thursday. *Pronoun* forwards it with: \"My oversight saved this.\" Later, *Pronoun* assigns another high-stakes task—\"Don't screw up this time.\"",
                     "image": "boss_4",
-                    "outcome": "Grudging professional respect; still takes credit but assigns important work.",
-                    "lesson": "Forced specificity disarms hostility. Document instructions to avoid future blame."
+                    "lesson": "Your specific questions extract clear guidelines that enable you to deliver exactly what's needed. Though your boss forwards your work to leadership with the note \"My oversight saved this project,\" your competence earns grudging professional respect. This translates into assignment to another high-stakes project, albeit with the warning: \"Don't screw up this time.\" Over the following months, your boss continues claiming credit for your work while increasingly relying on your capabilities.\n\nForcing specificity through targeted questions disarms hostile bosses by removing their ability to criticize you for misinterpreting vague directions. By documenting exactly what was requested, you create accountability that protects you from arbitrary criticism. While your boss may never acknowledge your contribution fairly, your demonstrated competence makes you valuable to them—creating a foundation of professional security even in a toxic environment."
                 },
                 {
                     "reply": "I'm really sorry again. I'll fix everything and do whatever it takes not to disappoint you.",
@@ -309,8 +289,7 @@
                     "points": 1,
                     "result": "*Bully's name*'s smirk widens. \"Good. Work nights until this is perfect,\" *Pronoun* says, moving the deadline up two days. You sacrifice sleep to meet demands, but *Pronoun* rejects each draft for minor formatting. When you collapse from exhaustion, *Pronoun* remarks: \"Weak. Just like I thought.\"",
                     "image": "boss_4",
-                    "outcome": "Health compromised; professionally diminished.",
-                    "lesson": "Over-apologizing invites exploitation. Hostile bosses see self-blame as permission to abuse—balance accountability with self-respect."
+                    "lesson": "Your excessive apology and promise to \"do whatever it takes\" triggers escalating demands. Your boss moves the deadline up by two days, forcing you to work through nights. Despite your sacrifice, *Pronoun* rejects each submission for increasingly trivial reasons—margin widths, font choices, word preferences. When you eventually collapse from exhaustion during a meeting, *Pronoun* comments coldly: \"Weak. Just like I thought.\" Your health suffers lasting damage while your professional standing diminishes.\n\nOver-apologizing invites exploitation from hostile-aggressive personalities who interpret self-blame as permission to abuse. When accepting responsibility in workplace conflicts, maintain basic dignity and reasonable boundaries. Balance accountability with self-respect by focusing on specific actions rather than character flaws. Remember that no project is worth sacrificing your health—sustainable performance requires appropriate limits, even with difficult bosses."
                 }
             ]
         }
