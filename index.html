@@ -44,7 +44,7 @@
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
     import { getAuth } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
     import { getFirestore } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
-    import { getMessaging } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-messaging.js";
+    // import { getMessaging } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-messaging.js";
 
     // Your Firebase configuration
     const firebaseConfig = {
@@ -53,19 +53,31 @@
       projectId: "snaxe-454813",
       storageBucket: "snaxe-454813.firebasestorage.app",
       messagingSenderId: "747157544491",
-      appId: "1:747157544491:web:c5663343caaeee1124546e",
-      measurementId: "G-TLP1PETNGX"
+      appId: "1:747157544491:web:ee0ce906db16c5a524546e",
+      measurementId: "G-DD900ME8XE"
     };
 
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
     const db = getFirestore(app);
-    const messaging = getMessaging(app);
+    // const messaging = getMessaging(app);
 
     console.log("Firebase initialized in index.html!");
   </script>
-
+  <!-- <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/firebase-messaging-sw.js')
+          .then(function(registration) {
+            console.log('Service Worker registered with scope:', registration.scope);
+          })
+          .catch(function(err) {
+            console.error('Service Worker registration failed:', err);
+          });
+      });
+    }
+  </script> -->
 </head>
 
 <body>
